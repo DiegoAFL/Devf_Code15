@@ -1,53 +1,84 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <!-- Nos ayuda identificar un archivo como un html -->
 
 <!-- NOTAS -->
-<!--Hay etiquetas que solo tienen apertura -->
-<!-- Hay etiquetas que tienen apertura y cierre -->
+<!--Hay etiquetas que solo tienen apertura por ejemplo !Doctype -->
+<!--Hay etiquetas que tienen apertura y cierre, por que en medio de ellas podemos poner mas contenido contenido o mas etiquetas-->
 <!--Hay etq que para funcionen necesitan un atributo-->
-
+<!-- Etqs que pra funcionar necesitan atributo y se anaden en la etq de apertura-->
 <!--Etiqueta html engloba  y abarca todos los elementos del sitio web-->
 <html>
-    <!--Etq head contiene informacion para el explorador-->
-    <head>
+  <!--Etq head contiene informacion para el explorador-->
+  <head>
+    <!-- Title  es explorador y aqui aparece en este caso en la pestaña-->
+    <title>Mi primera página web</title>
+    <!-- Etq meta es para agregar atributos CHARSET UTF8 amplia los caracteres -->
+    <meta charset="UTF-8" />
+  </head>
+  <!--Etq body elementos que seran visualizados en el sitio web -->
+  <body>
+    <!-- Encabezados h1 h2 h3 h4 h5 h6 -->
+    <h1>Mi pagina web</h1>
+    <!--recomendado solo ponerlo 1 una vez pero si se puede-->
+    <h2>Soy un h2</h2>
+    <h3>Soy un h3</h3>
+    <h4>Soy un h4</h4>
+    <h5>Soy un h5</h5>
+    <h6>Soy un h6</h6>
+    <h2>Soy un h2 .</h2>
+    <h2>Soy un h2 *</h2>
+    <h2>Soy un h2 =</h2>
 
-        <title>Mi primera página web</title>
-        <meta charset="UTF-8">
-    
-    </head>
+    <!-- Parrafos -->
+    <p>Soy un parrafo</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam possimus
+      mollitia optio. Dolorum, alias. Porro est exercitationem repellendus
+      tempora sint voluptatibus commodi, non quod, consequuntur, facere fugit
+      corporis maiores ea.
+    </p>
 
-    <!--Etq body elementos que seran visualizados en el sitio web -->
-    <body>
-        <h1>Mi pagina web</h1> <!--recomendado solo ponerlo 1 una vez pero si se puede-->
-        <h2>Soy h2</h2>
-        <h3>Soy h3</h3>
-        <h4>Soy h4</h4>
-        <h5>Soy h5</h5>
-        <h6>Soy h6</h6>
-        <h2>Soy un h2 .</h2>
-        <h2>Soy un h2 *</h2>
-        <h2>Soy un h2 +</h2>
+    <!--Etq DE ENLACES o hipervinculos -->
+    <a href="https://www.google.com">Go to google</a>
+    <!-- Reto 1 Como ir a otra parte de mi misma pagina -->
+    <!-- Reto 2 Como ir a otra pagina de mi sitio -->
+    <!-- Reto 3 Como puedo ir a al enlace abriendo otra pestana-->
 
-        <!-- Parrafos -->
-        <p> Soy un parrafo </p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam possimus mollitia optio. Dolorum, alias. Porro est exercitationem repellendus tempora sint voluptatibus commodi, non quod, consequuntur, facere fugit corporis maiores ea.</p>
-
-        <!--Etq DE ENLACES o hipervinculos -->
-        <a href="https://www.google.com">Ir a google</a>
-
-
-
-        
-        <!--Imagenes-->
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqF4xcyCVwveco5SUnGDXvexWnL-eAuStVmw&usqp=CAU">
-        <img src="https://blog.ida.cl/wp-content/uploads/sites/5/2020/04/tamano-redes-blog-655x470.png">
-        <img src="C:\Users\User\Desktop\Personajes vectorizar.jpg" alt="personas trabajando">
-
-        <ol>
-
-        </ol>
-
-
-    </body>
-
+    <!--Imagenes-->
+    <!-- Imagen desde la web o localmente, click derecho en imagen de web copiar la ruta como address  -->
+    <img
+      src="https://i.pinimg.com/564x/38/70/f7/3870f771dfda54b4b1ab273706a0d183.jpg"
+    />
+    <img
+      src="https://i.pinimg.com/564x/0e/ca/ba/0ecaba4da317c0dac0cf613d77bf0ea4.jpg"
+    />
+    <!-- Imagen desde de mi PC o local con dos puntos inicial vas subiendo poco a poco hacia arriba-->
+    <!-- src es un atributo que da paso a colocar la ubicacion del elemento -->
+    <!-- alt es atributo que permite mostrar uin texto en caso de que la imagen no se muestre o por  el tema de diseno responsivo -->
+    <img src="../../../Icono PC/Diablos2.png" alt="Diablos" />
+    <img src="img/Oficinas.jpg" alt="Oficina" />
+    <img
+      src="C:\Users\User\Desktop\Personajes vectorizar.jpg"
+      alt="personas trabajando"
+    />
+    <!-- ETQ listas sin orden EMMET: li*3{Elemento $}-->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <!-- ETQ Listas de enlaces EMMET: li>a{Enlace $} -->
+    <ul>
+      <li><a href="">Enlace 1</a></li>
+      <li><a href="">Enlace 2</a></li>
+      <li><a href="">Enlace 3</a></li>
+    </ul>
+    <!-- Listas Ordenadas -->
+    <ol>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ol>
+    <!-- ETQ espacio interlineado <br> -->
+  </body>
 </html>

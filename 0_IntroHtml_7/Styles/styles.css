@@ -30,27 +30,35 @@ nav a:hover {
 }
 /* MAIN */
 
-#boxmain {
+#principal {
   overflow: auto;
+  outline: blue solid;
 }
-.boxblog {
+.seccion {
+  overflow: auto;
   width: 80%;
   float: left;
+  outline: green solid;
 }
 .boxpost {
+  outline: red solid;
 }
-#boxaside {
-  width: 20%;
-  float: right;
+.Tituloarticulo {
+  padding-top: 18px;
+  margin-bottom: 3px;
+  clear: both;
+}
+
 }
 article img {
-  width: 27%;
+  width: 333px;
 }
 .Tituloarticulo {
   color: #05b9e4;
 }
+
 section p {
-  padding: 10px;
+  margin-top: 0%;
 }
 
 article button {
@@ -64,6 +72,10 @@ article button a {
   font-weight: bold;
   text-decoration: none;
 }
+#boxaside {
+  width: 20%;
+  float: right;
+  outline: blue solid;
 aside a {
   color: #05b9e4;
   text-decoration: none;

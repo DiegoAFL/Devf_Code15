@@ -77,8 +77,10 @@ article img {
 /* Parrafo --------- */
 main section p {
   margin-top: 0%;
-  text-align: justify;
   margin-right: 30px;
+  text-align: justify;
+  line-height: 180%;
+  font-size: 13px;
 }
 
 /* Button --------- */
@@ -104,10 +106,15 @@ article button a {
   width: 19%;
   /* outline: gray dotted; */
 }
+aside h2 {
+  margin-bottom: 0px;
+  color: #05b9e4;
+}
 aside a {
+  padding: 0px 0px 0px 0px;
   color: #05b9e4;
   text-decoration: none;
-  padding: 0px 0px 0px 0px;
+  font-size: 13.5px;
 }
 aside ul {
   padding: 0px 0px 0px 0px;
@@ -137,6 +144,9 @@ footer {
 footer p {
   margin-top: 30px;
   padding-left: 0px;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 180%;
 }
 #footernav {
   float: right;
@@ -144,6 +154,9 @@ footer p {
 }
 footer a {
   color: white;
+  font-size: 13px;
+  text-decoration: none;
+  padding-right: 15px;
 }
 #legalfooter {
   background: #b00573;

@@ -129,11 +129,37 @@ Prueba diseno en los navegadores.
   </body>
 </html>
 
-<<<<<<<< HEAD:00_IntroHtml_Notas.md
+---
+
+Float Clear overflow
+
+--> FLOAT
+sirve para alinear un elemento con 3 valores left/right/inherit/none en sentido horizontal
+Si el elemento no tiene una ancho definido implicita o explicita (<divs>, <img>, <p>, <listas> etc.)
+RESTRICCIONES FLOTA / Los que tengan propiedad de texto
+<span> </span>
+<strong>
+
+Los elementos despues de un elemento con FLOAT fluiran alrededor. en caso que no quisieramos que esto pase usamos la propiedad Clear
+
+-->CLEAR
+none / predeterminado , vale todo
+Left / Restriccion FLOAT side left
+right / Restriccion FLOAT side right
+both / Restriccion FLOAT both sides
+inherit / Valor heredado del padre
+
+-->OVERFLOW
+Si usamos elementos float dentro de un contenedor este se ignora al elemento para sus alto.
+ClearFIX se habilita con overflow: auto; que cuenta los elementos flotantes en su height.
+
+Nota 1
+cuando los hijo sel contenedor tienen un FLOAT se usara un OVERFLOW
+
+POSITION
+Como
 
 ## — 2022-01-26
-
-Presentacion
 
 ---
 

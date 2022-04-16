@@ -133,7 +133,7 @@ Prueba diseno en los navegadores.
 
 ## — 2022-01-26
 
-Notas de esta clase
+Presentacion
 
 ---
 
@@ -188,8 +188,6 @@ Notas de esta clase
 ## — 2022-02-17
 
 ---
-
-# `
 
 DEVF/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
 

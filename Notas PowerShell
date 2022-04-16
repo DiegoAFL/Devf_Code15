@@ -1,0 +1,6 @@
+--> Cambio de disco desde PowerShell
+Set-Location -Path C:\Windows
+Set-Location -Path C:\Windows -PassThru
+
+--> Obtener ver en que carpeta estas ubicado 
+Get-Location es igual a cd

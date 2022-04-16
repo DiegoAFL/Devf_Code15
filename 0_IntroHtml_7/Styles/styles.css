@@ -1,0 +1,122 @@
+<!-- CSS -->
+<!-- /*-- #EDA300 - #05B9E4- #DB008D - #B00573 --*/ -->
+
+/* BODY */
+  body {
+  margin: 0px;
+}
+/* HEADER */
+header img {
+  width: 300px;
+  margin: 0%;
+}
+header figure {
+  margin: 0;
+}
+/* NAV */
+nav {
+  background-color: #db008d;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #b00573;
+  color: gray;
+}
+/* MAIN */
+
+#principal {
+  overflow: auto;
+  outline: blue solid;
+}
+.seccion {
+  overflow: auto;
+  width: 80%;
+  float: left;
+  outline: green solid;
+}
+.boxpost {
+  outline: red solid;
+}
+.Tituloarticulo {
+  padding-top: 18px;
+  margin-bottom: 3px;
+  clear: both;
+}
+
+}
+article img {
+  width: 333px;
+}
+.Tituloarticulo {
+  color: #05b9e4;
+}
+
+section p {
+  margin-top: 0%;
+}
+
+article button {
+  background-color: #05b9e4;
+  border-color: #05b9e4;
+  padding: 3px 27px;
+  margin: 3px;
+}
+article button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+#boxaside {
+  width: 20%;
+  float: right;
+  outline: blue solid;
+aside a {
+  color: #05b9e4;
+  text-decoration: none;
+}
+aside ul {
+  padding: 9px;
+  list-style: none;
+}
+/* FOOTER */
+footer {
+  overflow: auto;
+  color: white;
+}
+#boxfooter {
+  background: #db008d;
+  height: 200px;
+}
+#footerabout {
+  float: left;
+  width: 50%;
+}
+#aboutus {
+  width: 75%;
+  padding-left: 3%;
+}
+footer p {
+  padding-left: 0px;
+}
+#footernav {
+  float: right;
+  width: 50%;
+}
+footer a {
+  color: white;
+}
+#legalfooter {
+  background: #b00573;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+  padding: 9px;
+}
+/* FIN CSS */

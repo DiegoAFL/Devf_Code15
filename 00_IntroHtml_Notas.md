@@ -41,7 +41,96 @@ Selectores _CSS_
 
 Free code Camp / Learn /Usuario con Github
 
+CSS
+Herencia esppecificidad y cascada
+
+Selector / declaracion / propiedad / valor asi esta armada una sentencia de CSS
+
+Dimension comunes es Porcentaje aunque se llega a dar la unidad pixel
+
+selector identifican elementos para luego dar propiedades CSS
+Tipos de selectores comunes son 3
+TIPO <div> </div>
+CLASE <div class="clase"> </div>
+ID <div id="id"></div>
+
+tag tipo p {  
+punto clase .p {
+hashtag id #p #p {
+
+Se escribe el codigo en HEAD antes de BODY
+CSS propiedad  
+ Text-align: "center"
+"left"
+"right"
+
+padding
+margin
+div
+Border color
+border style
+
+Links a:link ejemplo es un link sin visitar
+text-decoration
+
+ordena TU CSS.
+
+Combinar tus elementos.
+
+Utilizar selectores descendientes.
+
+utilizar propiedades abrev.
+
+Nombers descriptivos en los selectores.
+
+Prueba diseno en los navegadores.
+
+<!-- Martes 8 de febrero -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      /* .medidas-viewport {
+        background-color: green;
+        height: 50vh;
+        width: 50vw;
+      } */
+      .container {
+        background-color: wheat;
+        height: 75vh;
+        width: 75vw;
+      }
+      .mitad {
+        height: 50%;
+        width: 50%;
+        background-color: aqua;
+      }
+      .viewport {
+        height: 25vh;
+        width: 100vw;
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="medidas-viewport"></div> -->
+    <div class="container">
+      <div class="mitad"></div>
+      <div class="viewport"></div>
+    </div>
+  </body>
+</html>
+
 <<<<<<<< HEAD:00_IntroHtml_Notas.md
+
 ## — 2022-01-26
 
 Notas de esta clase
@@ -100,13 +189,11 @@ Notas de esta clase
 
 ---
 
-`
-========
+# `
 
 DEVF/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
 
-
-
 https://docs.github.com/es/repositories/working-with-files/managing-large-files/about-git-large-file-storage
 https://docs.github.com/es/repositories/working-with-files/managing-large-files/about-large-files-on-github
->>>>>>>> 2a2b87752fe50649d38f11ad32deb9b46dbaaf16:Notas html.txt
+
+> > > > > > > > 2a2b87752fe50649d38f11ad32deb9b46dbaaf16:Notas html.txt

@@ -227,6 +227,7 @@ VSC - Puedes arrastrar un archivo al icono de VSC para poder abrir.
 Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.
 
 ---
+
 ## — **2022-01-27** ———————————————————
 
 ### **Terminal (linux)**
@@ -306,9 +307,9 @@ git config --global user.email johndoe@example.com
 
 → 3. Escribiremos el siguiente comando `$ git init` se debe transformar nuestra carpeta a master o main
 
-   Nos sirve para iniciar nuestra carpeta en git y los comandos git solo funcionan en carpetas con `git init` (otra forma de ver es que se marca como main o master)
+Nos sirve para iniciar nuestra carpeta en git y los comandos git solo funcionan en carpetas con `git init` (otra forma de ver es que se marca como main o master)
 
-   Se puede inicializar carpeta sin la ayuda de la terminal selecciona carpeta y click derecho > gitbash here > se abre terminal
+Se puede inicializar carpeta sin la ayuda de la terminal selecciona carpeta y click derecho > gitbash here > se abre terminal
 
 → 4. `$ echo textitos > NameArch.txt` genera en la ubicacion un archivo junto con contenido.
 
@@ -366,7 +367,7 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 — tag o etiquetas ▬ html es un lenguaje basado en etiquetas y si revisamos cada uno es un contenedor de acciones.
 
-— Inspeccionamos una pagina web *→* click der *→* inspeccionar *→* ir a **Elements**
+— Inspeccionamos una pagina web _→_ click der _→_ inspeccionar _→_ ir a **Elements**
 
 — w3 school es una pagina donde puede apoyarnos a entender nuestras tecnologias.
 
@@ -380,7 +381,28 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 **→** Los atributos son muy importantes en algunas etiquetas, pueden ser obligatorias en unas y opcionales en otras, tambien adicionar alguna ejecucion.
 
-**→** VAMOS A CREAR UN SITIO WEB - Blog de viajes  - Con media queries o diseno responsivo
+**→** VAMOS A CREAR UN SITIO WEB - Blog de viajes - Con media queries o diseno responsivo
+
+— *Ver en*→ /02_IntroHtml_Ejercicio **ejercicio en html**
+
+1. Crear una pagina personal donde se muestre algunos datos como:
+
+- Nombre
+- OCupacion
+- Hobbies
+
+2. Add 2 imagenes
+
+- UNO con atributos clasicos
+- DOS que al darle click me lleve a otro lado
+
+3. Insertar ligas que lleven a redes
+
+- Que se abran en pesetanas diferentes
+
+4. Usar 5 etiquetas mas que no se hayan explicado.
+
+5. Utilizar etq <a> para ir a una pagina llamada contacto.html
 
 ---
 
@@ -388,7 +410,7 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 ---
 
-## — 2022-02-02 ———————————————————
+## — **2022-02-02** ———————————————————
 
 ---
 

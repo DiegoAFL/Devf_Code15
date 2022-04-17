@@ -129,11 +129,11 @@ Prueba diseno en los navegadores.
       body {
         margin: 0;
       }
-      /* .medidas-viewport {
+      /*.medidas-viewport {
         background-color: green;
         height: 50vh;
         width: 50vw;
-      } */
+}*/
       .container {
         background-color: wheat;
         height: 75vh;
@@ -190,7 +190,9 @@ cuando los hijo sel contenedor tienen un FLOAT se usara un OVERFLOW
 POSITION
 Como
 
-## — 2022-01-26 ———————————————————
+# **NOTAS DEVF** ———————————————————
+
+## — **2022-01-26** ———————————————————
 
 Introduccion
 
@@ -225,10 +227,9 @@ VSC - Puedes arrastrar un archivo al icono de VSC para poder abrir.
 Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.
 
 ---
+## — **2022-01-27** ———————————————————
 
-## — 2022-01-27 ———————————————————
-
-### Terminal (linux)
+### **Terminal (linux)**
 
 Depende del sistema operativo, powershell de windows y Linux para mac, _que tan conveniente es usar UBUNTU?`_
 
@@ -268,7 +269,7 @@ En hostinger puedo encontrar palabras clave= comandos linux terminal 34 basicos.
 
 — `grep` `find` `Locate` Quieres seber como buscar un archivo con estos comandos.
 
-#### Git & Github
+#### **Git & Github**
 
 — Historial de versiones, git nos permite llevar un control de versiones git es el programa que nos puede ayudar con esto.
 instalar git, se puede hacer de la siguiente manera
@@ -290,48 +291,50 @@ user.email=diego-afl@outlook.com / user.name=DiegoAFL asi podremos modificar en 
 cuando se instale git se tendra que dar de alta estos datos.
 
 ```
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 
 ```
 
 ### Como conectar repositorio remoto con local pasos
 
-**► El objetivo es vincular una carpeta**
+**El objetivo** es vincular una carpeta
 
-1. Abrimos terminal o gitbash
+→ 1. Abrimos terminal o gitbash
 
-2. En terminal nos ubicamos en la carpeta con los comandos (puede utilizar CD por si tienes algun conflicto.) recuerda el sensitive case(mayusculas).
+→ 2. En terminal nos ubicamos en la carpeta con los comandos (puede utilizar CD por si tienes algun conflicto.) recuerda el sensitive case(mayusculas).
 
-3. Escribiremos el siguiente comando `$ git init` se debe transformar nuestra carpeta a master o main
+→ 3. Escribiremos el siguiente comando `$ git init` se debe transformar nuestra carpeta a master o main
 
-- Nos sirve para iniciar nuestra carpeta en git y los comandos git solo funcionan en carpetas con `git init` (otra forma de ver es que se marca como main o master)
+   Nos sirve para iniciar nuestra carpeta en git y los comandos git solo funcionan en carpetas con `git init` (otra forma de ver es que se marca como main o master)
 
-- Se puede inicializar carpeta sin la ayuda de la terminal selecciona carpeta y click derecho > gitbash here > se abre terminal
+   Se puede inicializar carpeta sin la ayuda de la terminal selecciona carpeta y click derecho > gitbash here > se abre terminal
 
-4. `$ echo textitos > NameArch.txt` genera en la ubicacion un archivo junto con contenido.
+→ 4. `$ echo textitos > NameArch.txt` genera en la ubicacion un archivo junto con contenido.
 
-5. `git status`
+→ 5. `git status`
 
-6. `git add .` prepara los archivos para almacenar en el historial de cambios.
+→ 6. `git add .` prepara los archivos para almacenar en el historial de cambios.
 
-7. `git commit -m "mensaje"` Es para preparar los archivos y guardar en el historial (repositorio local)
+→ 7. `git commit -m "mensaje"` Es para preparar los archivos y guardar en el historial (repositorio local)
 
-**► Finalizamos en nuestro espacio de trabajo local (computadora) ahora nos iremos a github.**
+**Finalizamos** en nuestro espacio de trabajo local (computadora) ahora nos iremos a github.
 
-1. Crea nuevo repositorio, nombrar y escribir descripcion.
+→ 1. Crea nuevo repositorio, nombrar y escribir descripcion.
 
-2. Ahora nos saldra algunos pasos para vincular solo se requiere copiar / un consejo o buena practica es agregar el readme.md (archivo markdown).
+→ 2. Ahora nos saldra algunos pasos para vincular solo se requiere copiar / un consejo o buena practica es agregar el readme.md (archivo markdown).
 
-3. `git remote add origin <urlgithub_server>` **>** `git branch -M main` cambia nombre del antiguo master por main **>** `git push -u origin main`
+→ 3. `git remote add origin <urlgithub_server>` **>** `git branch -M main` cambia nombre del antiguo master por main **>** `git push -u origin main`
 
-4. Listo nos mostrara en git hub los archivos listos.
+→ 4. Listo nos mostrara en git hub los archivos listos.
 
-5. Recuerda leer y verificar cuando te diga quien eres `$ git config --global user.name "username"`→`$ git config --global user.email user@example.com`
+→ 5. Recuerda leer y verificar cuando te diga quien eres `$ git config --global user.name "username"`→`$ git config --global user.email user@example.com`
 
 Etapas de git = es importante entender esta logica pues nos ayudar a ubicar el status de nuestro trabajo.
 
-_working directory_ **→** `git add` > _staging area (index)_ **→** `git commit` → _Repository (local) (se ubica en head)_
+_working directory_ **→** `git add` → _staging area (index)_ **→** `git commit` → _Repository (local) (se ubica en head)_
+
+- Links guias
 
 [guia git/ github modo dummie](https://rogerdudler.github.io/git-guide/index.es.html).
 
@@ -339,7 +342,7 @@ _working directory_ **→** `git add` > _staging area (index)_ **→** `git comm
 
 ---
 
-## — 2022-01-28 ———————————————————
+## — **2022-01-28** ———————————————————
 
 _git_ - Es un controlador de versiones recuerdalo.
 
@@ -347,31 +350,41 @@ _github_ - Plataforma en nube que alamacena y gestiona nuestro repositorio local
 
 pasos para subir mi repositorio local a repositorio remoto una vez modificado
 
-0. Nos ubicamos en carpeta conectada con github y save en VSC
+→ 0. Nos ubicamos en carpeta conectada con github y save en VSC
 
-1. `$ git add .` o `$ git add <nameArch>`
+→ 1. `$ git add .` o `$ git add <nameArch>`
 
-2. `$ git status` verificar si hicimos lo correcto
+→ 2. `$ git status` verificar si hicimos lo correcto
 
-3. `$ git commit -m "mensaje"`
+→ 3. `$ git commit -m "mensaje"`
 
-4. `$ git push origin main`
+→ 4. `$ git push origin main`
 
 Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
-- tag o etiquetas ▬ html es un lenguaje basado en etiquetas y si revisamos cada uno es un contenedor de acciones.
+— `$ mk dir <NameFolder>` hacer una carpeta nueva en nuestra ubicacion
 
-- Inspeccionamos una pagina web → click der → inspeccionar → ir a **Elements**
+— tag o etiquetas ▬ html es un lenguaje basado en etiquetas y si revisamos cada uno es un contenedor de acciones.
 
-- w3 school es una pagina donde puede apoyarnos a entender nuestras tecnologias.
+— Inspeccionamos una pagina web *→* click der *→* inspeccionar *→* ir a **Elements**
 
-- Las etiquetas se abren y se cierran. o solamente cuenta con una etiqueta
+— w3 school es una pagina donde puede apoyarnos a entender nuestras tecnologias.
 
-- VSC se pueden colocar unos comentarios
+— Las etiquetas se abren y se cierran. o solamente cuenta con una etiqueta
 
-- **Ver en → /01_IntroHtml/ index_EJ.01.html**
+— VSC se pueden colocar unos comentarios
 
-## — 2022-02-01 ———————————————————
+— *Ver en*→ /01_IntroHtml/ index_EJ.01.html **ejercicio en html**
+
+**→** Se toco el temas de etiquetas en HTML → si son etiquetas con apertura y cierre
+
+**→** Los atributos son muy importantes en algunas etiquetas, pueden ser obligatorias en unas y opcionales en otras, tambien adicionar alguna ejecucion.
+
+**→** VAMOS A CREAR UN SITIO WEB - Blog de viajes  - Con media queries o diseno responsivo
+
+---
+
+## — **2022-02-01** ———————————————————
 
 ---
 

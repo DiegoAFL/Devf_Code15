@@ -161,6 +161,32 @@ Como
 
 ## — 2022-01-26
 
+Introduccion
+
+**—** Backend - Frontend que hacen estos personajes
+
+Servidor es igual a un server
+
+Hacer un sitio web requiere mucha responsabilidad.
+
+Web Development - Esrtas son las tecnologias
+
+- HTML Es la estructura - Constructor
+
+- CSS Formato de estilos - Artista
+
+- JS Funcionalidad - Mago - Logica
+
+Web browser - Chrome, Mozilla, Edge,
+
+Herramientas - IDE editores de codigo - Atom, visual studio code, - Vim
+
+Emmet - Tecnologia para reducir el tiempo para ejecutar codigos.
+
+Stackoverflow - Lugar para encontrar soluciones relacionado a codigo
+
+Slack comunicacion / Katas /
+
 ---
 
 ## — 2022-01-27
@@ -221,3 +247,20 @@ https://docs.github.com/es/repositories/working-with-files/managing-large-files/
 https://docs.github.com/es/repositories/working-with-files/managing-large-files/about-large-files-on-github
 
 > > > > > > > > 2a2b87752fe50649d38f11ad32deb9b46dbaaf16:Notas html.txt
+
+---
+
+<!-- Los Formularios inician con -->
+<form></form>
+<!-- Todos su atributos son opcionales Pero es practica standard Establecer primero al menos  -->
+primero action="" method=""
+
+<!-- Elementos comunes en formulario -->
+<input type="text" />
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<select name="" id=""></select>
+<label for=""></label>
+
+para funcionar todo esto necesito un submmit.
+
+---

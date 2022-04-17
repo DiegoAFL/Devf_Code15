@@ -190,7 +190,7 @@ cuando los hijo sel contenedor tienen un FLOAT se usara un OVERFLOW
 POSITION
 Como
 
-## — 2022-01-26
+## — 2022-01-26 ———————————————————
 
 Introduccion
 
@@ -295,12 +295,14 @@ $ git config --global user.email johndoe@example.com
 
 ```
 
-**Como hacer tu repositorio**
+### Como conectar repositorio remoto con local pasos
 
-— El objetivo es vincular una carpeta
+**► El objetivo es vincular una carpeta**
 
 1. Abrimos terminal o gitbash
+
 2. En terminal nos ubicamos en la carpeta con los comandos (puede utilizar CD por si tienes algun conflicto.) recuerda el sensitive case(mayusculas).
+
 3. Escribiremos el siguiente comando `$ git init` se debe transformar nuestra carpeta a master o main
 
 - Nos sirve para iniciar nuestra carpeta en git y los comandos git solo funcionan en carpetas con `git init` (otra forma de ver es que se marca como main o master)
@@ -315,7 +317,7 @@ $ git config --global user.email johndoe@example.com
 
 7. `git commit -m "mensaje"` Es para preparar los archivos y guardar en el historial (repositorio local)
 
-Finalizamos en nuestro espacio de trabajo local (computadora) ahora nos iremos a github.
+**► Finalizamos en nuestro espacio de trabajo local (computadora) ahora nos iremos a github.**
 
 1. Crea nuevo repositorio, nombrar y escribir descripcion.
 
@@ -325,12 +327,11 @@ Finalizamos en nuestro espacio de trabajo local (computadora) ahora nos iremos a
 
 4. Listo nos mostrara en git hub los archivos listos.
 
-5. Recuerda leer y verificar cuando te diga quien eres `$ git config --global user.name "username"`
-   `$ git config --global user.email johndoe@example.com`
+5. Recuerda leer y verificar cuando te diga quien eres `$ git config --global user.name "username"`→`$ git config --global user.email user@example.com`
 
 Etapas de git = es importante entender esta logica pues nos ayudar a ubicar el status de nuestro trabajo.
 
-_working directory_ > `git add` > _staging area (index)_ > `git commit` > _Repository (se ubica en head)_
+_working directory_ **→** `git add` > _staging area (index)_ **→** `git commit` → _Repository (local) (se ubica en head)_
 
 [guia git/ github modo dummie](https://rogerdudler.github.io/git-guide/index.es.html).
 
@@ -340,7 +341,35 @@ _working directory_ > `git add` > _staging area (index)_ > `git commit` > _Repos
 
 ## — 2022-01-28 ———————————————————
 
----
+_git_ - Es un controlador de versiones recuerdalo.
+
+_github_ - Plataforma en nube que alamacena y gestiona nuestro repositorio local
+
+pasos para subir mi repositorio local a repositorio remoto una vez modificado
+
+0. Nos ubicamos en carpeta conectada con github y save en VSC
+
+1. `$ git add .` o `$ git add <nameArch>`
+
+2. `$ git status` verificar si hicimos lo correcto
+
+3. `$ git commit -m "mensaje"`
+
+4. `$ git push origin main`
+
+Hacemos un archivo **HTML** y lo agregamos en una carpeta
+
+- tag o etiquetas ▬ html es un lenguaje basado en etiquetas y si revisamos cada uno es un contenedor de acciones.
+
+- Inspeccionamos una pagina web → click der → inspeccionar → ir a **Elements**
+
+- w3 school es una pagina donde puede apoyarnos a entender nuestras tecnologias.
+
+- Las etiquetas se abren y se cierran. o solamente cuenta con una etiqueta
+
+- VSC se pueden colocar unos comentarios
+
+- **Ver en → /01_IntroHtml/ index_EJ.01.html**
 
 ## — 2022-02-01 ———————————————————
 

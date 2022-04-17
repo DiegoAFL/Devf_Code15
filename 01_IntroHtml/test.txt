@@ -1,0 +1,3 @@
+hola
+
+este archivo fue una prueba y se hizo desde termianl con echo.

@@ -1,3 +1,25 @@
+# Notas por limpiar
+
+---
+
+```html
+<!-- Los Formularios inician con -->
+<form></form>
+<!-- Todos su atributos son opcionales Pero es practica standard Establecer primero al menos  -->
+primero action="" method=""
+
+<!-- Elementos comunes en formulario -->
+<input type="text" />
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<select name="" id=""></select>
+<label for=""></label>
+
+para funcionar todo esto necesito un submmit.
+```
+
+---
+
+```html
 <!-- Etiquetas Semanticas -->
 <article></article>
 <aside></aside>
@@ -12,7 +34,11 @@
 <section></section>
 <summary></summary>
 <time></time>
+```
 
+---
+
+```html
 <br />
 Lista de PLUGGINS que pueden instalar a VISUAL STUDIO CODE
 <!-- auto close tag  -->
@@ -21,6 +47,9 @@ Lista de PLUGGINS que pueden instalar a VISUAL STUDIO CODE
 <!-- lorem ipsum  -->
 <!-- Live server -->
 <br />
+```
+
+---
 
 Lista de LINKS que van a ocupar al final de la clase para la ultima práctica: El
 elemento HTML <input /> se usa para crear controles interactivos para
@@ -35,7 +64,9 @@ tipos de entrada y atributos.
 <!-- https://www.w3schools.com/tags/tag_select.asp -->
 <!-- https://www.w3schools.com/tags/tag_textarea.asp -->
 
-Selectores _CSS_
+---
+
+### Selectores _CSS_
 
 <!-- https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors#tabla_de_referencia_de_selectores -->
 
@@ -195,9 +226,9 @@ Siguiente tema se entendera que es la terminal, que es git y que es github leer 
 
 ---
 
-## — 2022-01-27
+## — 2022-01-27 ———————————————————
 
-- **Terminal (linux)**
+### Terminal (linux)
 
 Depende del sistema operativo, powershell de windows y Linux para mac, _que tan conveniente es usar UBUNTU?`_
 
@@ -237,7 +268,7 @@ En hostinger puedo encontrar palabras clave= comandos linux terminal 34 basicos.
 
 — `grep` `find` `Locate` Quieres seber como buscar un archivo con estos comandos.
 
-- **github**
+#### Git & Github
 
 — Historial de versiones, git nos permite llevar un control de versiones git es el programa que nos puede ayudar con esto.
 instalar git, se puede hacer de la siguiente manera
@@ -250,80 +281,111 @@ instalar git, se puede hacer de la siguiente manera
 
 — Para instalar en mac es con Homebrew.
 
-—
+— Git es la tecnologia y github es la aplicacion que ayuda a gestionar remotamente git. Hay muchas plataformas la mas famosa es github.
 
-Como hacer tu repositorio
+— Realizar cuenta con un correo y una cuenta
+
+— `git config --list` nos puede listar nuestra configuracion en git (repositorio local)
+user.email=diego-afl@outlook.com / user.name=DiegoAFL asi podremos modificar en caso de que lo necesites.
+cuando se instale git se tendra que dar de alta estos datos.
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+```
+
+**Como hacer tu repositorio**
+
+— El objetivo es vincular una carpeta
+
+1. Abrimos terminal o gitbash
+2. En terminal nos ubicamos en la carpeta con los comandos (puede utilizar CD por si tienes algun conflicto.) recuerda el sensitive case(mayusculas).
+3. Escribiremos el siguiente comando `$ git init` se debe transformar nuestra carpeta a master o main
+
+- Nos sirve para iniciar nuestra carpeta en git y los comandos git solo funcionan en carpetas con `git init` (otra forma de ver es que se marca como main o master)
+
+- Se puede inicializar carpeta sin la ayuda de la terminal selecciona carpeta y click derecho > gitbash here > se abre terminal
+
+4. `$ echo textitos > NameArch.txt` genera en la ubicacion un archivo junto con contenido.
+
+5. `git status`
+
+6. `git add .` prepara los archivos para almacenar en el historial de cambios.
+
+7. `git commit -m "mensaje"` Es para preparar los archivos y guardar en el historial (repositorio local)
+
+Finalizamos en nuestro espacio de trabajo local (computadora) ahora nos iremos a github.
+
+1. Crea nuevo repositorio, nombrar y escribir descripcion.
+
+2. Ahora nos saldra algunos pasos para vincular solo se requiere copiar / un consejo o buena practica es agregar el readme.md (archivo markdown).
+
+3. `git remote add origin <urlgithub_server>` **>** `git branch -M main` cambia nombre del antiguo master por main **>** `git push -u origin main`
+
+4. Listo nos mostrara en git hub los archivos listos.
+
+5. Recuerda leer y verificar cuando te diga quien eres `$ git config --global user.name "username"`
+   `$ git config --global user.email johndoe@example.com`
+
+Etapas de git = es importante entender esta logica pues nos ayudar a ubicar el status de nuestro trabajo.
+
+_working directory_ > `git add` > _staging area (index)_ > `git commit` > _Repository (se ubica en head)_
+
+[guia git/ github modo dummie](https://rogerdudler.github.io/git-guide/index.es.html).
+
+[Bash para principiantes](https://towardsdatascience.com/basics-of-bash-for-beginners-92e53a4c117a)
 
 ---
 
-## — 2022-01-28
+## — 2022-01-28 ———————————————————
 
 ---
 
-## — 2022-02-01
+## — 2022-02-01 ———————————————————
 
 ---
 
-## — 2022-02-02
+## — 2022-02-02 ———————————————————
 
 ---
 
-## — 2022-02-XX
+## — 2022-02-XX ———————————————————
 
 ---
 
-## — 2022-02-03
+## — 2022-02-03 ———————————————————
 
 ---
 
-## — 2022-02-08
+## — 2022-02-08 ———————————————————
 
 ---
 
-## — 2022-02-09
+## — 2022-02-09 ———————————————————
 
 ---
 
-## — 2022-02-10
+## — 2022-02-10 ———————————————————
 
 ---
 
-## — 2022-02-14
+## — 2022-02-14 ———————————————————
 
 --
 
-## — 2022-02-15
+## — 2022-02-15 ———————————————————
 
 ---
 
-## — 2022-02-16
+## — 2022-02-16 ———————————————————
 
 ---
 
-## — 2022-02-17
+## — 2022-02-17 ———————————————————
 
 ---
 
-DEVF/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
+```
 
-https://docs.github.com/es/repositories/working-with-files/managing-large-files/about-git-large-file-storage
-https://docs.github.com/es/repositories/working-with-files/managing-large-files/about-large-files-on-github
-
-> > > > > > > > 2a2b87752fe50649d38f11ad32deb9b46dbaaf16:Notas html.txt
-
----
-
-<!-- Los Formularios inician con -->
-<form></form>
-<!-- Todos su atributos son opcionales Pero es practica standard Establecer primero al menos  -->
-primero action="" method=""
-
-<!-- Elementos comunes en formulario -->
-<input type="text" />
-<textarea name="" id="" cols="30" rows="10"></textarea>
-<select name="" id=""></select>
-<label for=""></label>
-
-para funcionar todo esto necesito un submmit.
-
----
+```

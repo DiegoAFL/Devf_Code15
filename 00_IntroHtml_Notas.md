@@ -163,33 +163,96 @@ Como
 
 Introduccion
 
-**—** Backend - Frontend que hacen estos personajes
+Backend - Frontend que hacen estos personajes.
 
-Servidor es igual a un server
+Servidor es igual a un server.
+
+Cliente - Client.
 
 Hacer un sitio web requiere mucha responsabilidad.
 
-Web Development - Esrtas son las tecnologias
+Web Development - Esrtas son las tecnologias.
 
-- HTML Es la estructura - Constructor
+- HTML Es la estructura - Constructor.
 
-- CSS Formato de estilos - Artista
+- CSS Formato de estilos - Artista.
 
-- JS Funcionalidad - Mago - Logica
+- JS Funcionalidad - Mago - Logica.
 
 Web browser - Chrome, Mozilla, Edge,
 
-Herramientas - IDE editores de codigo - Atom, visual studio code, - Vim
+Herramientas - IDE, editores de codigo - Atom, visual studio code, - Vim.
 
 Emmet - Tecnologia para reducir el tiempo para ejecutar codigos.
 
-Stackoverflow - Lugar para encontrar soluciones relacionado a codigo
+Stackoverflow - Lugar para encontrar soluciones relacionado a codigo.
 
-Slack comunicacion / Katas /
+Slack comunicacion / Katas / _instalar VSC_
+
+VSC - Puedes arrastrar un archivo al icono de VSC para poder abrir.
+
+Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.
 
 ---
 
 ## — 2022-01-27
+
+- **Terminal (linux)**
+
+Depende del sistema operativo, powershell de windows y Linux para mac, _que tan conveniente es usar UBUNTU?`_
+
+— Un directorio es una carpeta, se puede navegar con la terminal, es mucho mas rapido las ejecuciones
+
+— En la terminal no se puede usar el mouse o con click, normalmente se utiliza el teclado
+
+— Una linea de codigo o comando nos permite hacer una accion
+
+— `pwd` Me muestra mi ubicacion dentro de las carpetas. saber mi ubicacion es muy importante.
+
+— `/` Nos indica carpetas, folder o directorio `user/lupita` <---Me indicaque estoy dentro de la carpeta lupita y asi hasta llegar a la ultima carpeta.
+
+— Una extension de archivo define el tipo de archivo que es y me permite saber como tratarlo. (imagenes, videos, textos, word, archivos especiales)
+
+— `ls` Nos listara los archivos que hay en la carpeta
+
+— `ls -a` Nos lista archivos tambien ocultos
+
+— `cd` No permitira movernos entre folders `cd /documentos/carpeta`<--- nos llevara a esta carpeta.
+
+— `cd ..` no regresa un nivel atras de la carpeta
+
+— `clear` Limpia pantalla,
+
+— El teclado tabular o doble fechita nos ayuda a completar algunos comando o intuitivamente el nombre de algun archivo.
+
+— Con las flechas del teclado podemos verlos comandos y poder reutilizar comandos
+
+— `history` me muestra todos los comandos que utilizar
+
+En hostinger puedo encontrar palabras clave= comandos linux terminal 34 basicos.
+
+— `cat <nombreArchivo>`(abrev concatenate) crea un nuevo archivo
+
+— `cat NameArch1 NameArch2>NameArch3` une dos archivos (1 y 2) y almacena la salida de ellos en un nuevo archivo (3)
+
+— `grep` `find` `Locate` Quieres seber como buscar un archivo con estos comandos.
+
+- **github**
+
+— Historial de versiones, git nos permite llevar un control de versiones git es el programa que nos puede ayudar con esto.
+instalar git, se puede hacer de la siguiente manera
+
+— `git --version` Nos muestra la version de nuestro y git nos permite saber si tenemos git en la pc.
+
+— `git update` para actualizar nuestro git por mantenimiento es necesario darse un tiempo para actualizar dicho tema.
+
+— Nos ayudara gestionar nuestro protafolio
+
+— Para instalar en mac es con Homebrew.
+
+—
+
+Como hacer tu repositorio
 
 ---
 

@@ -414,6 +414,10 @@ _→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
 
 3.  Ahora vamos a git hub para crear una rama nueva vamos a repositorio remoto → code → Main → Despliegue → Nombrar rama _verificar los permisos_
 
+4.  Ahora nos ensena a hacer un _pull request_ a repositorio remoto desde nuestro local.
+
+---
+
 **Elementos DIV y etiquetas semanticas.**
 
 — Iremos a web browser → Inspeccionar → Elements
@@ -425,8 +429,6 @@ _→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
 — La anidacion de DIV puede provocar un caos en las paginas.
 
 — _Elemento semantico_ da significado a navegador, motor de busqueda, desarrollador, determina el contexto de contenido web.
-
----
 
 **Estas son etiquetas semanticas (es mejor que usar solo divs)**
 
@@ -484,7 +486,39 @@ Live server
 
 **Ejercicio** (ir a archivo)[/03_IntroHtml_Practica]
 
-Para hjacer este ejercicio en devf se realizo una rama
+Para hacer este ejercicio en devf se realizo una rama (div clases) el cual no se realizo.
+
+_→_ Estructurar bosquejo para el proximo proyecrto.
+
+_→_ Hacer un archivo coloreando backgrounds o colocar contornos.
+
+**Formularios** introduccion para
+
+Todos los formularios comienzan comienzan con un `<form></form>`
+
+```html
+<form action="/myhandking-form-page" method="post">aqui va otra etiqueta</form>
+```
+
+_→_ Todos los atributos son opcionales , practica estandar establecer _action_ y _method_.
+
+_→_ Los elementos comunes en un formulario son _input_, _textarea_, _select_ y _label_ estos son para recolectar la informacion de cierto tipo.
+
+_→_ Action nos dice a que pagina vamos a enviar formulario server o etc.
+
+_→_ Method en que tipo de metodo se envia esta informacion. `get` o `post`
+
+_→_ `get` Cuando lo enviamos se envia directo de la URL es visible para un usuario.
+
+_→_ `post` Lo envia por debajo por un canal oculto no es visible para el usuario. Correo o contrasenas
+
+_→_ Todos los form debe tener un submit pues no puede enviar informacion.
+
+\*\*git y gitu
+
+_→_ Y con esto la rama que habia quedado se le hizo un merge (pullrrequest) a la rama main poco explicado pero ya estudiado.
+
+_→_ No todos los que hacen PR tienen autorizacion para para ejecutarlos hay formatos de trabajo que dictan como se realiza este proceso.
 
 ---
 
@@ -496,35 +530,35 @@ Para hjacer este ejercicio en devf se realizo una rama
 
 ---
 
-## — 2022-02-03 ———————————————————
+## — **2022-02-03** ———————————————————
 
 ---
 
-## — 2022-02-08 ———————————————————
+## — **2022-02-08** ———————————————————
 
 ---
 
-## — 2022-02-09 ———————————————————
+## — **2022-02-09** ———————————————————
 
 ---
 
-## — 2022-02-10 ———————————————————
+## — **2022-02-10** ———————————————————
 
 ---
 
-## — 2022-02-14 ———————————————————
+## — **2022-02-14** ———————————————————
 
 --
 
-## — 2022-02-15 ———————————————————
+## — **2022-02-15** ———————————————————
 
 ---
 
-## — 2022-02-16 ———————————————————
+## — **2022-02-16** ———————————————————
 
 ---
 
-## — 2022-02-17 ———————————————————
+## — **2022-02-17** ———————————————————
 
 ---
 

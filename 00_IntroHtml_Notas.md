@@ -514,7 +514,7 @@ _→_ `post` Lo envia por debajo por un canal oculto no es visible para el usuar
 
 _→_ Todos los form debe tener un submit pues no puede enviar informacion.
 
-\*\*git y gitu
+**git y github** Como se cerro la rama que andaba por ahi volando.
 
 _→_ Y con esto la rama que habia quedado se le hizo un merge (pullrrequest) a la rama main poco explicado pero ya estudiado.
 

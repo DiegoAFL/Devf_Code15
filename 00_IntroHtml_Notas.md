@@ -17,35 +17,9 @@ primero action="" method=""
 para funcionar todo esto necesito un submmit.
 ```
 
----
-
-```html
-<!-- Etiquetas Semanticas -->
-<article></article>
-<aside></aside>
-<details></details>
-<figcaption></figcaption>
-<figure></figure>
-<footer></footer>
-<header></header>
-<main></main>
-<mark></mark>
-<nav></nav>
-<section></section>
-<summary></summary>
-<time></time>
-```
-
----
-
 ```html
 <br />
-Lista de PLUGGINS que pueden instalar a VISUAL STUDIO CODE
-<!-- auto close tag  -->
-<!-- git lens -->
-<!-- prettier  -->
-<!-- lorem ipsum  -->
-<!-- Live server -->
+
 <br />
 ```
 
@@ -375,6 +349,8 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 — VSC se pueden colocar unos comentarios
 
+---
+
 — *Ver en*→ /01_IntroHtml/ index_EJ.01.html **ejercicio en html**
 
 **→** Se toco el temas de etiquetas en HTML → si son etiquetas con apertura y cierre
@@ -383,30 +359,132 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 **→** VAMOS A CREAR UN SITIO WEB - Blog de viajes - Con media queries o diseno responsivo
 
-— *Ver en*→ /02_IntroHtml_Ejercicio **ejercicio en html**
+---
 
-1. Crear una pagina personal donde se muestre algunos datos como:
+— *Ver en*→ /02_IntroHtml_Ej.01 **ejercicio en html**
+
+_1._ Crear una pagina personal donde se muestre algunos datos como:
 
 - Nombre
-- OCupacion
+- Ocupacion
 - Hobbies
 
-2. Add 2 imagenes
+_2._ Add 2 imagenes
 
 - UNO con atributos clasicos
 - DOS que al darle click me lleve a otro lado
 
-3. Insertar ligas que lleven a redes
+_3._ Insertar ligas que lleven a redes
 
 - Que se abran en pesetanas diferentes
 
-4. Usar 5 etiquetas mas que no se hayan explicado.
+_4._ Usar 5 etiquetas mas que no se hayan explicado.
 
-5. Utilizar etq <a> para ir a una pagina llamada contacto.html
+_5._ Utilizar etq <a> para ir a una pagina llamada contacto.html
 
 ---
 
 ## — **2022-02-01** ———————————————————
+
+- INTRO A LA WEB / Recap git y github glosario intro
+
+_→_ Repositorio / repo — Base de datos donde se almacena el historial del codigo
+
+_→_ Branch / Rama — Entorno o espacio de trabajo independiente en git
+
+_→_ Commit — Registro de uno o varios cambios hechos en el repositorio
+
+_→_ Master — Rama principal de un repositorio
+
+_→_ Stage — Lista de archivos que se usaran para un commit
+
+_→_ Checkout — Es la accion de moverse entre diferentes ramas.
+
+_→_ Fork — Copia bifurcada de un repositorio
+
+_→_ Merge — Combina dos o mas ramas en una
+
+_→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
+
+**Como clonar un repositorio**
+
+1.  `git clone <urlgithub>` Clonaremos una rama
+
+2.  `git checkout -b <NombreBranch>` hacemos una rama y vamos esa rama esto en la carpeta local actual
+
+3.  Ahora vamos a git hub para crear una rama nueva vamos a repositorio remoto → code → Main → Despliegue → Nombrar rama _verificar los permisos_
+
+**Elementos DIV y etiquetas semanticas.**
+
+— Iremos a web browser → Inspeccionar → Elements
+
+— `<div></div>` no hacen divisiones de contenido de manera virtual.
+
+— Div = Division se usa para dividir el contenido en secciones
+
+— La anidacion de DIV puede provocar un caos en las paginas.
+
+— _Elemento semantico_ da significado a navegador, motor de busqueda, desarrollador, determina el contexto de contenido web.
+
+---
+
+**Estas son etiquetas semanticas (es mejor que usar solo divs)**
+
+```html
+<!-- Etiquetas semanticas -->
+
+<header></header>
+<!-- Titulos o logos de identidad -->
+
+<nav></nav>
+<!-- Barras de navegador -->
+
+<main></main>
+<!-- Especifica el contenido principal de un documento -->
+
+<section></section>
+<!-- Define seccione en un documentos -->
+
+<article></article>
+<!-- Nos sepra elementos independientes que estan contenidos en <section> Textos principalmente / Puede tener atributos estandares globales -->
+
+<aside></aside>
+<!-- Define contenidos laterales / representacion de una seccion  -->
+
+<figcaption></figcaption>
+<!-- define una captura de un elemento <figure>  define un texto coherente y complementario mara a documento y elemento y asi definir un titulo para la foto / Puede colocarse como primer o ultimo hijo del elemento -->
+
+<figure></figure>
+<!-- Imagenes  ilustraciones, diagramas, photos, code listings-->
+
+<mark></mark>
+<!-- Marcador (tipo fluorescente) se debe colocar en css sus caracteristicas luego en html marcar el contenido (texto) -->
+
+<time></time>
+<!-- define fechas y horario -->
+
+<details></details>
+<!-- contenido que que el usuario puede ver u ocultarse -->
+
+<summary></summary>
+<!-- define un encabezado visible para el elemento <detalles> . Se puede hacer clic en encabezado para ver/ocultar los detalles. -->
+<!-- El <summary> elemento debe ser el primer elemento secundario del elemento <details>. -->
+
+<footer></footer>
+<!-- Pie de pagina / notas legales / Agradecimientos / Site map -->
+```
+
+**Lista de PLUGGINS que pueden instalar a VISUAL STUDIO CODE**
+
+auto close tag
+git lens
+prettier
+lorem ipsum
+Live server
+
+**Ejercicio** (ir a archivo)[/03_IntroHtml_Practica]
+
+Para hjacer este ejercicio en devf se realizo una rama
 
 ---
 
@@ -414,7 +492,7 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 ---
 
-## — 2022-02-XX ———————————————————
+## — **2022-02-XX** ———————————————————
 
 ---
 

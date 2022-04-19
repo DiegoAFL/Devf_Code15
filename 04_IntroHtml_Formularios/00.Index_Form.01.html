@@ -7,8 +7,68 @@
     <title>Practica</title>
   </head>
   <body>
-    <h1>Formulario-Odias la matrix unete</h1>
+    <h1>——— Notas de clase (con metodo get para que vean quiobo)———</h1>
+
+    <!-- Se inicia siempre con FORM seguido de los atribnutos Action y method -->
     <form action="contacto.html" method="get">
+      <!-- Label tiene una conexion o linkeo con las celdas-->
+      <label for="nombre">Ingresa tu nombre</label>
+      <!-- Inputs  cajas  de solicitud -->
+      <input type="text" name="Nombre" id="nombre" />
+      <br />
+
+      <!-- Coloca label link a edad -->
+      <label for="edad">Coloca tu edad</label>
+      <!-- caja de solicitud -->
+      <input type="number" name="edad" id="edad" />
+      <br />
+
+      <!-- laberl con linkeo a email -->
+      <label for="email">Ingresa tu email</label>
+      <!-- caja de solicitud -->
+      <input type="email" name="email" id="email" />
+      <br />
+
+      <!-- textarea -->
+      <label for="biografia">Que te gusta</label>
+      <textarea name="biografia" id="biografia"></textarea>
+      <br />
+
+      <!-- Etq Select start/close -->
+      <select name="cursos" id="cursos">
+        <!-- Loq ue se manda al servidor es lo que viene dentro del value -->
+        <option value="Master Coding">Master Coding</option>
+        <option value="Data Science">Data Science</option>
+      </select>
+      <br />
+
+      <!-- Checkbox -->
+      <!-- se pueden elegir dos opciones no esta limitado por name -->
+      <label for="Terminos">-->Acepto Terminos y condiciones</label>
+      <input type="checkbox" id="Terminos" />
+      <br />
+      <label for="Terminos2">-->Acepto correo publicitario</label>
+      <input type="checkbox" id="Terminos2" />
+      <br />
+
+      <!-- radio -->
+      <!-- se escoge una sola opcion gracias al atributo NAME -->
+      <p>Animal favorito (escoge solo uno)</p>
+      <label for="perro">Perritu</label>
+      <input type="radio" name="animal" id="perro" />
+      <br />
+      <label for="gato">Michis</label>
+      <input type="radio" name="animal" id="gato" />
+      <br />
+
+      <!-- Dentro de Form se coloca button de tipo submit  de lo contrario no funciona -->
+      <button type="submit">Envio datos</button>
+    </form>
+
+    <h1>— Mi formulario c/n metodo post pa que no lo vea mr smith —</h1>
+
+    <h2>Odias la matrix unete?</h2>
+    <form action="contacto.html" method="post">
       <!-- Button -->
       <label for="button">boton 1</label>
       <input type="button" id="button" value="No hago nada toy chiquito" />
@@ -59,7 +119,7 @@
       <br />
       <!-- radio -->
       <h2>Elige</h2>
-      <label for="ops">►Pastilla Azul</label>
+      <label for="ops">Pastilla Azul→</label>
       <input
         type="radio"
         name="Pastilla elegida"
@@ -67,7 +127,7 @@
         name="Ops1"
         value="1"
       />
-      <label for="ops">►Pastilla Roja</label>
+      <label for="ops">Pastilla Roja→</label>
       <input
         type="radio"
         name="Pastilla elegida"
@@ -75,7 +135,7 @@
         name="Ops2"
         value="2"
       />
-      <label for="ops">►Elige por mi soy daltonico</label>
+      <label for="ops">Elige por mi soy daltonico→</label>
       <input
         type="radio"
         name="Pastilla elegida"

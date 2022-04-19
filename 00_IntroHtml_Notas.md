@@ -506,7 +506,7 @@ _→_ Los elementos comunes en un formulario son _input_, _textarea_, _select_ y
 
 _→_ Action nos dice a que pagina vamos a enviar formulario server o etc.
 
-_→_ Method en que tipo de metodo se envia esta informacion. `get` o `post`
+_→_ Method en que tipo de metodo se envia esta informacion. `get` o `post
 
 _→_ `get` Cuando lo enviamos se envia directo de la URL es visible para un usuario.
 
@@ -523,6 +523,40 @@ _→_ No todos los que hacen PR tienen autorizacion para para ejecutarlos hay fo
 ---
 
 ## — **2022-02-02** ———————————————————
+
+**Formularios / Css / Selectores**
+
+Formulario es la interacción que tenemos con los usuarios hay que dominarlo y es un ingreso de datos
+
+_1._ Inicia con <form> que activa el espacio de los formularios y dentro debe ir un INPUT y es por una funcion en especifico.
+
+_2._ <Method> son get y post
+
+_3._ <Action>
+
+_4._ Un _form_ funciona con botón tipo `submit`
+
+**Ejercicio** (ir a archivo)[/00.Index_Form.01.html]
+
+_-_ Empecemos con form → action hacemos una url nos enviará a contacto →
+
+_-_ Method get
+
+_-_ Botón tipo summit con nombre enviar
+
+_-_ Haremos <input > haremos la básica de texto pero hay varios por aprender ponerle name es para identificarlo y además le pondremos un id este debe ser único no se repite name y id pueden ser iguales pero atraves de los demás apartados de código id no se debe repetir
+
+_-_ Si nos fijamos en el web browser, se ven las acciones → _url_ ahora de accionar
+
+_-_ Los input aceptan cierto tipo de información hay algunos que aceptan texto o números.
+
+_-_ _Method post_ Revisamos en (antes de ejecutar para que lo detecte) → Inspeccionar → Nertwork → pestaña _Name_ verificamos hacia donde dirige el _action_ del <form> que buscamos → _Payload_ y encontramos debajo toda la informacion enviada (verificar mas informacion adelante)
+
+_-_ El Input email debe estaren este apartado con el atributo `method="post"`
+
+_-_ El formulario de `tipo Get` se mira como en la Url aprecia la concatenación
+
+_-_ El formulario de `tipo post` Se esconde la informaciona a enviar pero se puede ver en la consola network → `payload`
 
 ---
 

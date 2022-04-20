@@ -558,6 +558,56 @@ _-_ El formulario de `tipo Get` se mira como en la Url aprecia la concatenación
 
 _-_ El formulario de `tipo post` Se esconde la informaciona a enviar pero se puede ver en la consola network → `payload`
 
+_-_ <Labels> etiqueta como su nombre lo dice al input
+
+_-_ <Input>hay varios tipos y llevan _etiqueta de cierre_:
+
+<input type="button">
+
+<input type="checkbox">
+
+<input type="color">
+
+<input type="date">
+
+<input type="datetime-local">
+
+<input type="emial">
+
+<input type="file">
+
+<input type="hidden">
+
+<input type="image">
+
+<input type="month">
+
+<input type="number">
+
+<input type="password">
+
+<input type="radio">
+
+<input type="range">
+
+<input type="reset">
+
+<input type="search">
+
+<input type="submit">
+
+<input type="tel">
+
+<input type="text"> este es un valor por defecto.
+
+<input type="time">
+
+<input type="url">
+
+<input type="week">
+ 
+_-_
+
 ---
 
 ## — **2022-02-XX** ———————————————————

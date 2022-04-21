@@ -813,6 +813,12 @@ _12._ Agregar los prefijos de los navegadores en propiedades que no sean estable
 
 ## — **2022-02-XX** ———————————————————
 
+**CSS** INTRO
+
+— WWW.W3SCHOOLS.COM HAY EJERCICIOS Y TAMBIEN EN FREECODE CAMP.
+
+— Minuto 10 continuar mañana.
+
 ---
 
 ## — **2022-02-03** ———————————————————

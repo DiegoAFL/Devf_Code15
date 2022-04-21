@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- El tipo codigo CSS que se realiza en estos momentos es por externo -->
+    <!-- Existe aun CSS con etiquetas internas, y con referencias externas -->
+    <!-- Mozilla selectores te puede servir -->
+
     <style>
         body {
-            background-color: coral;
+            background-color: rgb(163, 246, 128);
             color:darkslategray;
         }
         label,
@@ -15,12 +20,19 @@
             color:darkolivegreen;
         }
 
+        /* CSS links  y la interacciones en este caso hover */
+        .demo-clase:Hover {
+            color:blueviolet;
+            text-decoration: none;            
+        }
+
     </style>
 </head>
 <body>
     <h1>Mi color es amarillo</h1>
-    <a href="/contacto.html">Voy a ir a la misma pagina </a>
+    <a class= "demo-clase" href="/contacto.html">Voy a ir a la misma pagina </a>
     <br />
+    <br>
     <form action="contacto.html" method="get">
         <label for="Nombre"> Ingresa tu nombre </label>
         <input type="text" name="Nombre" id="Nombre" />

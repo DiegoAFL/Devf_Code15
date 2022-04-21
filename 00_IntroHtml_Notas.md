@@ -605,8 +605,209 @@ _-_ <Input>hay varios tipos y llevan _etiqueta de cierre_:
 <input type="url">
 
 <input type="week">
- 
-_-_
+
+_-_ Y todas esta eiquetas estan en el archivo: 00.Index_Form.01.html
+
+**CSS HOJAS DE ESTILOS EN CASCADA**
+
+Parte de un concepto simple y muy potente: aplicar estilos (colores, fcormas, margenes, etc ...) a **uno o varios documentos**.
+sin CSS una pagina web seria un simple documento de texto.
+
+_-_ Es el formato que se le puede dar al producto web.
+
+_-_ La idea de CSS es utilizar el concepto de \*\*Separacion de presentacion y contenido, intentando que los documentos HTML solo incluyan informacion y datos.
+
+_-_ Los tres pilares del CSS
+
+1. **HERENCIA**
+
+Los hijos heredan estilos de sus padres, asi no necesitas escribir esto para todo
+
+```css
+body {
+  color: blue;
+}
+h1 {
+  color: blue <!-- no es necesario definir un color de texto para todos los;
+}
+/* titulos pues son heredados de body */
+```
+
+2. **ESPECIFICIDAD**
+
+Cuando hay conflictos de estilos el navegador aplica solo el de mayor especificidad.
+
+```css
+.parrafo {
+  colo: blue;
+}
+.article .parrafo {
+  color: red;
+}
+/* el parrafo es rojo por que el segundo selector es mas especifico */
+```
+
+3. **CASCADA**
+
+Todo esstilo sobnre escribe a uno anterior. La C de CSS significa cascada
+
+```css
+.parrafo {
+  color: blue;
+}
+
+.parrafo {
+  color: blue;
+}
+/* El parrafo es rojo por que sobreescribe a los anteriores estilos */
+```
+
+**ESTRUCTURA COMUN CSS**
+
+Selector→ → → Declaration → → Declaration
+
+`h1` → → → → `{color:blue;` → `font-size:12px;}`
+
+→ → → → → Property → Value
+
+cerrar con punto y coma para cerra declaracion.
+
+las declaraciones se cierran en llaves.
+
+**CSS impor**
+
+Unidades de medidas que se ocupan en CSS las comunes son porcentajes y pixeles
+
+_-_ Los **selectores** se identifican a un elemento dentro de la pagina web, para leugo poder definir sus propiedades. Pueden ir desde el simple nombre de etiquetas hasta combinaciones complejas.
+
+_-_ Diferentes tipos de **Selectores** conocerlos nos ayudara a encontrar la herramienta adecuada para nuestro proyecto
+
+_-_ 3 tipos comunes de
+selectores y son:
+
+1. De tipo `<div></div>`
+
+2. De clase `<div class="clase"> </div>`
+
+3. De ID `<div id="id"> </div>`
+
+DE TIPO
+
+```css
+p {
+  color: red;
+  text-align: center;
+}
+```
+
+DE CLASE
+
+```css
+#p {
+  color: red;
+  text-align: center;
+}
+```
+
+DE ID
+
+```css
+.p {
+  color: red;
+  text-align: center;
+}
+```
+
+**Unificar o concatenar estilos**
+
+```css
+h1 {
+  color: blue;
+}
+.ide {
+  color: blue;
+}
+
+/* puede ser asi, de esta maner si se desea unificar el estilo */
+h1,
+.ide {
+  color: blue;
+}
+```
+
+Hay selectores para atributos y se indica asi.
+
+```css
+a [atributo] {
+  color: blue;
+}
+```
+
+**TIPOS DE SELECTORES**
+
+1. Selector de Tipo → `h1 {declaration}`
+
+2. Selector universal → `* {declaration}`
+
+3. Selector de clase →`.class {declaration}`
+
+4. Selector de ID → `#unico {declaration}`
+
+5. Selector de atributo → `a[title] {declaration}`
+
+6. Pseudoclase → `p: first-child { declaration}`
+
+7. Pseudo elemento → `p::first-line {declaration}`
+
+8. Operador de combinacion descendentes → `article p`
+
+9. Operador de combinacion de elementos hijos → `article > p`
+
+10. Operador de combinacion de elementos hermanos adyacentes → `h1 + p`
+
+11. Operador de combinacion general de elementos hermanos → `h1 - p`
+
+_-_ Leer documentacion de w3schools
+
+_-_ Buena practicas buscar **eniun.com**
+
+_-_ Etiquetas CSS de tipo de alinear **(CSS ALIGN)**
+
+_-_ CSS veremos a profundidad en la siguiente clase acerca de PADDING → MARGIN
+
+_-_ Estilo puede ser inline external y reference
+
+_-_ CSS Color se usan diferentres formatos y si se busca transparencia y sombreados revisar y colocar en el archivo de practica.
+
+_-_ CSS Links hay distintas declaraciones que permiten formateear los links
+
+_-_ Vamos a el archivo → **01.index_css.00.html**
+
+Recuerda ejecutar la mejores **practicas de CSS**
+
+_1._ Organizar la estructura de arriba hacia abajo
+
+_2._ Nombrar correctamente los selectores
+
+_3._ Separar las palabras mediante guiones o mediante mayúsculas
+
+_4._ Legibilidad
+
+_5._ Combinar elementos
+
+_6._ Utilizar selectores descendientes
+
+_7._ Utilizar propiedades abreviadas
+
+_8._ Utilizar nombres descriptivos en los selectores
+
+_9._ Evitar utilizar como nombre de un selector una característica visual
+
+_10._ Probar el diseño en los diferentes navegadores
+
+_11._ Validar el código CSS
+
+_12._ Agregar los prefijos de los navegadores en propiedades que no sean estables
 
 ---
 
@@ -645,6 +846,14 @@ _-_
 ## — **2022-02-17** ———————————————————
 
 ---
+
+```
+
+```
+
+```
+
+```
 
 ```
 

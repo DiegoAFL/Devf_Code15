@@ -819,6 +819,12 @@ _12._ Agregar los prefijos de los navegadores en propiedades que no sean estable
 
 — Minuto 10 continuar mañana.
 
+— **05_IntroCSS_Blog** es donde se trabajo el css del blog que previamente llenamos de datos
+
+— Un a buena practica es crear carpeta con un archivo style.CSS
+
+nos quedamos en el minuto 53:00
+
 ---
 
 ## — **2022-02-03** ———————————————————

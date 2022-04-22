@@ -1,0 +1,60 @@
+<style>
+    /* #c72d82 */
+    /* #41a4dd */
+    html {
+        margin: 0px;
+    }
+    body {
+      margin: 0px;
+    }
+    /* header */
+    header img {
+      width: 360px;
+    }
+    /* nav */
+    nav {
+      background-color: #c72d82;
+      text-align: center;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    /* main */
+    h2 {
+      color: #41a4dd;
+    }
+    article img {
+      width: 240px;
+    }
+    article button {
+      font-weight: bold;
+      background-color: #41a4dd;
+      color: white;
+      border-color: #41a4dd;
+      padding: 4px 16px;
+    }
+    aside a {
+      color: #41a4dd;
+      text-decoration: none;
+    }
+    aside ul {
+      list-style-type: none;
+      padding-left: 8px;
+    }
+    /* footer */
+    footer > section {
+      background-color: #c72d82;
+    }
+    /* Revisa este tipo de selector */
+
+    footer > div {
+      background-color: #9c2467;
+      color: white;
+      text-align: center;
+      font-size: 12px;
+      padding: 16px 0px;
+    }
+  </style>

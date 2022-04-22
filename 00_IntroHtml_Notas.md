@@ -823,7 +823,9 @@ _12._ Agregar los prefijos de los navegadores en propiedades que no sean estable
 
 — Un a buena practica es crear carpeta con un archivo style.CSS
 
-nos quedamos en el minuto 53:00
+— nos quedamos en el minuto 1:22:51 antes hay que colocar al ultimo archivo clases e id
+
+<!-- **BOXMODEL** -->
 
 ---
 

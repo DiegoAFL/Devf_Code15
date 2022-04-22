@@ -8,6 +8,9 @@
       margin: 0px;
     }
     /* header */
+    figure {
+        margin: 0px;
+    }
     header img {
       width: 360px;
     }

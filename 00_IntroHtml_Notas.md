@@ -823,9 +823,33 @@ _12._ Agregar los prefijos de los navegadores en propiedades que no sean estable
 
 — Un a buena practica es crear carpeta con un archivo style.CSS
 
-— nos quedamos en el minuto 1:22:51 antes hay que colocar al ultimo archivo clases e id
+**BOX- MODEL**
 
-<!-- **BOXMODEL** -->
+— Se lle llama modelo de caja por que en los navegadores todo se contruye a partir de cajas.
+
+— No exxisten elementos triangulares,redondos, poligonales,etc.
+
+— Haremos con propiedad outlines en el area de inspeccion del web browser facilitaremos la visualizacion de los borddes de la siguiente manera.
+
+_1._ Abrir un Ventana en un navegador
+_2._ Click derecho → Inspeccionar
+_3._ Posicionarte en la seccion tag → style no mejor en head hasta el final
+_4._ Click derecho → Edit HTML
+_5._ Colocar `<style> \* {outline: 1px solid red;} </style> salimos con un click al exterior
+_6._ Con esto analizas las cajas o el diseño de las paginas.
+
+Areas de modelo de caja
+
+- Cada elemento HTML es una caja que se compone de 4 ladosy se compone de 4 areas
+- Internos
+  - Content
+  - Padding
+  - Border
+- Externos
+
+  - Margin
+
+  1:28:00
 
 ---
 

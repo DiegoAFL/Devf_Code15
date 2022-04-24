@@ -835,23 +835,89 @@ _1._ Abrir un Ventana en un navegador
 _2._ Click derecho → Inspeccionar
 _3._ Posicionarte en la seccion tag → style no mejor en head hasta el final
 _4._ Click derecho → Edit HTML
-_5._ Colocar `<style> \* {outline: 1px solid red;} </style> salimos con un click al exterior
+_5._ Colocar `<style> * {outline: 1px solid red;} </style>` salimos con un click al exterior
 _6._ Con esto analizas las cajas o el diseño de las paginas.
 
 Areas de modelo de caja
 
-- Cada elemento HTML es una caja que se compone de 4 ladosy se compone de 4 areas
-- Internos
-  - Content
-  - Padding
-  - Border
-- Externos
+- Cada elemento HTML es una caja que se compone de _4_ ladosy se compone de 4 areas
+  por orden de color describiremos a que pertenecen
 
-  - Margin
+El sentido logico es **TOP** → **RIGHT** → **BOTTOM** → **LEFT**
 
-  1:28:00
+— Figure es una propiedad adicional de model box
+
+_→_ INTERNO
+
+#8CB3C0 → Content/
+
+<!-- Contenido donde aparacen texto, imagenes, etc-->
+<!-- El tamaño se puede modificar: --> height | widh | max-heigh | Max-width | Min-heigh | Min-width
+<!-- Cuando se estable la anchura o altura afecta al contenido de la caja, no a la caja completa -->
+
+#C5CB89 → Padding/
+
+<!--  distancia del borde hacia dentro-->
+<!-- Transparente , separacion o interior entre contenido y borde de la caja -->
+<!-- al seguir diendo parte visible de la caja si hay color o imagen de fondo este se extendera a travez del padding -->
+<!-- Modificaciones de padding --> padding | padding-top | padding-bottom | padding-left | padding-right
+
+#FEDB99 → Border/ con este color identificamos en el panel de inspeccion.
+
+<!-- Es la linea que rodea la caja, se utilica para una apariencia estetica a la caja -->
+<!-- Permite dibuhjar una linea de color -->
+<!-- Props basica de bordes --> border-style | border-width | border-color
+<!-- Podemos agruparla en unica propiedad --> → border ←
+
+#000000 → Linea (border)
+
+<!-- estilos de linea -->
+
+/ none / dotted / dashed / solid / double / groove / ridge / inset / outset
+
+_→_ EXTERNO
+
+#FCCE9B → Margin/
+
+<!-- Separacion entre una caja y cajas adyacentes ultima area de box model -->
+<!-- Contrario a padding al definir color o imagen de fondo, no se propaga a esta seccion -->
+<!-- Propiedades principales o modificaciones --> margin | margin-top | margin-right | margin-bottom | margin-left
+
+#000000 → Outline Linea (perimetral)
+
+<!-- Linea rodea la caja entre border y margin -->
+<!-- Traza liena fuera de bordes de elementos puede ser utilizado con fines decorativos -->
+<!-- Propiedad no pertenece a modelo de caja pero hace que elementos ganen foco, como los input, tengan ligera aura que rodea -->
+<!-- Propieades principales --> outline-style | outline-width | outline-color | outline-offset
+
+**DISPLAY** Block - Inline - Inline-block - None
+
+**-** Display (pantalla) Propiedad mas importante para controlar el diseño
+
+— Block — Contenedores, Siempre comienza en una nueva linea y ocupa todo el ancho disponible `<div>` es un elemento block
+
+— Inline — No comienza en una nueva linea y solo ocupa ancho necesario `<span>` elemento Inline, si falta espacio bajara a la siguiente linea.
+
+— Inline-Block — Block tiene abierta las propiedas de padding y margin, caso diferentea inline que se restringen top y bottom
+ahora esta propiedad de display funciona en inline con las propiedades del box model sin restriccion.
+
+← Inline direcion →
+
+↓ Block direction ↑
+
+**Como funcionan** los margins y los paddins
+
+- En el display inline podemo modificar/controlar tanto el paddin (en todas sus facetas) como el margin pero solo de izquierda a derecha.
+
+- Por otro lado en el display block podemos modificar todas la facetas tanto el padding como el margin
 
 ---
+
+`NOTAS`
+`comentarios ctrl + /`
+`panel propiedades ctrl + SpaceBar`
+
+https://www.youtube.com/watch?v=G8dtfQNQt0w
 
 ## — **2022-02-03** ———————————————————
 

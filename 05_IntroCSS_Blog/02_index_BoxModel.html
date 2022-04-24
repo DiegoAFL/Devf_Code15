@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>In line block</title>
+    <title>Box Model</title>
     <!-- <link rel="stylesheet" href="/code-15/0_IntroHtml_Inline/style.css" /> -->
     <style>
       div:not([class="divider"]) {
         background-color: orange;
         text-align: center;
         color: white;
+        /* panel de propiedades ctrl + barradeespacio */
+        font-family: "Courier New", Courier, monospace;
       }
+
       .divider {
         height: 20px;
       }
-
       /* aqui van los estilos */
       .content {
+        border-radius: 10px;
         width: 400px;
         height: 400px;
       }
@@ -25,11 +28,13 @@
         padding: 48px;
       }
       .border {
-        border: 3px solid blue;
+        border: 6px dashed #000000;
       }
       #margin {
         margin: 16px;
       }
+      /* Logica de propiedades / Grosor → Tipo → Color */
+      /* figure es una propiedad dentro del modelo de caja */
       #outline {
         outline: 3px solid rgb(2, 255, 2);
       }

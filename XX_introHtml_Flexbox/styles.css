@@ -1,34 +1,39 @@
-<!-- CSS -->
-<!-- /*-- #EDA300 - #05B9E4- #DB008D - #B00573 --*/ -->
+/* <!-- CSS --> */
+
+/* Paleta de colores */
+/*-- #EDA300 - #05B9E4- #DB008D - #B00573 --*/
 
 /* BODY */
   body {
   margin: 0px;
+  font-family: sans-serif;
 }
 /* HEADER */
-header img {
-  width: 333px;
-  margin: 15px 0px 15px 18%;
+.header {
+    
 }
-header figure {
-  margin: 0;
+header img {
+  float: left;
+  width: 300px;
+  border: 1px black solid;
 }
 /* NAV */
 nav {
   background-color: #db008d;
+  clear: both;
   text-align: left;
-  margin: 0px 0px;
   padding: 18px 0px 18px 0px;
-  padding-left: 18%;
 }
 nav a {
   color: white;
   text-decoration: none;
-  padding-right: 18px;
+  margin-right: 15px;
 }
 nav a:hover {
-  background-color: #b00573;
-  color: gray;
+  border-radius: 3px;
+  background-color: #f04fb8;
+  padding: 1.5px;
+  color: ;
 }
 /* MAIN */
 
@@ -56,7 +61,7 @@ nav a:hover {
   /* outline: red dotted; */
 }
 
-/* Titulo --------- */
+/* Titulo  */
 .Tituloarticulo {
   padding-top: 18px;
   margin-bottom: 3px;
@@ -67,14 +72,15 @@ nav a:hover {
   color: #05b9e4;
 }
 
-/* Imagen --------- */
-article img {
+/* Imagen post */
+#ImgPost {
+  float: left;
   width: 270px;
   padding: 0px 18px 1px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-/* Parrafo --------- */
+/* Parrafo  */
 main section p {
   margin-top: 0%;
   margin-right: 30px;
@@ -83,7 +89,7 @@ main section p {
   font-size: 13px;
 }
 
-/* Button --------- */
+/* Button  */
 article button {
   background-color: #05b9e4;
   border-color: #05b9e4;
@@ -98,7 +104,7 @@ article button a {
   text-decoration: none;
 }
 
-/* ASIDE --------- */
+/* ASIDE  */
 #boxaside {
   float: none;
   margin: 19.92px 0px 0px 0px;
@@ -165,5 +171,8 @@ footer a {
   font-size: 12px;
   clear: both;
   padding: 9px;
+}
+* {
+  outline: 1px solid red;
 }
 /* FIN CSS */

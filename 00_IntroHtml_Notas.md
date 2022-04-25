@@ -422,9 +422,9 @@ _→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
 
 — Iremos a web browser → Inspeccionar → Elements
 
-— `<div></div>` no hacen divisiones de contenido de manera virtual.
+— `<div></div>` nos hacen divisiones de contenido de manera virtual.
 
-— Div = Division se usa para dividir el contenido en secciones
+— Div = Division se usa para dividir el contenido en secciones (son contenedores)
 
 — La anidacion de DIV puede provocar un caos en las paginas.
 
@@ -907,7 +907,7 @@ ahora esta propiedad de display funciona en inline con las propiedades del box m
 
 **Como funcionan** los margins y los paddins
 
-- En el display inline podemo modificar/controlar tanto el paddin (en todas sus facetas) como el margin pero solo de izquierda a derecha.
+- En el display inline podemos modificar/controlar tanto el paddin (en todas sus facetas) como el margin pero solo de izquierda a derecha.
 
 - Por otro lado en el display block podemos modificar todas la facetas tanto el padding como el margin
 
@@ -917,9 +917,58 @@ ahora esta propiedad de display funciona en inline con las propiedades del box m
 `comentarios ctrl + /`
 `panel propiedades ctrl + SpaceBar`
 
-https://www.youtube.com/watch?v=G8dtfQNQt0w
-
 ## — **2022-02-03** ———————————————————
+
+**FLOAT — CLEAR — OVERFLOW**
+
+_→_ `FLOAT`
+
+- Alinea elementos
+
+- Puede Adoptar 3 valores.
+
+1. Left
+2. Right
+3. Inherit (heredado)
+4. None
+
+- Elemento que se aplica propiedad no tiene definida su anchura entonces no sera tratado como tal.
+
+- No todo los elementos son validos para usar float, los que definnen propiedades del texto (span, strong, i. b, etc)
+
+- Tampoco se usa en saltos de linea NO. Los que si soportan son divs,img, p, listas, etc.
+
+_→_ `CLEAR`
+
+- Lo elementos despues de un elemento flotante fluiran a su alrededor en caso que no quisieramos que esto pasara utilizarmeos la propiedad **CLEAR**
+
+- Valores del CLEAR:
+
+  1. None: Predeterminado, es el vale todo
+
+  2. Left: No se permiten elementos flotantes en el lado izquierdo.
+
+  3. Right: No se permiten elementos flotantes del lado derecho.
+
+  4. Both: No se permite elementois flotante a amabos lados
+
+  5. Inherit: Valor Heredado del padre
+
+  → Vamos hacer el ejercio. **01_index_FCO.html**
+
+_→_ `OVERFLOW`
+
+- Cuando usamos elementos float dentro de un contenedor este se ignora al elemento para sus altos
+
+- Si no queremos que esto pase el **clearfix** sera nuestro bffo.
+
+- Para ejecutar la props = `oaverflow: auto`
+
+- Para que cuente a los elementos flotantes en su height.
+
+_→_ `Ejercicio para blog de viaje`
+
+Notas todo contenido una buena opcion es usar unidades de porcentaje recuerda ancho y ancho maximo
 
 ---
 

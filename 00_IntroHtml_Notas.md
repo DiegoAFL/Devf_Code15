@@ -968,7 +968,15 @@ _→_ `OVERFLOW`
 
 _→_ `Ejercicio para blog de viaje`
 
+recuerda usar display e FCO para ajustar tus cuadros.
+
 Notas todo contenido una buena opcion es usar unidades de porcentaje recuerda ancho y ancho maximo
+
+**POSITION - Elemento posicionado**
+
+Normal Flow
+
+Que es un Elemento posicionado
 
 ---
 

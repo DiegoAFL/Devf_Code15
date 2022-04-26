@@ -896,7 +896,7 @@ _→_ EXTERNO
 
 — Block — Contenedores, Siempre comienza en una nueva linea y ocupa todo el ancho disponible `<div>` es un elemento block
 
-— Inline — No comienza en una nueva linea y solo ocupa ancho necesario `<span>` elemento Inline, si falta espacio bajara a la siguiente linea.
+— Inline — No comienza en una nueva linea y solo ocupa ancho necesario `<>` elemento Inline, si falta espacio bajara a la siguiente linea.
 
 — Inline-Block — Block tiene abierta las propiedas de padding y margin, caso diferentea inline que se restringen top y bottom
 ahora esta propiedad de display funciona en inline con las propiedades del box model sin restriccion.
@@ -962,7 +962,7 @@ _→_ `OVERFLOW`
 
 - Si no queremos que esto pase el **clearfix** sera nuestro bffo.
 
-- Para ejecutar la props = `oaverflow: auto`
+- Para ejecutar la props = `overflow: auto`
 
 - Para que cuente a los elementos flotantes en su height.
 
@@ -974,9 +974,56 @@ Notas todo contenido una buena opcion es usar unidades de porcentaje recuerda an
 
 **POSITION - Elemento posicionado**
 
-Normal Flow
+_→_ Relative
+
+- _Que es el flujo normal del HTML_, es el orden natural en el que los elementos aparecen en pantall, es decir, los elementos apareceran colocados tal como estan ordenados en el codigo HTML, solo si no se aplica ningun CSS que cambie la forma en la que se compartan.
+
+- Si colocamos un encabezado (en el codigo HTML) `<h1>title</h1>` y debajo un parrafo `<p>lorem...</p>` el navegador primero dibuja el encabezado y despues del parrafo y asi sucesivamente.
+
+- _Que es un elemento posicionado?_
+  Un elemento posicionado es aquel elemento que ha salido de su flujo normal a traves de la propiedad `position`, ademas adquiere nuevas propiedades.
+
+- La propiedad `position`, adquiere nuevas propiedades.
+
+- La propiedad `position` en que punto de la pagina comenzara a posicionarse, mostrarse o dibujarse el elemento que se haya establecido en el codigo HTML.
+
+- los diferentes tipos de posicionamiento son los siguientes:
+
+  - `static` (valor por defecto)
+  - `relative` (El elemento se coloca relativo al flujo normal)
+    - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
+    - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
+    - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
+    - Como lees un libro? Pues asi es la logica de propiedad.
+
+<!-- vamos a el archivo 04_index_Position.html -->
+
+- `absolute` (El elemento se coloca al especto a su contenedor posicionado mas cercano)
+  - abc
+- `fixed` (el elemento se coloca respecto al viewport)
+- `sticky` (es un combinacion entre el relative y fixed)
+
+- Al tener un elemento posicionado podemos movernos en los 3 ejes X- Y - Z
+
+  → Eje X
+
+  `right` (movel el elemento desde DER a IZQ)
+
+  `left` (mover el elemento desde IZQ a DER)
+
+  → Eje Y
+
+  `top` (mover elemento desde superiorio a Inferior)
+
+  `bottom` ( mover elemento desde superior a inferior)
+
+  → Eje Z
+
+  `z-index` cuando dos o mas elementos se solapan. podemos decidir cual aparece primero y cual por detras de el.
 
 Que es un Elemento posicionado
+
+Son como capas o layouts 1:24
 
 ---
 

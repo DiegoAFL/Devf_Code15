@@ -990,20 +990,29 @@ _→_ Relative
 - los diferentes tipos de posicionamiento son los siguientes:
 
   - `static` (valor por defecto)
+  <!--  -->
   - `relative` (El elemento se coloca relativo al flujo normal)
     - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
     - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
     - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
-    - Como lees un libro? Pues asi es la logica de propiedad.
+    - Como lees un libro? Pues asi es la logica de propiedad. arriba e izquierda o abajo y dereecha.
+    - las propiedades unicamente funcionan con los ELEMENTOS POSITION.
+    -
 
 <!-- vamos a el archivo 04_index_Position.html -->
 
 - `absolute` (El elemento se coloca al especto a su contenedor posicionado mas cercano)
-  - abc
+  - Hace que un elemenrto se coloque respecto a su contenedor posicionado cercano, si no encuentra ninguno sera respecto al viewport (toda la pantalla, es viewport.)
+  - Cuando a un elemento le colocamos el valor `absolute`, ese elemento no conserva su espacio de flujo.
+  <!--  -->
 - `fixed` (el elemento se coloca respecto al viewport)
+  - Esta caja nos permite definir la posicion en el eje z de los elementos posicionados.
+  - Acepta un valor numerico positivo o negativo, entre mas alto mayor prioridad.
+  - Pordefecto esta en auto, eso quiere decir que los ordenara en funcion de como aparezcan en el documento.
+  <!--  -->
 - `sticky` (es un combinacion entre el relative y fixed)
 
-- Al tener un elemento posicionado podemos movernos en los 3 ejes X- Y - Z
+- **POSICIONADO** Al tener un elemento posicionado podemos movernos en los 3 ejes X- Y - Z
 
   → Eje X
 
@@ -1021,9 +1030,9 @@ _→_ Relative
 
   `z-index` cuando dos o mas elementos se solapan. podemos decidir cual aparece primero y cual por detras de el.
 
-Que es un Elemento posicionado
+  - Tiene un limite de elemento.
 
-Son como capas o layouts 1:24
+    Que es un Elemento posicionado 1.26
 
 ---
 

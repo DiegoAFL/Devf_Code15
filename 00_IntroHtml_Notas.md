@@ -956,7 +956,9 @@ _→_ `CLEAR`
 
   → Vamos hacer el ejercio. **01_index_FCO.html**
 
-_→_ `OVERFLOW`
+_→_ `OVERFLOW`+
+
+- Contenedor padre si tiene hijos con `float` debemos usar `OVERFLOW`
 
 - Cuando usamos elementos float dentro de un contenedor este se ignora al elemento para sus altos
 
@@ -989,28 +991,58 @@ _→_ Relative
 
 - los diferentes tipos de posicionamiento son los siguientes:
 
+  <!--Fijo  -->
+
   - `static` (valor por defecto)
-  <!--  -->
-  - `relative` (El elemento se coloca relativo al flujo normal)
-    - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
-    - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
-    - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
-    - Como lees un libro? Pues asi es la logica de propiedad. arriba e izquierda o abajo y dereecha.
-    - las propiedades unicamente funcionan con los ELEMENTOS POSITION.
-    -
+
+    - Es una propiedad que viene por defecto
+    <!-- Comportamiento normal  -->
+
+- `relative` (El elemento se coloca relativo al flujo normal)
+  - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
+  - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
+  - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
+  - Como lees un libro? Pues asi es la logica de propiedad. arriba e izquierda o abajo y dereecha.
+  - las propiedades unicamente funcionan con los ELEMENTOS POSITION. -
 
 <!-- vamos a el archivo 04_index_Position.html -->
 
 - `absolute` (El elemento se coloca al especto a su contenedor posicionado mas cercano)
-  - Hace que un elemenrto se coloque respecto a su contenedor posicionado cercano, si no encuentra ninguno sera respecto al viewport (toda la pantalla, es viewport.)
-  - Cuando a un elemento le colocamos el valor `absolute`, ese elemento no conserva su espacio de flujo.
-  <!--  -->
+
+  - Hace que un elemento se coloque respecto a su contenedor posicionado cercano, si no encuentra ninguno sera respecto al viewport (toda la pantalla, es viewport.)
+  - Cuando a un elemento le colocamos el valor `absolute`, ese elemento no conserva su espacio de flujo (ocupa su espacio natural inline o block).
+
+<!-- vamos a el archivo 04_index_Absolute.html -->
+
 - `fixed` (el elemento se coloca respecto al viewport)
+
+  - Es de los mas comunes al disenar un sidebar, ventana de dialogo o un boton fijo en la web
+  - Hace que un elemento se coloque respecto al viewport.
+  - Elemeno con conserva su espacio de flujo
+  - Las propiedades `top` → `left` → `right` → `bottom` siempre son relativas a la ventana del navegador
+
   - Esta caja nos permite definir la posicion en el eje z de los elementos posicionados.
   - Acepta un valor numerico positivo o negativo, entre mas alto mayor prioridad.
   - Pordefecto esta en auto, eso quiere decir que los ordenara en funcion de como aparezcan en el documento.
-  <!--  -->
-- `sticky` (es un combinacion entre el relative y fixed)
+
+<!-- vamos a el archivo 03_index_Fixed.html -->
+
+- `sticky` `sticked` (es un combinacion entre el relative y fixed)
+
+  - Es un hibrido entre relativo y fijo que se activa cuando se le especifica
+  - Se usa cuando queremos que se posicione en un lugar especifico y cuando lleguemos al alemento se quede de forma fija
+  - Aca las coordenadas t,b,l,r, se usan para indicar en que lugar tendra un comportamiento diferente antes de eso se comportara de manera natural.
+  - SCROLL TO THE BOTTOM
+
+<!-- vamos a el archivo 04_index_Sticked.html -->
+
+- `Z-index`
+
+  - Esta caja nos permite definir la posicion en el eje Z de los elementos posicionados.
+  - Acepta un valor numerico, positivo o negativo, entre mas alto mayor prioridad.
+  - Por defecto esta en **auto**, eso quiere decir que los ordenara en funcion de como aparezcan en el documento.
+
+<!-- vamos a el archivo 05_index_Z-index.html -->
 
 - **POSICIONADO** Al tener un elemento posicionado podemos movernos en los 3 ejes X- Y - Z
 
@@ -1032,9 +1064,7 @@ _→_ Relative
 
   - Tiene un limite de elemento.
 
-    Que es un Elemento posicionado 1.26
-
----
+**RETO dentro de nuestro blog hacer agregar position (sticked)**
 
 ## — **2022-02-08** ———————————————————
 

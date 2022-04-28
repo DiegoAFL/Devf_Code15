@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Absolute</title>
+  </head>
+  <style>
+    /* */
+    .divider {
+      height: 200px;
+      outline: 1px dashed gray;
+    }
+    .container {
+      position: relative;
+      height: 400px;
+      width: 600;
+      outline: 1px dashed red;
+    }
+    /*  */
+    .Box1 {
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      background-color: #006e7f;
+      top: 0px;
+      /* right: 0px; */
+      /* bottom: 0px; */
+      /* left: 0px; */
+    }
+    /*  */
+    .Box2 {
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      background-color: #f8cb2e;
+      top: 0px;
+      right: 0px;
+      /* bottom: 0px; */
+      /* left: 0px; */
+    }
+    /*  */
+    .Box3 {
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      background-color: #ee5007;
+      /* top: 0px; */
+      right: 0px;
+      bottom: 0px;
+      /* left: 0px; */
+    }
+    /*  */
+    .Box4 {
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      background-color: #b22727;
+      /* top: 0px; */
+      /* right: 0px; */
+      bottom: 0px;
+      left: 0px;
+    }
+    /*  */
+    .BoxCenter {
+      /* Si el contenedor no tiene posicion(position) sus demas cajas se posicionan conforme a viewport-fit: ; */
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      background-color: #219f94;
+      /* centrar con transform se utilizar */
+      /* top: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%); */
+
+      /* Mas sencillo con margin auto */
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      /* justo aqui va el margin en auto */
+      margin: auto;
+    }
+    /*  */
+    article {
+      border: 3px dashed rgb(76, 119, 11);
+    }
+    /*  */
+    h1 {
+      position: relative;
+      /* top: 50px; */
+      /* left: 30px; */
+      border-top: 2px double rgb(255, 119, 0);
+      margin: 0;
+      background-color: rgba(214, 207, 0, 0.903);
+    }
+    /*  */
+  </style>
+  <body>
+    <div class="divider">Divider</div>
+    <!-- Contenedor con postion relative -->
+    <div class="container">
+      <!-- Caja 1 -->
+      <div class="Box1">Caja 1</div>
+      <!-- Caja 2 -->
+      <div class="Box2">Caja 2</div>
+      <!-- Caja 3 -->
+      <div class="Box3">Caja 3</div>
+      <!-- Caja 4 -->
+      <div class="Box4">Caja 4</div>
+      <!-- Caja Center -->
+      <div class="BoxCenter">Caja Centrada</div>
+    </div>
+  </body>
+</html>

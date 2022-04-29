@@ -1068,7 +1068,90 @@ _→_ Relative
 
 ## — **2022-02-08** ———————————————————
 
----
+Review CSS
+
+- Desarrollo WEb
+- Usamos Html CSS Javascript
+- Forma correcta de importar archivo CSS `<link rel="stylesheet" href="./estilos.css">`
+- Poner estilos en una clase `.hola{ color: red;}`
+- La propiedad `color-text` _NO _ me ayuda aponer color a texto por que no existe.
+- `display: grid → :flex → :none` son tipos de display excepto top no exite.
+- Forma correcta de declarar con Javascript `let a=1;`
+
+**RESPONSIVE DESIGN**
+
+El diseño que es para que se ajuste a diferentes dispositivos.
+
+1. Que es el responsive design?
+
+- a→ Antes de empezar
+- b→ Patrones
+
+2. Bases del responsive design
+
+- a→ El viewport
+- b → Diseño con porcentajes
+- c → Tamaño Maximos y minimos.
+
+3. Media Queries.
+
+**Que es?**
+
+- Acceder a internet por diferentes dispositivos diferentes pantallas y soluciones. que se vea optimo y garantice la mejor experiencia del usuario.
+
+- Diseño responsivo - responde al cambio se nota una transicion natural.
+
+- Diseño adaptativo - y Adaptativo se nota el salto de cambio.
+
+- Unidades relativas → porcentajes relativos se manejan con porcentajes. Vertical Hide.
+
+- Unidades estaticas → PX son unidades absolutas.
+
+- The FLOW → Se colapsa se contrae se mueve pero es para dimension y acomdar
+
+- Static → estatico donde no se mueve Nav bar
+
+- Recolocacion de elementos./ Como se ubican los objetos. / depende la resolucion se puede modificar la posicion de algunos elementos.
+
+  - With Breakpoints. cambia la ubicacion u y reacomodo
+  - Without Breakpoints. Modifica el tamaño.
+
+- Estrategias de diseño
+
+  - Desktop first → Empieza el diseño desde la mayor resolucion soportada. Nos guiamos desde
+
+  - Mobile First → Empezamos desde resoluciones pequeñas se puede revisar desde el inspector modo mobile. se puede girar y modificar dimensiones.
+
+- **nota** El navegador baja su rendimiento para cuidar el performance y se ve en throting
+
+**Conceptos Utiles en resp[onsive Design**
+
+- `Viewport` El area visible del navegador
+
+- Concepto introducida por apple / Leugo adoptada y desarrollada mas alla por otros /
+- Se ve de la siguiente manera: `<meta name="viewport" content="#">`
+
+- `Portrait - Landscape` Vertical u Horizontal global smarthphone orientation - Nota - _94%_ Vertical o portrait _6%_ Horizontal (landscape)
+
+**UNIDADES Y MEDIDAS EN css**
+
+- css has 2 kinds of units: Absolute & relative
+
+  - Absolute: px, pt, pc, | in, cm, mm,
+  - Relative: em, rem, ch, ex, | vw, vh, %,
+  - _rem_ → the roor element's fint size `html{font-size: 14px}` this mean `1rem = 14px` everywhere in the document
+  - _em_ the current element's font size | Heading and scroll text - these 2 elements have different values of `1em`
+  - _0_ is rthe same in all units`.h1 {margin: 0;` no need put a some unit, 0 is always the same
+
+- _in - cm - mm_ Great for print stylesheets, not so good for web
+
+- _vw - vh_ `100vw` is the viewport width `100vh`is the viewport height
+
+- **rem & em help with accessibility** `.modal { width: 20rem;}` → this sacles nicely if the user increases their browse`s default font size
+
+-
+
+- ***
 
 ## — **2022-02-09** ———————————————————
 

@@ -917,6 +917,8 @@ ahora esta propiedad de display funciona en inline con las propiedades del box m
 `comentarios ctrl + /`
 `panel propiedades ctrl + SpaceBar`
 
+---
+
 ## — **2022-02-03** ———————————————————
 
 **FLOAT — CLEAR — OVERFLOW**
@@ -1066,6 +1068,8 @@ _→_ Relative
 
 **RETO dentro de nuestro blog hacer agregar position (sticked)**
 
+---
+
 ## — **2022-02-08** ———————————————————
 
 Review CSS
@@ -1107,11 +1111,11 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 - Unidades estaticas → PX son unidades absolutas.
 
-- The FLOW → Se colapsa se contrae se mueve pero es para dimension y acomdar
+- _The FLOW_ → Se colapsa se contrae debe fluir con el desencadenamiento de otro elemento.
 
-- Static → estatico donde no se mueve Nav bar
+- _Static_ → estatico donde no se mueve Nav bar
 
-- Recolocacion de elementos./ Como se ubican los objetos. / depende la resolucion se puede modificar la posicion de algunos elementos.
+- Recolocacion\* de elementos./ Como se ubican los objetos. / depende la resolucion se puede modificar la posicion de algunos elementos.
 
   - With Breakpoints. cambia la ubicacion u y reacomodo
   - Without Breakpoints. Modifica el tamaño.
@@ -1148,6 +1152,59 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 - _vw - vh_ `100vw` is the viewport width `100vh`is the viewport height
 
 - **rem & em help with accessibility** `.modal { width: 20rem;}` → this sacles nicely if the user increases their browse`s default font size
+
+- Unidades comunes para texto
+
+  - PX → Para fijar tamaños hy espacios
+  - EM → Dependera del parentesco del elemento
+  - REM → de facil escalabilidad responsiveness suele ser equivalente a 16px
+
+- _Porcentaje_ Longitud relacionado al elemento padre
+
+- _EM_ Unidad relativa al tamaño de fuente especificada mas cercano.
+
+- _REM_ unidad relativa al tamañ de fuente especifiacda en el ancestro mas lejano (html o body)
+
+- _vw_ y _vh_ Unidad relativa porcentual con respecto al viewport
+
+- **MEDIA QUERIES**
+
+- Este modulo de CSS existe responsive design ( flexbox o grid) ya que permite adaptar la respresentacion del contenido a las caracteristicas del dispositivo.
+
+- Los breakpoints estan dentro de los mediaqueries que es lo que permitirar recolocar o redimensionar segun, los busquemos.
+
+- `@media media type and (condition) { /* regla css *}`
+
+- `@media media type and not (condicion) {/*regla CSS*}`
+
+- Se compone de una media type y una o mas condiciones
+
+- _Media Types_ Decriben la categoria general de un archivo.
+
+  - all (por defecto) - Apto para todos los dispositivos
+
+  - print - Destinado a material impreso y visualizacion de documentos en una pantalla en el modo de vista previa de impresion
+
+  - screen - Principalmente a las pantallas
+
+    -Ejemplo: @media sreen and (max-width: 768px) {}
+
+  - speech - Destinado a sintetizadores de voz
+
+- ** Con el fragmento de codigo HTML estamos indicando que el nuevo ancho de la pantalla es el **es el ancho del dispositivo\*\* por lo que el aspecto del viewport se va a adaptar consecuentemente. `device-width` (dispositivo-Ancho)
+
+<!-- Ir archivo Mediaqueries -->
+
+- **LLEGA HIROMI** Hace preguntas sobre como se sienten con los temas y pide sus dudas y necesita un update.
+
+  - Notas importantes
+  - Se hara un clon de google. / Reto / diseño responsivo se hace con desktop o mobile (mobile first a desktop first)
+  - Recuerda tu etiqueta, para que este diseño funcione.
+  - Media Q es la reglas para ajusta el distribucion y dimension
+  - La sentencia `@media screen and (max-width: 768px) { si sucede esto haz esto / if this happens do this}
+  - Todas la pantallas con un ancho inferior o igual a 768px cumplen con esta condicion.
+
+-
 
 -
 

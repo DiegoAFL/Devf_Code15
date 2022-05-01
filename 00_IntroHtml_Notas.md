@@ -1201,14 +1201,10 @@ El diseño que es para que se ajuste a diferentes dispositivos.
   - Se hara un clon de google. / Reto / diseño responsivo se hace con desktop o mobile (mobile first a desktop first)
   - Recuerda tu etiqueta, para que este diseño funcione.
   - Media Q es la reglas para ajusta el distribucion y dimension
-  - La sentencia `@media screen and (max-width: 768px) { si sucede esto haz esto / if this happens do this}
-  - Todas la pantallas con un ancho inferior o igual a 768px cumplen con esta condicion.
+  - La sentencia `@media screen and (max-width: 768px) { si sucede esto haz esto / if this happens do this}`
+  - _Todas la pantallas con un ancho inferior o igual a 768px cumplen con esta condicion._
 
 -
-
--
-
-- ***
 
 ## — **2022-02-09** ———————————————————
 

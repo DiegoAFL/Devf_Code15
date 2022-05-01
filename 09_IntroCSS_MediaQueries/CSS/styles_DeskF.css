@@ -1,0 +1,51 @@
+/* Es una buen a practica para formatos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: navy;
+}
+
+h1 {
+    color: gold
+}
+
+/* Desktop first */
+/* Aplicables a dispositivos con resolucion con width  menor de  1000px */
+/* Comenzaremos desde la distribucion de una computadora y ajustaremos a Mobile o dispositivo portatil */
+/* Tener el orden en cuenta. */
+/* @media screen and () { } */
+
+/* Resolucion Laptop grande */
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: darkcyan;
+    }
+
+    .titulo {
+        display: none;
+    }
+}
+
+/* resolucion tablet chica */
+@media screen and (max-width: 700px) {
+    body {
+        background-color: darkgreen;
+
+    }
+}
+
+/* para el ultimo rango se debe condicionar con un minimo para que funcione */
+/* PAra recobrar una condicion */
+@media screen and (max-width: 400px) and (min-width: 1px) {
+
+    body {
+        background-color: darkred;
+    }
+
+    .titulo {
+        display: block;
+    }
+}

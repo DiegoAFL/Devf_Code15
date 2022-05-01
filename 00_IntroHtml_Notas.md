@@ -1204,9 +1204,27 @@ El diseño que es para que se ajuste a diferentes dispositivos.
   - La sentencia `@media screen and (max-width: 768px) { si sucede esto haz esto / if this happens do this}`
   - _Todas la pantallas con un ancho inferior o igual a 768px cumplen con esta condicion._
 
--
+- Tener los elementos deben tener como eje si es MOBILE FIRST a DESKTOP o viceversa
+
+- DIV siempre se adapta al viewport.
+
+- **Los break points** 688px 992px 1312px → son lo BreakP comunes, para dispositivos, sin embargo estos iran modificandose.
+
+- El challenge Con estOS Break points.
+
+1. Desktop y laptop (1312) → rectangulo 3 piezas en linea, dos azules y uno naranja
+
+2. Tablet (992)→ Rectangulo 2 pzas y rectangulo naranja de bajo de los dos rectangulos azules
+
+3. Mobile (688) → 2 Rectangulo azules uno arriba de otro, al final de la linea el rectangulo naranja.
 
 ## — **2022-02-09** ———————————————————
+
+**Continuacion de curso mediaqueries**
+
+- Seguiimos con el reto que ayer en la sesion nos programaron.
+
+-
 
 ---
 

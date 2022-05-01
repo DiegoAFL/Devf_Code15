@@ -1,0 +1,39 @@
+/*DESKPTOP FIRST*/
+
+*{/*para quitar las caracteristicas del margen en el navegadpor*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cuadro{
+    background-color: rgb(69, 69, 192);
+    width: 32%;
+    height: 682px;
+    margin: 5px;
+    float:left;
+}
+.cuadro1{
+    background-color: rgb(255, 166, 1);
+    width: 32%;
+    height: 682px;
+    margin: 5px;
+    float:left;
+}
+/*tablet*/
+@media  screen and  (min-width: 700px) and (max-width: 1000px){
+    .cuadro{
+        width: 48.5%;
+        height: 400px;
+        display:inline-block;
+    }
+    .cuadro1{
+        width: 98.1%;
+        height: 240px;
+    }
+}
+/*mobile*/
+@media  screen and (max-width:699px) { /*Se aplicara a la resolucion por debajo 700*/
+    .cuadro,.cuadro1{
+        width: 100%;
+    }
+}

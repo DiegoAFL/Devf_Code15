@@ -1284,6 +1284,8 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 ## — **2022-02-10** ———————————————————
 
+- REPLIT es una aplicacion que hiromi nos aconseja
+
 ---
 
 ## — **2022-02-14** ———————————————————

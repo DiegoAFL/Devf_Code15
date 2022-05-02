@@ -7,26 +7,28 @@
 .nav {
     background-color: rgb(21, 20, 20);
     display: flex;
+    padding: .75em 0 .75em 0;
 }
 
 .nav a {
     color: white;
-    width: 60px;
+    padding-left: 1em;
+    width: 45px;
+    font-size: 13px;
     text-decoration: none;
 }
 
 .contenedor {
     display: flex;
-    flex-direction: row;
+    width: 100vw;
 }
-
 
 /* BOX - 1 */
 
 .box-1 {
     padding: 1em;
     background-color: darkgrey;
-    width: 10%;
+    width: 50%;
     height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
@@ -34,6 +36,7 @@
 
 h1 {
     padding: .5em 0 .75em 0;
+    font-size: 1.5em;
 }
 
 h3 {
@@ -47,21 +50,24 @@ h4 {
 .img1 {
     background-color: rgb(97, 97, 97);
     color: darkgrey;
+    font-size: .75em;
     padding: .5em 0 0 .5em;
+    width: 98%;
     height: 27vh;
-    width: 100%;
     justify-content: center;
 }
 
 p {
     padding: .5em 0 .5em 0;
+    font-size: .8em;
 }
 
 .img {
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(98, 97, 97);
     color: darkgrey;
+    font-size: .75em;
     padding: .5em 0 0 .5em;
-
+    width: 98%;
     height: 4.5vh;
     margin: .75em 0 .75em 0;
 }
@@ -70,10 +76,6 @@ p {
 /* BOX - 2 */
 .box-2 {
     padding: 1em;
-    background-color: darkgrey;
-    width: 70%;
-    height: 100vh;
-    display: flex;
+    background-color: rgb(225, 225, 225);
     flex-direction: column;
-    justify-content: flex-start;
 }

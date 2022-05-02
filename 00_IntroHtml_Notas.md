@@ -1218,6 +1218,8 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 3. Mobile (688) → 2 Rectangulo azules uno arriba de otro, al final de la linea el rectangulo naranja.
 
+---
+
 ## — **2022-02-09** ———————————————————
 
 **Continuacion de curso mediaqueries**
@@ -1232,9 +1234,51 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 **Pero primero iremos a flexbox**
 
--
+- FlEXBOX metodo para poner elementos a lugar especificos.
 
--
+- Diseño unidimensional de forma de fila o columna.
+
+-Flex container & Flex Items - Debe configurar la relacion padre e hijo. El padre es el contenedor flexible, y todo lo que hay dentro de el son los elementos secundarios o flexibles.
+
+- Flex Container → Flex Items.
+
+- Ejes de flexbox → Recuerden en la clase de matematicas nos enseñaron eje X e Y - Aqui no sucede bajo esta logica aqui el eje principal puede ser horizontal o vertical.
+
+- `row` / `column` / `row-reverse` / `column-reverse`
+
+- Flexible Boxes → en cada eje hay un inicio y un final. Si esta en el eje principal, la posicion inicial se denomina, inicio princip[al y si la posicion final se denomina extremo principal.
+
+- Display Flex → hay que ponerle al padre para que afecte a los elementos. Nercsitamos primero crear un contenedor flexible se hace aplicando flex en el elemento primario ahora los hijos se convertiran en elementos flexibles.
+
+- Propiedades flex-direction
+
+- Siempre que sea un hijo del contenedor adopatara los atributos flex y con las imagenes sucede lo mismo.
+
+-`flex-grow`
+
+- `flex-shrink`
+
+- `flex-flow` propiedad para mixear
+
+- `flex-basis`
+
+- `justify-content`
+
+- `flex`
+
+- `align-self`
+
+- `align-items`
+
+  - propiedad standard es stretch
+
+- `align-content`
+
+-`gap \ row-gap \ column-gap`
+
+- **https://www.samanthaming.com/ esta pagina puede ser de apoyo**
+
+  **https://css-tricks.com/snippets/css/a-guide-to-flexbox/ Otra pagina de apoyo**
 
 - ***
 

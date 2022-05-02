@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background-color: black;
+    /* hace un contenedor flexible */
+    /* acomodotodo en una fila ROW */
+    /* Se aplica a contenedor no a hijo */
+    display: flex;
+    /* Row - Row reverse - Column - Column-reverse */
+    /* flex-direction: column-reverse; */
+
+    /* Se ajustas su caja por contenido al menos que haya un ancho definido. */
+    /* Por default hace nowrap */
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+
+    height: 600px;
+
+    align-items: baseline;
+}
+
+.elemento {
+    background-color: darkorange;
+    /* width: 50px; */
+    width: 50px;
+
+}
+
+img {
+    width: 50px;
+
+}

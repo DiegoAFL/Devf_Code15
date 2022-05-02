@@ -1222,11 +1222,21 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 **Continuacion de curso mediaqueries**
 
-- Seguiimos con el reto que ayer en la sesion nos programaron.
+- Seguimos con el reto que ayer en la sesion nos programaron.
+
+- Cuando hay inline-block si se da un enter lo toma como un espacio y esto le adiciona dimensiones al espacio
+
+- Para limitar la dimension o darle un parametro utilizamos `box-sizing` y sus atributos son en funcion dela dimension (border o content)
+
+**RETO de blog de viaje**
+
+**Pero primero iremos a flexbox**
 
 -
 
----
+-
+
+- ***
 
 ## — **2022-02-10** ———————————————————
 

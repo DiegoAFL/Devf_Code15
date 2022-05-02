@@ -1,0 +1,172 @@
+<style>
+/* Paleta de colores */
+/* #B00573 */
+/* #c72d82 */
+/* #DB008D */
+/* #05B9E4 */
+/* #41a4dd */
+/* #EDA300 */
+
+
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+/* header */
+header {
+  overflow: auto;
+}
+
+/* Respuesta se coloco este selector para evitar conflicto con #logo */
+figure {
+  margin: 0px;
+}
+
+#Logo {
+  /* outline: 1px solid red; */
+  width: 300px;
+  margin: 0px;
+  padding-left: 18%;
+}
+
+/* nav */
+Nav {
+  background-color: #c72d82;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 18%;
+}
+
+/* Nav anchors */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* main */
+main section {
+  display: inline-block;
+  overflow: auto;
+  width: 50%;
+  max-width: 50%;
+  padding-left: 18%;
+
+}
+
+h2 {
+  display: block;
+  color: #41a4dd;
+  margin-top: 4.5%;
+  margin-bottom: .6%;
+}
+
+article img {
+  float: left;
+  width: 300px;
+  margin-right: .9%
+}
+
+.Parrafo {
+  outline: ;
+  text-align: justify;
+  MARGIN-top: 0px;
+}
+
+/* EL BOTON se configura la pantalla o el espacio para atribuirle un sitio o que flote dentro de este espacio */
+
+.Area-Boton {
+  display: block;
+  clear: both;
+  padding-top: .5%;
+}
+
+article button {
+  font-weight: bold;
+  background-color: #41a4dd;
+  color: white;
+  border-color: #41a4dd;
+  padding: 4px 16px;
+}
+
+/* ASIDE */
+
+aside {
+  display: inline-block;
+  float: right;
+  width: 20%;
+  max-width: 20%;
+  margin-top: auto
+}
+
+aside a {
+  color: #41a4dd;
+  text-decoration: none;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 8px;
+}
+
+/* footer */
+footer {
+  display: block;
+  clear: both;
+  margin-top: 3%;
+}
+
+footer section {
+  background-color: #c72d82;
+  color: white;
+  padding: 30px 0px 30px 0px;
+}
+
+footer h3 {
+  text-decoration: underline;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer section div {
+  width: 25%;
+}
+
+#About-Us {
+  display: inline-block;
+  padding-left: 18%;
+}
+
+#Nav-Footer {
+  display: inline-block;
+  float: right;
+  padding-right: 21%;
+}
+
+
+/* Revisa este tipo de selector */
+
+footer>div {
+  display: block;
+  clear: both;
+  background-color: #9c2467;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 16px 0px;
+}
+
+* {
+  /* outline: 1px red solid; */
+  /* outline: 3px black dashed; */
+}
+
+</style>

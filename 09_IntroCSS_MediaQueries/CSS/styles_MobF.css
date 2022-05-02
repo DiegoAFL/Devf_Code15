@@ -1,0 +1,43 @@
+/* Es una buen a practica para formatos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formato para body */
+body {
+    background-color: darkred;
+}
+
+h1 {
+    color: gold
+}
+
+/* Mobile first */
+
+/* Resolucion Tablet grande */
+/* Aplicado a dispositivos menor de 401px */
+@media screen and (min-width: 320px) {
+    body {
+        background-color: #B20600;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    body {
+        background-color: #FF0800;
+    }
+}
+
+/* resolucion tablet chica */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #BF3E39;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #FF524D;
+    }
+}

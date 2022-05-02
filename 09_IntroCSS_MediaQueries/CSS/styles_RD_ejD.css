@@ -1,0 +1,66 @@
+/* Evitar caracteristicas del margen del browser*/
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+.box-blue {
+    background-color: dodgerblue;
+    width: 33.3%;
+    /* VH view - Hight */
+    height: 100vh;
+    display: inline-block;
+    /* Etiqueta que restan el margin del tamaño real */
+    /* Usar border si el ajuste es en border y usar padding si es content */
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.box-orange {
+    background-color: white;
+    width: 33.3%;
+    height: 100vh;
+    display: inline-block;
+    /* Marca el limite de la caja en este caso el border */
+    border: 2px solid transparent`;
+    box-sizing: border-box;
+}
+
+/* MediaQueries Desktop First0 */
+
+/* Laptop */
+/* 688 */
+@media screen and (max-width: 700px) {
+    .box-blue {
+        width: 50%;
+        height: 50vh;
+    }
+
+    .box-orange {
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+
+}
+
+/* Tablet */
+/* 992 */
+@media screen and (max-width: 400px) {
+    .box-blue {
+        width: 100%;
+        height: 33.3vh;
+        display: block;
+    }
+
+    .box-orange {
+        width: 100%;
+        height: 33.3vh;
+        display: block;
+    }
+
+}
+
+
+/* 688 */

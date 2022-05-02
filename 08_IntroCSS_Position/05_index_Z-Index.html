@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Z-index</title>
+    <!--  -->
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      /* Se el estilo se duplica_ > *_ es div se fue a los siguientes div  y no al primero*/
+      div > * {
+        /* Coloquemos el tipo de -position-  aqui para que la propieda permee hacia los demas selectores */
+        /* La posicion relativa es la que nos funcionara para que se mantenga en relacion del div que la contiene */
+        position: relative;
+        width: 90px;
+        height: 90px;
+        font-weight: bold;
+        text-align: center;
+      }
+      /* este es  el  el primer div y lo usaremos de contenedor */
+      .demo {
+        width: 450px;
+        height: 450px;
+        outline: 3px dashed black;
+      }
+
+      .demo > * + * {
+        /* con esto se traslapa -20 */
+        margin-top: -20px;
+        opacity: 1;
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, 60%);
+      }
+      .box-1 {
+        top: 20px;
+        left: 50px;
+        z-index: 1;
+        background-color: pink;
+        border: 2px solid hotpink;
+      }
+      .box-2 {
+        top: 0px;
+        left: 100px;
+        /* Seis el valor minimo para colocar en Z-index */
+        z-index: 6;
+        background-color: tomato;
+        border: 2px solid orangered;
+      }
+      .box-3 {
+        left: 150px;
+        top: -20px;
+        z-index: 5;
+        background-color: wheat;
+        border: 2px solid gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="demo">
+      <div class="box-1">1</div>
+      <div class="box-2">2</div>
+      <div class="box-3">3</div>
+    </div>
+    <!--  -->
+  </body>
+</html>

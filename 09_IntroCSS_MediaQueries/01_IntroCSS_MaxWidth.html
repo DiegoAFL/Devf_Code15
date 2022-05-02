@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediaQueries -</title>
+    <style>
+      /* como actualizar margin */
+
+      body {
+        margin: 0;
+      }
+      /* .medidas-viewport {
+        background-color: green;
+        height: 50vh;
+        width: 50vw;
+    } */
+      .container {
+        background-color: wheat;
+        /* Son unidades condicionadas a el viewport*/
+        width: 75vw;
+        height: 75vh;
+      }
+      .mitad {
+        background-color: aqua;
+        /* OJO recuerda que el porcenrtaje estara relacionado de forma heredada*/
+        width: 50%;
+        height: 50%;
+      }
+      .viewport {
+        background-color: brown;
+        width: 50vw;
+        height: 50vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="medidas-viewport"></div> -->
+    <div class="container">
+      <div class="mitad"></div>
+      <div class="viewport"></div>
+    </div>
+  </body>
+</html>

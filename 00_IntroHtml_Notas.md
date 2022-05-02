@@ -924,6 +924,8 @@ ahora esta propiedad de display funciona en inline con las propiedades del box m
 `comentarios ctrl + /`
 `panel propiedades ctrl + SpaceBar`
 
+---
+
 ## — **2022-02-03** ———————————————————
 
 **FLOAT — CLEAR — OVERFLOW**
@@ -963,7 +965,9 @@ _→_ `CLEAR`
 
   → Vamos hacer el ejercio. **01_index_FCO.html**
 
-_→_ `OVERFLOW`
+_→_ `OVERFLOW`+
+
+- Contenedor padre si tiene hijos con `float` debemos usar `OVERFLOW`
 
 - Cuando usamos elementos float dentro de un contenedor este se ignora al elemento para sus altos
 
@@ -996,7 +1000,10 @@ _→_ Relative
 
 - los diferentes tipos de posicionamiento son los siguientes:
 
+  <!--Fijo  -->
+
   - `static` (valor por defecto)
+<<<<<<< HEAD
   - 
   - `relative` (El elemento se coloca relativo al flujo normal)
   
@@ -1018,8 +1025,59 @@ _→_ Relative
     - Una diferencia clave entre las posiciones `fixed` y `absolute` es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
   
 - `sticky` (es un combinacion entre el relative y fixed)
+=======
 
-- Al tener un elemento posicionado podemos movernos en los 3 ejes X- Y - Z
+    - Es una propiedad que viene por defecto
+    <!-- Comportamiento normal  -->
+
+- `relative` (El elemento se coloca relativo al flujo normal)
+  - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
+  - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
+  - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
+  - Como lees un libro? Pues asi es la logica de propiedad. arriba e izquierda o abajo y dereecha.
+  - las propiedades unicamente funcionan con los ELEMENTOS POSITION. -
+
+<!-- vamos a el archivo 04_index_Position.html -->
+
+- `absolute` (El elemento se coloca al especto a su contenedor posicionado mas cercano)
+>>>>>>> 4485246565b66e0aa31e5a3028ef983499fa5449
+
+  - Hace que un elemento se coloque respecto a su contenedor posicionado cercano, si no encuentra ninguno sera respecto al viewport (toda la pantalla, es viewport.)
+  - Cuando a un elemento le colocamos el valor `absolute`, ese elemento no conserva su espacio de flujo (ocupa su espacio natural inline o block).
+
+<!-- vamos a el archivo 04_index_Absolute.html -->
+
+- `fixed` (el elemento se coloca respecto al viewport)
+
+  - Es de los mas comunes al disenar un sidebar, ventana de dialogo o un boton fijo en la web
+  - Hace que un elemento se coloque respecto al viewport.
+  - Elemeno con conserva su espacio de flujo
+  - Las propiedades `top` → `left` → `right` → `bottom` siempre son relativas a la ventana del navegador
+
+  - Esta caja nos permite definir la posicion en el eje z de los elementos posicionados.
+  - Acepta un valor numerico positivo o negativo, entre mas alto mayor prioridad.
+  - Pordefecto esta en auto, eso quiere decir que los ordenara en funcion de como aparezcan en el documento.
+
+<!-- vamos a el archivo 03_index_Fixed.html -->
+
+- `sticky` `sticked` (es un combinacion entre el relative y fixed)
+
+  - Es un hibrido entre relativo y fijo que se activa cuando se le especifica
+  - Se usa cuando queremos que se posicione en un lugar especifico y cuando lleguemos al alemento se quede de forma fija
+  - Aca las coordenadas t,b,l,r, se usan para indicar en que lugar tendra un comportamiento diferente antes de eso se comportara de manera natural.
+  - SCROLL TO THE BOTTOM
+
+<!-- vamos a el archivo 04_index_Sticked.html -->
+
+- `Z-index`
+
+  - Esta caja nos permite definir la posicion en el eje Z de los elementos posicionados.
+  - Acepta un valor numerico, positivo o negativo, entre mas alto mayor prioridad.
+  - Por defecto esta en **auto**, eso quiere decir que los ordenara en funcion de como aparezcan en el documento.
+
+<!-- vamos a el archivo 05_index_Z-index.html -->
+
+- **POSICIONADO** Al tener un elemento posicionado podemos movernos en los 3 ejes X- Y - Z
 
   → Eje X
 
@@ -1037,21 +1095,233 @@ _→_ Relative
 
   `z-index` cuando dos o mas elementos se solapan. podemos decidir cual aparece primero y cual por detras de el.
 
-Que es un Elemento posicionado
+  - Tiene un limite de elemento.
 
-Son como capas o layouts 1:24
+**RETO dentro de nuestro blog hacer agregar position (sticked)**
 
 ---
 
 ## — **2022-02-08** ———————————————————
 
+Review CSS
+
+- Desarrollo WEb
+- Usamos Html CSS Javascript
+- Forma correcta de importar archivo CSS `<link rel="stylesheet" href="./estilos.css">`
+- Poner estilos en una clase `.hola{ color: red;}`
+- La propiedad `color-text` _NO _ me ayuda aponer color a texto por que no existe.
+- `display: grid → :flex → :none` son tipos de display excepto top no exite.
+- Forma correcta de declarar con Javascript `let a=1;`
+
+**RESPONSIVE DESIGN**
+
+El diseño que es para que se ajuste a diferentes dispositivos.
+
+1. Que es el responsive design?
+
+- a→ Antes de empezar
+- b→ Patrones
+
+2. Bases del responsive design
+
+- a→ El viewport
+- b → Diseño con porcentajes
+- c → Tamaño Maximos y minimos.
+
+3. Media Queries.
+
+**Que es?**
+
+- Acceder a internet por diferentes dispositivos diferentes pantallas y soluciones. que se vea optimo y garantice la mejor experiencia del usuario.
+
+- Diseño responsivo - responde al cambio se nota una transicion natural.
+
+- Diseño adaptativo - y Adaptativo se nota el salto de cambio.
+
+- Unidades relativas → porcentajes relativos se manejan con porcentajes. Vertical Hide.
+
+- Unidades estaticas → PX son unidades absolutas.
+
+- _The FLOW_ → Se colapsa se contrae debe fluir con el desencadenamiento de otro elemento.
+
+- _Static_ → estatico donde no se mueve Nav bar
+
+- Recolocacion\* de elementos./ Como se ubican los objetos. / depende la resolucion se puede modificar la posicion de algunos elementos.
+
+  - With Breakpoints. cambia la ubicacion u y reacomodo
+  - Without Breakpoints. Modifica el tamaño.
+
+- Estrategias de diseño
+
+  - Desktop first → Empieza el diseño desde la mayor resolucion soportada. Nos guiamos desde
+
+  - Mobile First → Empezamos desde resoluciones pequeñas se puede revisar desde el inspector modo mobile. se puede girar y modificar dimensiones.
+
+- **nota** El navegador baja su rendimiento para cuidar el performance y se ve en throting
+
+**Conceptos Utiles en resp[onsive Design**
+
+- `Viewport` El area visible del navegador
+
+- Concepto introducida por apple / Leugo adoptada y desarrollada mas alla por otros /
+- Se ve de la siguiente manera: `<meta name="viewport" content="#">`
+
+- `Portrait - Landscape` Vertical u Horizontal global smarthphone orientation - Nota - _94%_ Vertical o portrait _6%_ Horizontal (landscape)
+
+**UNIDADES Y MEDIDAS EN css**
+
+- css has 2 kinds of units: Absolute & relative
+
+  - Absolute: px, pt, pc, | in, cm, mm,
+  - Relative: em, rem, ch, ex, | vw, vh, %,
+  - _rem_ → the roor element's fint size `html{font-size: 14px}` this mean `1rem = 14px` everywhere in the document
+  - _em_ the current element's font size | Heading and scroll text - these 2 elements have different values of `1em`
+  - _0_ is rthe same in all units`.h1 {margin: 0;` no need put a some unit, 0 is always the same
+
+- _in - cm - mm_ Great for print stylesheets, not so good for web
+
+- _vw - vh_ `100vw` is the viewport width `100vh`is the viewport height
+
+- **rem & em help with accessibility** `.modal { width: 20rem;}` → this sacles nicely if the user increases their browse`s default font size
+
+- Unidades comunes para texto
+
+  - PX → Para fijar tamaños hy espacios
+  - EM → Dependera del parentesco del elemento
+  - REM → de facil escalabilidad responsiveness suele ser equivalente a 16px
+
+- _Porcentaje_ Longitud relacionado al elemento padre
+
+- _EM_ Unidad relativa al tamaño de fuente especificada mas cercano.
+
+- _REM_ unidad relativa al tamañ de fuente especifiacda en el ancestro mas lejano (html o body)
+
+- _vw_ y _vh_ Unidad relativa porcentual con respecto al viewport
+
+- **MEDIA QUERIES**
+
+- Este modulo de CSS existe responsive design ( flexbox o grid) ya que permite adaptar la respresentacion del contenido a las caracteristicas del dispositivo.
+
+- Los breakpoints estan dentro de los mediaqueries que es lo que permitirar recolocar o redimensionar segun, los busquemos.
+
+- `@media media type and (condition) { /* regla css *}`
+
+- `@media media type and not (condicion) {/*regla CSS*}`
+
+- Se compone de una media type y una o mas condiciones
+
+- _Media Types_ Decriben la categoria general de un archivo.
+
+  - all (por defecto) - Apto para todos los dispositivos
+
+  - print - Destinado a material impreso y visualizacion de documentos en una pantalla en el modo de vista previa de impresion
+
+  - screen - Principalmente a las pantallas
+
+    -Ejemplo: @media sreen and (max-width: 768px) {}
+
+  - speech - Destinado a sintetizadores de voz
+
+- ** Con el fragmento de codigo HTML estamos indicando que el nuevo ancho de la pantalla es el **es el ancho del dispositivo\*\* por lo que el aspecto del viewport se va a adaptar consecuentemente. `device-width` (dispositivo-Ancho)
+
+<!-- Ir archivo Mediaqueries -->
+
+- **LLEGA HIROMI** Hace preguntas sobre como se sienten con los temas y pide sus dudas y necesita un update.
+
+  - Notas importantes
+  - Se hara un clon de google. / Reto / diseño responsivo se hace con desktop o mobile (mobile first a desktop first)
+  - Recuerda tu etiqueta, para que este diseño funcione.
+  - Media Q es la reglas para ajusta el distribucion y dimension
+  - La sentencia `@media screen and (max-width: 768px) { si sucede esto haz esto / if this happens do this}`
+  - _Todas la pantallas con un ancho inferior o igual a 768px cumplen con esta condicion._
+
+- Tener los elementos deben tener como eje si es MOBILE FIRST a DESKTOP o viceversa
+
+- DIV siempre se adapta al viewport.
+
+- **Los break points** 688px 992px 1312px → son lo BreakP comunes, para dispositivos, sin embargo estos iran modificandose.
+
+- El challenge Con estOS Break points.
+
+1. Desktop y laptop (1312) → rectangulo 3 piezas en linea, dos azules y uno naranja
+
+2. Tablet (992)→ Rectangulo 2 pzas y rectangulo naranja de bajo de los dos rectangulos azules
+
+3. Mobile (688) → 2 Rectangulo azules uno arriba de otro, al final de la linea el rectangulo naranja.
+
 ---
 
 ## — **2022-02-09** ———————————————————
 
----
+**Continuacion de curso mediaqueries**
+
+- Seguimos con el reto que ayer en la sesion nos programaron.
+
+- Cuando hay inline-block si se da un enter lo toma como un espacio y esto le adiciona dimensiones al espacio
+
+- Para limitar la dimension o darle un parametro utilizamos `box-sizing` y sus atributos son en funcion dela dimension (border o content)
+
+**RETO de blog de viaje**
+
+**Pero primero iremos a flexbox**
+
+- FlEXBOX metodo para poner elementos a lugar especificos.
+
+- Diseño unidimensional de forma de fila o columna.
+
+-Flex container & Flex Items - Debe configurar la relacion padre e hijo. El padre es el contenedor flexible, y todo lo que hay dentro de el son los elementos secundarios o flexibles.
+
+- Flex Container → Flex Items.
+
+- Ejes de flexbox → Recuerden en la clase de matematicas nos enseñaron eje X e Y - Aqui no sucede bajo esta logica aqui el eje principal puede ser horizontal o vertical.
+
+- `row` / `column` / `row-reverse` / `column-reverse`
+
+- Flexible Boxes → en cada eje hay un inicio y un final. Si esta en el eje principal, la posicion inicial se denomina, inicio princip[al y si la posicion final se denomina extremo principal.
+
+- Display Flex → hay que ponerle al padre para que afecte a los elementos. Nercsitamos primero crear un contenedor flexible se hace aplicando flex en el elemento primario ahora los hijos se convertiran en elementos flexibles.
+
+- Propiedades flex-direction
+
+- Siempre que sea un hijo del contenedor adopatara los atributos flex y con las imagenes sucede lo mismo.
+
+-`flex-grow`
+
+- `flex-shrink`
+
+- `flex-flow` propiedad para mixear
+
+- `flex-basis`
+
+- `justify-content`
+
+- `flex`
+
+- `align-self`
+
+- `align-items`
+
+  - propiedad standard es stretch
+
+- `align-content`
+
+-`gap \ row-gap \ column-gap`
+
+- **https://www.samanthaming.com/ esta pagina puede ser de apoyo**
+
+  **https://css-tricks.com/snippets/css/a-guide-to-flexbox/ Otra pagina de apoyo**
+
+- ***
 
 ## — **2022-02-10** ———————————————————
+
+- REPLIT es una aplicacion que hiromi nos aconseja
+
+- H1 no funciona de la misma manera en section o article.
+
+- CAMBIOS
+
+
 
 ---
 

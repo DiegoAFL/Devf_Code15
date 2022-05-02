@@ -1286,6 +1286,10 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 - REPLIT es una aplicacion que hiromi nos aconseja
 
+- H1 no funciona de la misma manera en section o article.
+
+-
+
 ---
 
 ## — **2022-02-14** ———————————————————

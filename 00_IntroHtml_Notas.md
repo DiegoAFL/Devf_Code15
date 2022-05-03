@@ -1,11 +1,11 @@
 # Notas por limpiar
 
-- `CSS`  - Box Shadow - aplica una o más sombras a un elemento. 
+- `CSS` - Box Shadow - aplica una o más sombras a un elemento.
   - `offset-x` (qué tan lejos extender la sombra horizontalmente desde el elemento)
     `offset-y` (qué tan lejos extender la sombra verticalmente desde el elemento)
     `blur-radius`
     `spread-radius`
-color
+    color
 
 ---
 
@@ -1000,13 +1000,13 @@ _→_ Relative
 
 - los diferentes tipos de posicionamiento son los siguientes:
 
-  <!--Fijo  -->
+    <!--Fijo  -->
 
   - `static` (valor por defecto)
-<<<<<<< HEAD
-  - 
+    <<<<<<< HEAD
+  -
   - `relative` (El elemento se coloca relativo al flujo normal)
-  
+
     - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
     - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
     - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
@@ -1015,20 +1015,19 @@ _→_ Relative
 <!-- vamos a el archivo 04_index_Position.html -->
 
 - `absolute` (El elemento se coloca al especto a su contenedor posicionado mas cercano).
-  
+
   - Hace que un elemento se coloque respecto a su contenedor posicionado mas cercano si no se enecuntra ninguno sera respecto al viewport.
   - Cuando a un elemento le colocamos al valor absolute ese elemento no conserva su espacio de flujo.
 
 - `fixed` (el elemento se coloca respecto al viewport).
-  
-    - fixed, que es un tipo de posicionamiento absoluto que bloquea un elemento relativo a la ventana del navegador. Similar al posicionamiento absoluto, se usa con las propiedades de desplazamiento CSS y también elimina el elemento del flujo normal del documento. Otros elementos ya no "se dan cuenta" de donde se coloca, lo que puede requerir algunos ajustes de diseño en otros lugares.
-    - Una diferencia clave entre las posiciones `fixed` y `absolute` es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
-  
-- `sticky` (es un combinacion entre el relative y fixed)
-=======
 
-    - Es una propiedad que viene por defecto
-    <!-- Comportamiento normal  -->
+  - fixed, que es un tipo de posicionamiento absoluto que bloquea un elemento relativo a la ventana del navegador. Similar al posicionamiento absoluto, se usa con las propiedades de desplazamiento CSS y también elimina el elemento del flujo normal del documento. Otros elementos ya no "se dan cuenta" de donde se coloca, lo que puede requerir algunos ajustes de diseño en otros lugares.
+  - Una diferencia clave entre las posiciones `fixed` y `absolute` es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
+
+- # `sticky` (es un combinacion entre el relative y fixed)
+
+      - Es una propiedad que viene por defecto
+      <!-- Comportamiento normal  -->
 
 - `relative` (El elemento se coloca relativo al flujo normal)
   - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
@@ -1040,7 +1039,8 @@ _→_ Relative
 <!-- vamos a el archivo 04_index_Position.html -->
 
 - `absolute` (El elemento se coloca al especto a su contenedor posicionado mas cercano)
->>>>>>> 4485246565b66e0aa31e5a3028ef983499fa5449
+
+  > > > > > > > 4485246565b66e0aa31e5a3028ef983499fa5449
 
   - Hace que un elemento se coloque respecto a su contenedor posicionado cercano, si no encuentra ninguno sera respecto al viewport (toda la pantalla, es viewport.)
   - Cuando a un elemento le colocamos el valor `absolute`, ese elemento no conserva su espacio de flujo (ocupa su espacio natural inline o block).
@@ -1321,7 +1321,17 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 - CAMBIOS
 
-    
+- Terminar Blog del viaje con
+  1. Flexbox
+  2. Mediaqueries
+  3. Position
+  4. FCO
+  5. Display
+  6. Box Model
+  7. Formulario
+  8. Semanticas
+
+A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con pexels
 
 ---
 

@@ -1,4 +1,3 @@
-<style>
 /* Paleta de colores */
 /* #B00573 */
 /* #c72d82 */
@@ -8,29 +7,19 @@
 /* #EDA300 */
 
 
-html {
-  margin: 0px;
-}
-
-body {
+* {
   margin: 0px;
   font-family: sans-serif;
 }
 
-/* header */
+/* h e a d e r */
 header {
   overflow: auto;
-}
-
-/* Respuesta se coloco este selector para evitar conflicto con #logo */
-figure {
-  margin: 0px;
 }
 
 #Logo {
   /* outline: 1px solid red; */
   width: 300px;
-  margin: 0px;
   padding-left: 18%;
 }
 
@@ -38,9 +27,7 @@ figure {
 Nav {
   background-color: #c72d82;
   text-align: left;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 18%;
+  padding: 1em 0 18%;
 }
 
 /* Nav anchors */
@@ -154,7 +141,7 @@ footer section div {
 
 /* Revisa este tipo de selector */
 
-footer>div {
+footer>article {
   display: block;
   clear: both;
   background-color: #9c2467;
@@ -168,5 +155,3 @@ footer>div {
   /* outline: 1px red solid; */
   /* outline: 3px black dashed; */
 }
-
-</style>

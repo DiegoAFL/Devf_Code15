@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viaje - El blog</title>
-    <link rel="stylesheet" href="/07_IntroCSS_FCO/css/styles.css" />
+    <link rel="stylesheet" href="/11_Blog_MediaQueries/css/sheet_styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
   </head>
-
+  <!-- B O D Y -->
   <body>
+    <!-- H E A D E R -->
     <header>
       <figure>
-        <img id="Logo" src="/00_Recursos/BV_logo.png" alt="Blog de Viaje" />
+        <img id="logo" src="/00_Recursos/BV_logo.png" alt="Blog de Viaje" />
       </figure>
     </header>
-    <!-- Seccion Navegacion -->
-    <nav id="NavMain">
-      <a href="#">Inicio</a>
-      <a href="#">Nosotros</a>
-      <a href="#">Blog</a>
-      <a href="#">Tienda</a>
-      <a href="#">Contacto</a>
+    <!-- N A V - M A I N -->
+    <nav class="NavMain">
+      <div id="nav">
+        <a class="NavMain" href="#">Inicio</a>
+        <a class="NavMain" href="#">Nosotros</a>
+        <a class="NavMain" href="#">Blog</a>
+        <a class="NavMain" href="#">Tienda</a>
+        <a class="NavMain" href="#">Contacto</a>
+      </div>
     </nav>
+    <!-- M A I N -->
     <main>
       <section>
         <!-- Article de Londres lleva Titulo/ Imagen /P contenido/ Button con link indefinido CTA -->
@@ -105,13 +112,13 @@
         </article>
       </section>
       <!-- A S I D E -->
-      <aside id="Nav-Aside">
+      <aside id="NavAside">
         <h2>Otros Post</h2>
-        <ul>
-          <li><a href="#">Entrada 1</a></li>
-          <li><a href="#">Entrada 2</a></li>
-          <li><a href="#">Entrada 3</a></li>
-          <li><a href="#">Entrada 4</a></li>
+        <ul class="ulNAv">
+          <li><a class="ulNAv" href="#">Entrada 1</a></li>
+          <li><a class="ulNAv" href="#">Entrada 2</a></li>
+          <li><a class="ulNAv" href="#">Entrada 3</a></li>
+          <li><a class="ulNAv" href="#">Entrada 4</a></li>
         </ul>
       </aside>
     </main>

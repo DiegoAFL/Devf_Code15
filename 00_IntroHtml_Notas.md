@@ -1337,6 +1337,12 @@ A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con 
 
 ## — **2022-02-14** ———————————————————
 
+- Una carpeta fuera de mi repositorio actual.
+
+- Hacer un repositorio remoto y conectarlo con mi repositorio local.
+
+-
+
 --
 
 ## — **2022-02-15** ———————————————————

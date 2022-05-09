@@ -141,18 +141,28 @@ footer {
     display: flexbox;
 }
 
-h3 {
+footer section {
+    background-color: #DB008D;
+    overflow: auto;
+    width: 100%;
+}
+
+.NavFooter {
+    background-color: #EDA300;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.NavFooter h3 {
+    text-align: right;
     background-color: transparent;
     margin-bottom: .6em;
     font-size: medium;
     margin-top: 3em;
 }
 
-footer section {
-    background-color: #DB008D;
-    overflow: auto;
-    width: 100%;
-}
 
 footer #About-Us {
     background-color: orangered;
@@ -165,20 +175,12 @@ footer #About-Us {
     line-height: 1.8em;
 }
 
-.NavFooter {
-    background-color: #EDA300;
-    box-sizing: border-box;
-    width: 30%;
-    height: 100%;
-    float: right;
-    text-align: right;
-}
 
 .NavFooter a {
     color: white;
+    padding: 0 8% 0 0;
     font-size: .8em;
     text-decoration: none;
-    padding: 0 0x;
 }
 
 .NavFooter a:hover {
@@ -191,5 +193,7 @@ footer #Legal-Print {
     background-color: #B00573;
     height: 6vw;
     padding: 2% 0;
+    font-size: small;
+    font-weight: 600;
     text-align: center;
 }

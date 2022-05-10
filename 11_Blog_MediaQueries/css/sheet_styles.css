@@ -42,7 +42,6 @@ nav {
     justify-content: space-between;
 }
 
-
 nav a {
     color: white;
     border: transparent solid .2em;
@@ -76,8 +75,7 @@ h2 {
 }
 
 main section {
-    background-color: chartreuse;
-    width: 66%;
+    width: 63%;
 }
 
 article img {
@@ -111,8 +109,9 @@ main button:hover {
 }
 
 /* A S I D E - - - */
+
 aside {
-    padding-left: 8%;
+    padding-left: 3em;
     line-height: 1.8em;
 }
 
@@ -143,56 +142,53 @@ footer {
 
 footer section {
     background-color: #DB008D;
+    padding: 3% 0;
     overflow: auto;
     width: 100%;
 }
 
-.NavFooter {
-    background-color: #EDA300;
-    box-sizing: border-box;
-    width: 30%;
-    height: 100%;
-    float: right;
-}
-
-.NavFooter h3 {
-    text-align: right;
+footer section h3 {
     background-color: transparent;
-    margin-bottom: .6em;
+    margin-bottom: 1vh;
     font-size: medium;
-    margin-top: 3em;
+    margin-top: 1vh;
 }
-
 
 footer #About-Us {
-    background-color: orangered;
     padding-left: 12%;
     text-align: justify;
     width: 333px;
-    height: 30vh;
     float: left;
     font-size: .75em;
     line-height: 1.8em;
 }
 
-
-.NavFooter a {
-    color: white;
-    padding: 0 8% 0 0;
-    font-size: .8em;
-    text-decoration: none;
+#nav-footer {
+    padding-left: 3em;
+    box-sizing: border-box;
+    width: 33%;
+    height: 100%;
+    float: right;
 }
 
-.NavFooter a:hover {
+footer article a {
+    /* background-color: forestgreen; */
+    font-size: small;
+    color: white;
+}
+
+footer a:hover {
     background-color: #41a4dd;
     width: min-content;
     border-radius: 3px;
 }
 
+/*  P I E   D E   P A G I N A  */
+
 footer #Legal-Print {
     background-color: #B00573;
-    height: 6vw;
-    padding: 2% 0;
+    /* height: 6vh; */
+    padding: 1.8% 0;
     font-size: small;
     font-weight: 600;
     text-align: center;

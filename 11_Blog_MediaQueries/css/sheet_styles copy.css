@@ -1,0 +1,91 @@
+/* Paleta de colores - - - */
+/* #B00573 */
+/* #c72d82 */
+/* #DB008D */
+/* #05B9E4 */
+/* #41a4dd */
+/* #EDA300 */
+/* #9DC0BC */
+/* #00bd9d */
+/* #1B998B */
+/* #ffc145 */
+/* #B8B8D1 */
+
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    /* font-family: Helvetica, sans-serif; */
+}
+
+/* F O O T E R */
+
+footer {
+    background-color: #DB008D;
+    color: white;
+    margin-top: 3em;
+    width: 100vw;
+    display: flex;
+    display: inline-block;
+}
+
+#aboutUs {
+    /* background-color: cadetblue; */
+    padding: 1.5% 0 1.5% 12%;
+    display: flex;
+}
+
+footer h3 {
+    font-size: medium;
+    margin-bottom: 1.5vh;
+}
+
+footer article {
+    width: 88vw;
+    /* width: 26.355vw; */
+    text-align: justify;
+    font-size: .8em;
+}
+
+footer .parrafo {
+    background-color: gray;
+    width: 26.355vw;
+    text-align: justify;
+}
+
+#navFooter {
+    float: right;
+    margin: 0 0 0 vw;
+    /* font-size: .75em; */
+    /* line-height: 1.8em; */
+}
+
+#nav-footer {
+    /* padding-left: 3em; */
+    /* box-sizing: border-box; */
+    /* width: 33%; */
+    /* height: 100%; */
+    /* float: right; */
+}
+
+footer article a {
+    /* font-size: small; */
+    /* color: white; */
+}
+
+footer a:hover {
+    /* background-color: #41a4dd; */
+    /* width: min-content; */
+    /* border-radius: 3px; */
+}
+
+/*  P I E   D E   P A G I N A  */
+
+footer #Legal-Print {
+    background-color: #B00573;
+    /* height: 6vh; */
+    /* padding: 1.8% 0; */
+    /* font-size: small; */
+    /* font-weight: 600; */
+    text-align: center;
+}

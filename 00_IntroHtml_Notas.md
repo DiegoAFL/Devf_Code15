@@ -1271,7 +1271,7 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 -Flex container & Flex Items - Debe configurar la relacion padre e hijo. El padre es el contenedor flexible, y todo lo que hay dentro de el son los elementos secundarios o flexibles.
 
-- Flex Container → Flex Items.
+- Flex Container(padre) → Flex Items.(hijos)
 
 - Ejes de flexbox → Recuerden en la clase de matematicas nos enseñaron eje X e Y - Aqui no sucede bajo esta logica aqui el eje principal puede ser horizontal o vertical.
 
@@ -1307,9 +1307,13 @@ El diseño que es para que se ajuste a diferentes dispositivos.
 
 -`gap \ row-gap \ column-gap`
 
-- **https://www.samanthaming.com/ esta pagina puede ser de apoyo**
+- **https://www.samanthaming.com/**
 
-  **https://css-tricks.com/snippets/css/a-guide-to-flexbox/ Otra pagina de apoyo**
+Esta pagina puede ser de apoyo\*\*
+
+**https://css-tricks.com/snippets/css/a-guide-to-flexbox/**
+
+Otra pagina de apoyo\*\*
 
 - ***
 
@@ -1341,9 +1345,7 @@ A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con 
 
 - Hacer un repositorio remoto y conectarlo con mi repositorio local.
 
--
-
---
+---
 
 ## — **2022-02-15** ———————————————————
 

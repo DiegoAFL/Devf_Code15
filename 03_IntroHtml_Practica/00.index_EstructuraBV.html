@@ -5,14 +5,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Estructura y Semantica</title>
   <style>
+    * {
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      /* box-sizing: border-box; */
+      /* box-sizing: content-box; */
+    }
     header {
-      border-style: solid;
-      border-color: crimson;
+      background-color: lightblue;
+      padding: 18px;
+    }
+    nav {
+      background-color: blue;
+      color: aliceblue;
+      padding: 18px;
+    }
+    main {
+      background-color: cadetblue;
+      color: black;
+      width: auto;
+      padding: 18px;
+      overflow: auto;
+    }
+    section {
+      background-color: burlywood;
+      padding: 18px;
+      margin-top: 18px;
+      float: left;
+      width: 50%;
+    }
+    article {
+      background-color: sienna;
+      padding: 18px;
+      margin-top: 18px;
+      float: left;
+      width: 50%;
+    }
+    aside {
+      background-color: peru;
+      margin-top: 18px;
+      float: right;
+      width: 18em;
+      height: 8em;
+    }
+    figcaption {
+      background-color: yellowgreen;
+      padding: 18px;
+    }
+    figure {
+      background-color: teal;
+      color: aliceblue;
+      padding: 18px;
+    }
+    div {
+      border: 3px green dashed;
+      margin-top: 9px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+    }
+    mark {
+      color: teal;
+      margin-top: 18px;
+      padding: 18px 0;
+    }
+    time {
+      background-color: slategray;
+      margin-top: 18px;
+      padding: 18px 0;
+    }
+    details {
+      background-color: cadetblue;
+      margin-top: 18px;
+    }
+    summary {
+      background-color: orangered;
+      padding: 18px;
+    }
+    footer {
+      background-color: goldenrod;
+      padding: 18px;
     }
   </style>
 
   <body>
-    <header>header</header>
+    <!-- header -->
+    <header>Header</header>
+    <!-- Nav -->
+    <nav>Nav</nav>
+    <!-- main -->
+    <main>
+      Main
+      <br />
+      <section>Section | Seccion</section>
+      <aside>Aside | A un lado</aside>
+      <article>Article | Article</article>
+    </main>
+    <!-- More tag -->
+    <figcaption>FigCaption | Pie de Figura</figcaption>
+    <figure>F i g u r e | Dibuja</figure>
+    <footer>
+      F o o t e r | P i e
+      <div>
+        Div →
+        <mark>M a r k | Marcado</mark>
+      </div>
+      <div>
+        Div →
+        <time>Time</time>
+      </div>
+      <div>
+        Div →
+        <details>1 2 3</details>
+        <details>1 2 3</details>
+        <details>1 2 3</details>
+      </div>
+      <br />
+      <summary>S u m m a r y | R e s u m e n</summary>
+    </footer>
 
     <!-- Continuar con ejercicio -->
   </body>

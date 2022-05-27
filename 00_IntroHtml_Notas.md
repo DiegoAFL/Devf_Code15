@@ -551,13 +551,13 @@ _-_ Method get
 
 _-_ Botón tipo summit con nombre enviar
 
-_-_ Haremos <input > haremos la básica de texto pero hay varios por aprender ponerle name es para identificarlo y además le pondremos un id este debe ser único no se repite name y id pueden ser iguales pero atraves de los demás apartados de código id no se debe repetir
+_-_ Haremos `<input>` haremos la básica de texto pero hay varios por aprender ponerle name es para identificarlo y además le pondremos un id este debe ser único no se repite name y id pueden ser iguales pero atraves de los demás apartados de código id no se debe repetir
 
 _-_ Si nos fijamos en el web browser, se ven las acciones → _url_ ahora de accionar
 
 _-_ Los input aceptan cierto tipo de información hay algunos que aceptan texto o números.
 
-_-_ _Method post_ Revisamos en (antes de ejecutar para que lo detecte) → Inspeccionar → Nertwork → pestaña _Name_ verificamos hacia donde dirige el _action_ del <form> que buscamos → _Payload_ y encontramos debajo toda la informacion enviada (verificar mas informacion adelante)
+_-_ _Method post_ Revisamos en (antes de ejecutar para que lo detecte) → Inspeccionar → Nertwork → pestaña _Name_ verificamos hacia donde dirige el _action_ del `<form>` que buscamos → _Payload_ y encontramos debajo toda la informacion enviada (verificar mas informacion adelante)
 
 _-_ El Input email debe estaren este apartado con el atributo `method="post"`
 
@@ -565,9 +565,11 @@ _-_ El formulario de `tipo Get` se mira como en la Url aprecia la concatenación
 
 _-_ El formulario de `tipo post` Se esconde la informaciona a enviar pero se puede ver en la consola network → `payload`
 
-_-_ <Labels> etiqueta como su nombre lo dice al input
+_-_ `<Labels>` etiqueta como su nombre lo dice al input
 
-_-_ <Input>hay varios tipos y llevan _etiqueta de cierre_:
+_-_ `<Input>`hay varios tipos y llevan _etiqueta de cierre_:
+
+---
 
 <input type="button">
 
@@ -612,6 +614,8 @@ _-_ <Input>hay varios tipos y llevan _etiqueta de cierre_:
 <input type="url">
 
 <input type="week">
+
+---
 
 _-_ Y todas esta eiquetas estan en el archivo: 00.Index_Form.01.html
 

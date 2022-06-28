@@ -103,6 +103,11 @@ cuando se instale git se tendra que dar de alta estos datos.
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
+Comprobar tu direccion URL
+
+git ls-remote
+
+
 ```
 
 ### Como conectar repositorio remoto con local pasos

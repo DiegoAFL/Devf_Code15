@@ -1,179 +1,8 @@
-# Notas por limpiar
-
-- `CSS` - Box Shadow - aplica una o más sombras a un elemento.
-  - `offset-x` (qué tan lejos extender la sombra horizontalmente desde el elemento)
-    `offset-y` (qué tan lejos extender la sombra verticalmente desde el elemento)
-    `blur-radius`
-    `spread-radius`
-    color
-
----
-
-```html
-<!-- Los Formularios inician con -->
-<form></form>
-<!-- Todos su atributos son opcionales Pero es practica standard Establecer primero al menos  -->
-primero action="" method=""
-
-<!-- Elementos comunes en formulario -->
-<input type="text" />
-<textarea name="" id="" cols="30" rows="10"></textarea>
-<select name="" id=""></select>
-<label for=""></label>
-
-para funcionar todo esto necesito un submmit.
-```
-
-```html
-<br />
-
-<br />
-```
-
----
-
-Lista de LINKS que van a ocupar al final de la clase para la ultima práctica: El
-elemento HTML <input /> se usa para crear controles interactivos para
-formularios basados en web para aceptar datos del usuario; Hay disponible una
-amplia variedad de tipos de datos de entrada y widgets de control, según el
-dispositivo y el agente de usuario. El elemento <input /> es uno de los más
-potentes y complejos de todo HTML debido a la gran cantidad de combinaciones de
-tipos de entrada y atributos.
-
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
-<!-- https://www.w3schools.com/tags/tag_input.asp -->
-<!-- https://www.w3schools.com/tags/tag_select.asp -->
-<!-- https://www.w3schools.com/tags/tag_textarea.asp -->
-
----
-
-### Selectores _CSS_
-
-<!-- https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors#tabla_de_referencia_de_selectores -->
-
-Free code Camp / Learn /Usuario con Github
-
-CSS
-Herencia esppecificidad y cascada
-
-Selector / declaracion / propiedad / valor asi esta armada una sentencia de CSS
-
-Dimension comunes es Porcentaje aunque se llega a dar la unidad pixel
-
-selector identifican elementos para luego dar propiedades CSS
-Tipos de selectores comunes son 3
-TIPO <div> </div>
-CLASE <div class="clase"> </div>
-ID <div id="id"></div>
-
-tag tipo p {  
-punto clase .p {
-hashtag id #p #p {
-
-Se escribe el codigo en HEAD antes de BODY
-CSS propiedad  
- Text-align: "center"
-"left"
-"right"
-
-padding
-margin
-div
-Border color
-border style
-
-Links a:link ejemplo es un link sin visitar
-text-decoration
-
-ordena TU CSS.
-
-Combinar tus elementos.
-
-Utilizar selectores descendientes.
-
-utilizar propiedades abrev.
-
-Nombers descriptivos en los selectores.
-
-Prueba diseno en los navegadores.
-
-<!-- Martes 8 de febrero -->
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Media Queries</title>
-    <style>
-      body {
-        margin: 0;
-      }
-      /*.medidas-viewport {
-        background-color: green;
-        height: 50vh;
-        width: 50vw;
-}*/
-      .container {
-        background-color: wheat;
-        height: 75vh;
-        width: 75vw;
-      }
-      .mitad {
-        height: 50%;
-        width: 50%;
-        background-color: aqua;
-      }
-      .viewport {
-        height: 25vh;
-        width: 100vw;
-        background-color: brown;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- <div class="medidas-viewport"></div> -->
-    <div class="container">
-      <div class="mitad"></div>
-      <div class="viewport"></div>
-    </div>
-  </body>
-</html>
-
----
-
-Float Clear overflow
-
---> FLOAT
-sirve para alinear un elemento con 3 valores left/right/inherit/none en sentido horizontal
-Si el elemento no tiene una ancho definido implicita o explicita (<divs>, <img>, <p>, <listas> etc.)
-RESTRICCIONES FLOTA / Los que tengan propiedad de texto
-<span> </span>
-<strong>
-
-Los elementos despues de un elemento con FLOAT fluiran alrededor. en caso que no quisieramos que esto pase usamos la propiedad Clear
-
--->CLEAR
-none / predeterminado , vale todo
-Left / Restriccion FLOAT side left
-right / Restriccion FLOAT side right
-both / Restriccion FLOAT both sides
-inherit / Valor heredado del padre
-
--->OVERFLOW
-Si usamos elementos float dentro de un contenedor este se ignora al elemento para sus alto.
-ClearFIX se habilita con overflow: auto; que cuenta los elementos flotantes en su height.
-
-Nota 1
-cuando los hijo sel contenedor tienen un FLOAT se usara un OVERFLOW
-
-POSITION
-Como
-
-# **NOTAS DEVF** ———————————————————
+# **DEVF INTRO HTML**
 
 ## — **2022-01-26** ———————————————————
+
+---
 
 Introduccion
 
@@ -205,9 +34,7 @@ Slack comunicacion / Katas / _instalar VSC_
 
 VSC - Puedes arrastrar un archivo al icono de VSC para poder abrir.
 
-Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.
-
----
+## Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.
 
 ## — **2022-01-27** ———————————————————
 
@@ -251,7 +78,7 @@ En hostinger puedo encontrar palabras clave= comandos linux terminal 34 basicos.
 
 — `grep` `find` `Locate` Quieres seber como buscar un archivo con estos comandos.
 
-#### **Git & Github**
+### **Git & Github**
 
 — Historial de versiones, git nos permite llevar un control de versiones git es el programa que nos puede ayudar con esto.
 instalar git, se puede hacer de la siguiente manera
@@ -312,7 +139,7 @@ Se puede inicializar carpeta sin la ayuda de la terminal selecciona carpeta y cl
 
 → 5. Recuerda leer y verificar cuando te diga quien eres `$ git config --global user.name "username"`→`$ git config --global user.email user@example.com`
 
-Etapas de git = es importante entender esta logica pues nos ayudar a ubicar el status de nuestro trabajo.
+_Etapas de git_ / Es importante entender esta logica ayuda a ubicar el status de nuestro trabajo.
 
 _working directory_ **→** `git add` → _staging area (index)_ **→** `git commit` → _Repository (local) (se ubica en head)_
 
@@ -324,7 +151,11 @@ _working directory_ **→** `git add` → _staging area (index)_ **→** `git co
 
 ---
 
-## — **2022-01-28** ———————————————————
+# — **2022-01-28** ———————————————————
+
+---
+
+Agrega otra línea para continuar con el texto normal en párrafo.
 
 _git_ - Es un controlador de versiones recuerdalo.
 
@@ -332,7 +163,7 @@ _github_ - Plataforma en nube que alamacena y gestiona nuestro repositorio local
 
 pasos para subir mi repositorio local a repositorio remoto una vez modificado
 
-→ 0. Nos ubicamos en carpeta conectada con github y save en VSC
+0.  Nos ubicamos en carpeta conectada con github y save en VSC
 
 → 1. `$ git add .` o `$ git add <nameArch>`
 
@@ -341,6 +172,8 @@ pasos para subir mi repositorio local a repositorio remoto una vez modificado
 → 3. `$ git commit -m "mensaje"`
 
 → 4. `$ git push origin main`
+
+---
 
 Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
@@ -362,11 +195,13 @@ Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
 **→** Se toco el temas de etiquetas en HTML → si son etiquetas con apertura y cierre
 
-**→** Los atributos son muy importantes en algunas etiquetas, pueden ser obligatorias en unas y opcionales en otras, tambien adicionar alguna ejecucion.
+**→** Los atributos son muy importantes algunas obligatorias u opcionales, tambien se agregan algunas ejecuciones extras.
 
 **→** VAMOS A CREAR UN SITIO WEB - Blog de viajes - Con media queries o diseno responsivo
 
 ---
+
+EJERCICIO
 
 — *Ver en*→ /02_IntroHtml_Ej.01 **ejercicio en html**
 
@@ -391,7 +226,9 @@ _5._ Utilizar etq <a> para ir a una pagina llamada contacto.html
 
 ---
 
-## — **2022-02-01** ———————————————————
+# — **2022-02-01** ———————————————————
+
+---
 
 - INTRO A LA WEB / Recap git y github glosario intro
 
@@ -421,7 +258,7 @@ _→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
 
 3.  Ahora vamos a git hub para crear una rama nueva vamos a repositorio remoto → code → Main → Despliegue → Nombrar rama _verificar los permisos_
 
-4.  Ahora nos ensena a hacer un _pull request_ a repositorio remoto desde nuestro local.
+4.  APRENDAMOS _pull request_ a repositorio remoto desde nuestro REPO local.
 
 ---
 
@@ -436,6 +273,8 @@ _→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
 — La anidacion de DIV puede provocar un caos en las paginas.
 
 — _Elemento semantico_ da significado a navegador, motor de busqueda, desarrollador, determina el contexto de contenido web.
+
+---
 
 **Estas son etiquetas semanticas (es mejor que usar solo divs)**
 
@@ -483,25 +322,31 @@ _→_ `ctrl + shft + p` Para abrir comando y teclear loremp ipsum
 <!-- Pie de pagina / notas legales / Agradecimientos / Site map -->
 ```
 
-**Lista de PLUGGINS que pueden instalar a VISUAL STUDIO CODE**
+---
 
-auto close tag
-git lens
-prettier
-lorem ipsum
-Live server
+**LISTA DE PLUGGINS que pueden instalar a VISUAL STUDIO CODE**
 
-**Ejercicio** (ir a archivo)[/03_IntroHtml_Practica]
+> - auto close tag
+> - git lens
+> - prettier
+> - lorem ipsum
+> - Live server
+
+---
+
+**EJERCICIO FORM** (ir a archivo) - [/03_IntroHtml_Practica]
 
 Para hacer este ejercicio en devf se realizo una rama (div clases) el cual no se realizo.
 
-_→_ Estructurar bosquejo para el proximo proyecrto.
+_→_ Estructurar bosquejo para el proximo PROYECTO.
 
 _→_ Hacer un archivo coloreando backgrounds o colocar contornos.
 
-**Formularios** introduccion para
+---
 
-Todos los formularios comienzan comienzan con un `<form></form>`
+**FORMULARIOS** - introduccion
+
+Todo formulario comienza con `<form> </form>`
 
 ```html
 <form action="/myhandking-form-page" method="post">aqui va otra etiqueta</form>
@@ -513,7 +358,7 @@ _→_ Los elementos comunes en un formulario son _input_, _textarea_, _select_ y
 
 _→_ Action nos dice a que pagina vamos a enviar formulario server o etc.
 
-_→_ Method en que tipo de metodo se envia esta informacion. `get` o `post
+_→_ Method en que tipo de metodo se envia esta informacion. `get` o `post`
 
 _→_ `get` Cuando lo enviamos se envia directo de la URL es visible para un usuario.
 
@@ -535,23 +380,25 @@ _→_ No todos los que hacen PR tienen autorizacion para para ejecutarlos hay fo
 
 Formulario es la interacción que tenemos con los usuarios hay que dominarlo y es un ingreso de datos
 
-_1._ Inicia con <form> que activa el espacio de los formularios y dentro debe ir un INPUT y es por una funcion en especifico.
+_1._ Inicia con `<form>` que activa el espacio de los formularios y dentro debe ir un `INPUT` y es por una funcion en especifico.
 
-_2._ <Method> son get y post
+_2._ `<Method>` son get y post
 
-_3._ <Action>
+_3._ `<Action>`
 
-_4._ Un _form_ funciona con botón tipo `submit`
+_4._ Un `<form>` funciona con botón tipo `submit`
 
-**Ejercicio** (ir a archivo)[/00.Index_Form.01.html]
+---
+
+**EJERCICIO** → [/00.Index_Form.01.html]
 
 _-_ Empecemos con form → action hacemos una url nos enviará a contacto →
 
 _-_ Method get
 
-_-_ Botón tipo summit con nombre enviar
+_-_ Botón tipo suBMit con nombre enviar
 
-_-_ Haremos `<input>` haremos la básica de texto pero hay varios por aprender ponerle name es para identificarlo y además le pondremos un id este debe ser único no se repite name y id pueden ser iguales pero atraves de los demás apartados de código id no se debe repetir
+_-_ `<input>` usemosla para hacer un cuadro de texto pero hay varios por aprender ponerle name es para identificarlo y además le pondremos un id este debe ser único no se repite name y id pueden ser iguales pero atraves de los demás apartados de código id no se debe repetir
 
 _-_ Si nos fijamos en el web browser, se ven las acciones → _url_ ahora de accionar
 
@@ -619,7 +466,9 @@ _-_ `<Input>`hay varios tipos y llevan _etiqueta de cierre_:
 
 _-_ Y todas esta eiquetas estan en el archivo: 00.Index_Form.01.html
 
-**CSS HOJAS DE ESTILOS EN CASCADA**
+# **CSS**
+
+## HOJAS DE ESTILOS EN CASCADA
 
 Parte de un concepto simple y muy potente: aplicar estilos (colores, fcormas, margenes, etc ...) a **uno o varios documentos**.
 sin CSS una pagina web seria un simple documento de texto.
@@ -823,6 +672,18 @@ _12._ Agregar los prefijos de los navegadores en propiedades que no sean estable
 ---
 
 ## — **2022-02-XX** ———————————————————
+
+```
+Como hacer sombra
+
+- CSS - Box Shadow - aplica una o más sombras a un elemento.
+    offset-x (qué tan lejos extender la sombra horizontalmente desde el elemento)
+    offset-y (qué tan lejos extender la sombra verticalmente desde el elemento)
+    blur-radius
+    spread-radius
+    color
+
+```
 
 **CSS** INTRO
 
@@ -1319,13 +1180,27 @@ Esta pagina puede ser de apoyo\*\*
 
 Otra pagina de apoyo\*\*
 
-- ***
-
 ## — **2022-02-10** ———————————————————
 
 - REPLIT es una aplicacion que hiromi nos aconseja
 
+REPLIT funciona para hostear un poco de codigo / Funciona con figma / Si no tengo acceso a un IDE me sirve esta opcion para continuar aprendiendo.
+
+- De que trata el proyecto Hiromi explica que tendremos la proxima semana y se debe hacer una practica.
+
+- En esta clase se hara **Flexbox / Media Queries / CSS**
+
 - H1 no funciona de la misma manera en section o article.
+
+**→ QUEDE EN EL MINUTO 1:40 → hay quienes ya empezaron con los medias queries OMG RETOMEMOS NUESTRO CURSO**
+
+ESTA CARPETA → `10_IntroCSS_Flexbox`
+
+ESTA ARCHIVO → `02_FlexBox_Hiromi`
+
+<!-- ESTO ES LO QUE CREO DEBERIAMOS DE COMENZAR , RECUERDA ES LO QUE TE PIDEN -->
+<!-- Y NO DISEÑAS LO QUE SE TE HINCHE  -->
+<!-- ESTAAMO POR RETOS -->
 
 - CAMBIOS
 
@@ -1339,15 +1214,11 @@ Otra pagina de apoyo\*\*
   7. Formulario
   8. Semanticas
 
-A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con pexels
+A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con pexels+
 
 ---
 
 ## — **2022-02-14** ———————————————————
-
-- Una carpeta fuera de mi repositorio actual.
-
-- Hacer un repositorio remoto y conectarlo con mi repositorio local.
 
 ---
 
@@ -1362,15 +1233,3 @@ A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con 
 ## — **2022-02-17** ———————————————————
 
 ---
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```

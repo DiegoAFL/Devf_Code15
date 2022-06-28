@@ -28,7 +28,7 @@
 .box-1 {
     padding: 1em;
     background-color: darkgrey;
-    width: 50%;
+    width: 30%;
     height: 100vh;
     flex-direction: column;
     justify-content: flex-start;
@@ -75,7 +75,8 @@ p {
 
 /* BOX - 2 */
 .box-2 {
+    width: 70%;
     padding: 1em;
-    background-color: rgb(225, 225, 225);
+    background-color: silver;
     flex-direction: column;
 }

@@ -36,7 +36,7 @@
 /* Ahora para about me */
 
 .margin-bottom-gral {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .img-tipo1 {
@@ -91,18 +91,24 @@ div>p {
 }
 
 /* mobile */
-@media screen and (max-width:390px) {
+@media screen and (max-width:400px) {
 
+    .contenedor {
+        flex-direction: column;
+    }
 
     /* izquierda */
     .izquierda {
-        width: 50%;
-        background-color: royalblue;
+        width: 100%;
+        background-color: greenyellow;
+        box-sizing: border-box;
     }
 
     /* derecha */
     .derecha {
-        width: 50%;
+        width: 100%;
+        box-sizing: border-box;
     }
+
 
 }

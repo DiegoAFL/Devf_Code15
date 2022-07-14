@@ -64,7 +64,7 @@ Depende del sistema operativo, powershell de windows y Linux para mac, _que tan 
 
 — `clear` Limpia pantalla,
 
-— El teclado tabular o doble fechita nos ayuda a completar algunos comando o intuitivamente el nombre de algun archivo.
+— El teclado tabular o doble flechita ayuda a completar algunos comando o intuitivamente el nombre de algun archivo.
 
 — Con las flechas del teclado podemos verlos comandos y poder reutilizar comandos
 

@@ -884,7 +884,7 @@ _→_ Relative
   - `relative` (El elemento se coloca relativo al flujo normal)
 
     - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
-    - Para delimitar copmo se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
+    - Para delimitar como se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
     - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
     - Como lees un libro? Pues asi es la logica de propiedad.
 
@@ -1211,7 +1211,7 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`
 
 <!-- ESTO ES LO QUE CREO DEBERIAMOS DE COMENZAR , RECUERDA ES LO QUE TE PIDEN -->
 <!-- Y NO DISEÑAS LO QUE SE TE HINCHE  -->
-<!-- ESTAAMO POR RETOS -->
+<!-- ESTAMOS POR RETOS -->
 
 - CAMBIOS
 

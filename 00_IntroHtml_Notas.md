@@ -107,6 +107,12 @@ Comprobar tu direccion URL
 
 git ls-remote
 
+para cambiar tu  url o actualizar
+
+$ git remote set-url origin <newurl>
+
+
+
 
 ```
 

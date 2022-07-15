@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* font-family: sans-serif; */
+
 }
 
 .nav {
@@ -51,7 +51,7 @@
 
 /* hacer que todas la cajas con el texto imagen tengan una separacion del borde en el; selector se agrega una referencia especifica para que solo atienda a los hijos de div que sean p */
 div>p {
-    padding: 9px 0 0 9px;
+    padding: 9px 0 0 18px;
 }
 
 /* MEDIA QUERIES */
@@ -70,24 +70,6 @@ div>p {
     .derecha {
         width: 50%;
     }
-
-}
-
-/* mini tablet */
-
-@media screen and (max-width:768px) {
-
-    /* izquierda */
-    .izquierda {
-        width: 50%;
-        background-color: gold;
-    }
-
-    /* derecha */
-    .derecha {
-        width: 50%;
-    }
-
 }
 
 /* mobile */
@@ -95,12 +77,12 @@ div>p {
 
     .contenedor {
         flex-direction: column;
+        font-family: sans-serif;
     }
 
     /* izquierda */
     .izquierda {
         width: 100%;
-        background-color: greenyellow;
         box-sizing: border-box;
     }
 
@@ -109,6 +91,4 @@ div>p {
         width: 100%;
         box-sizing: border-box;
     }
-
-
 }

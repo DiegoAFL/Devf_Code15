@@ -1191,6 +1191,38 @@ Esta pagina puede ser de apoyo\*\*
 
 Otra pagina de apoyo\*\*
 
+---
+
+**MAS SOBRE FLEXBOX** 
+
+Estos datos son de  youtube, 
+<!-- https://www.youtube.com/watch?v=EVBlLkfh2V0&t=209s -->
+<!-- ver ejercicio en 04_Flexbox_Ejercicios.html -->
+
+En vez de utilizar flex direction y wrap → se recomienda flex flow
+
+En inspeccion se pueden ver algunas caracteristicas para previsualizar flexbox
+
+MAIN AXIS ↔ acomodo en horizontal | Propiedad : justify content
+y estos son los valores de propiedad: Start / end / center / btween / around / evenly
+
+CROSS AXIS ↨ acomodo en vertical | Propiedad : align-items (solicita una altura o lo hace en forma automatica)
+valores propiedad: starr / end / center / stretch / base line
+
+MINUTO 16:46 video youtube
+
+https://www.youtube.com/watch?v=EVBlLkfh2V0&t=209s
+
+
+---
+**NOTAS REGLAS CSS**
+Todo esto es una regla CSS
+selector{ propiedad: valor de propiedad;}
+lo que esta entre llaves se llama declaracion
+
+#id  ► .clase  ►  :estado  ►  []atributo  ►  *todos
+
+
 ## — **2022-02-10** ———————————————————
 
 - REPLIT es una aplicacion que hiromi nos aconseja

@@ -1,0 +1,53 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: darkgreen;
+    margin: 4.5% 27.5% 0 27.5%;
+    width: 45%;
+    height: 600px;
+    background-color: rgb(233, 253, 239);
+    padding: 3%;
+}
+
+.container {
+    /* Si revisamos en inspeccion aparece un simbolo  donde indica que se volvio flexbox */
+    /* En inspeccion podemos revisar las opciones flex para poder ver su comportamiento y colocar a nivel codigoF */
+    border: 3px solid;
+    border-color: darkmagenta;
+    background-color: deeppink;
+    height: 100%;
+
+}
+
+.item-1 {
+    background-color: lightgreen;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 18px;
+    border: solid 3px seagreen;
+}
+
+.item-2 {
+    background-color: lightgreen;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 18px;
+    border: solid 3px seagreen;
+}
+
+.item-3 {
+    background-color: lightgreen;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 18px;
+    border: solid 3px seagreen;
+}
+
+.item-4 {
+    background-color: lightgreen;
+    border-radius: 9px;
+    margin: 3px;
+    padding: 18px;
+    border: solid 3px seagreen;
+}

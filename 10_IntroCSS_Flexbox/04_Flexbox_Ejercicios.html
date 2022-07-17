@@ -4,77 +4,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox Practicanding</title>
+    <link rel="stylesheet" href="/10_IntroCSS_Flexbox/CSS/04.styles.css" />
     <style>
-      /* contenedor para hacerlo  flexbox */
       .container {
-        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-        color: rgb(40, 39, 43);
-        /* Si revisamos en inspeccion aparece un simbolo  donde indica que se volvio flexbox */
-        /* En inspeccion podemos revisar las opciones flex para poder ver su comportamiento y colocar a nivel codigoF */
+        /* contenedor para hacerlo  flexbox */
         display: flex;
-        border: 3px solid;
-        border-color: darkmagenta;
-        background-color: deeppink;
-        width: 600px;
-        height: 600px;
-
         /* flex-direction: row; */
         /* flex-wrap: wrap-reverse; */
         /* Mejor usar flex-direction y wrap */
+        /* flex-flow: row wrap; */
 
-        /* flex-flow: row; */
         /* Modifica el MAIN AXIS */
-        justify-content: space-around;
+        /* justify-content: flex-start; */
+        /* justify-content: center; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+        /* justify-content: stretch; */
+        /* justify-content: center; */
 
         /* Modifica el CROSS AXIS */
+        /* align-items: valor propiedad; */
+
         /* Valor Stretch necesita no estar definido  altura para ejecutarse*/
+        /* align-items: stretch; */
+
         /* Ver que sucede con Base line + Margin top  si modificas una sola regla CSS ejemplo item1 */
-        align-items: baseline;
+        /* align-items: baseline; */
+
+        /* Modifca el CROSS AXIS */ /* para funciona align content Quitar alturas y revisar con wrap y en multilinea*/
+        /* align-content: center; */
+        /* align-content: flex-end; */
+        align-content: flex-start;
+        /* align-content: space-between; */
+        /* align-content: space-around; */
+        /* align-content: stretch; */
+
+        /* G A p → PARA AGREGAR UN ESPACIO SUPERIOR INFERIOR ENTRE ELEMENTOS CON LA PROPIEDAD DE FLEXBOX*/
+        /* gap: 6px; */
       }
+
       .item-1 {
-        background-color: mediumseagreen;
-        margin: 6px;
-        padding: 6px;
-        border: 3px;
         /* height: 30px; */
+        /* Con align item: baseline; si modificamos el margin todos las demas clases se ajustan baseline asegura el alineamiento */
+        /* margin-top: 30px; */
+        order: 1;
+        /* asigna el mayor espacio en main axis */
+        /* flex-grow: 0; */
+        /* flex-shrink: 1; */
+        /*FLEXBASIS Es como usar min-width pero sin desbordarse*/
+        /* flex-basis: 100px; */
+        /* Dar formato a solo un elemento solo revisar que no impacte o este limitado en este caso por flex flow */
+        align-self: flex-end;
       }
+
       .item-2 {
-        background-color: mediumseagreen;
-        margin: 6px;
-        padding: 6px;
-        border: 3px;
-        /* height: 90px; */
+        height: 90px;
+        order: 2;
+        /* flex-grow: 0; */
+        /* flex-shrink: 5; */
       }
+
       .item-3 {
-        background-color: mediumseagreen;
-        margin: 6px;
-        padding: 6px;
-        border: 3px;
-        /* height: 60px; */
+        height: 60px;
+        order: 3;
+        /* flex-grow: 0; */
+        /* flex-shrink: 0; */
       }
+
       .item-4 {
-        background-color: mediumseagreen;
-        margin: 6px;
-        padding: 6px;
-        border: 3px;
-        /* height: 120px; */
+        height: 120px;
+        order: 4;
+        /* flex-grow: 0; */
+        /* flex-shrink: ; */
+
+        /* Simplificar la Regla CSS de flex → flex: [flex-grow] - [flex-shrink] - [flex-basis] */
+        /* flex: 3 0 auto; */
       }
     </style>
   </head>
 
   <!-- Div para flexbox 1 -->
   <body>
-    <div class="container">
-      <div class="item-1">Logo</div>
-      <div class="item-2">Menu Principal</div>
-      <div class="item-3">Busqueda</div>
-      <div class="item-4">Login</div>
-      <!-- <div class="item-4">Usar wrap para ajustar</div>
-        <div class="item-4">Usar wrap para ajustar</div>
-        <div class="item-4">Usar wrap para ajustar</div>
-        <div class="item-4">Usar wrap para ajustar</div>
-        <div class="item-4">Usar wrap para ajustar</div>
-         -->
-    </div>
+    <main>
+      <div class="container">
+        <div class="item-1">LOGO1</div>
+        <div class="item-2">MENU2</div>
+        <div class="item-3">SEARCH3</div>
+        <div class="item-4">LOGIN4</div>
+        <!-- <div class="item-4">Usar wrap para ajustar</div>  -->
+        <!-- <div class="item-4">OTROS1</div>
+        <div class="item-4">OTROS2</div>
+        <div class="item-4">OTROS3</div>
+        <div class="item-4">OTROS4</div> -->
+      </div>
+    </main>
   </body>
 </html>

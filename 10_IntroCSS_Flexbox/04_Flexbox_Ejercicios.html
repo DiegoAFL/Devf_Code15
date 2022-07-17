@@ -1,89 +1,80 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox Practicanding</title>
     <style>
-/* contenedor para hacerlo  flexbox */
-        .container{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: rgb(40, 39, 43);
-            /* Si revisamos en inspeccion aparece un simbolo  donde indica que se volvio flexbox */
-            /* En inspeccion podemos revisar las opciones flex para poder ver su comportamiento y colocar a nivel codigoF */
-            display: flex;
-            border: 3px solid;
-            border-color: darkmagenta ;
-            background-color: deeppink;
-            width: 600px;            
-            height: 600px;            
+      /* contenedor para hacerlo  flexbox */
+      .container {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: rgb(40, 39, 43);
+        /* Si revisamos en inspeccion aparece un simbolo  donde indica que se volvio flexbox */
+        /* En inspeccion podemos revisar las opciones flex para poder ver su comportamiento y colocar a nivel codigoF */
+        display: flex;
+        border: 3px solid;
+        border-color: darkmagenta;
+        background-color: deeppink;
+        width: 600px;
+        height: 600px;
 
-            /* flex-direction: row; */
-            /* flex-wrap: wrap-reverse; */
-                /* Mejor usar flex-direction y wrap */
+        /* flex-direction: row; */
+        /* flex-wrap: wrap-reverse; */
+        /* Mejor usar flex-direction y wrap */
 
-            /* flex-flow: row; */
-            /* Modifica el MAIN AXIS */
-            justify-content: space-around;
+        /* flex-flow: row; */
+        /* Modifica el MAIN AXIS */
+        justify-content: space-around;
 
-            /* Modifica el CROSS AXIS */
-            /* Valor Stretch necesita no estar definido  altura */
-            align-items: stretch;
-
-
-
-
-        }
-        .item-1{
-            background-color: mediumseagreen;
-            margin: 6px;
-            padding: 6px;
-            border: 3px;
-            /* height: 30px; */
-        }
-        .item-2{
-            background-color: mediumseagreen;
-            margin: 6px;
-            padding: 6px;
-            border: 3px;
-            /* height: 90px; */
-        }
-        .item-3{
-            background-color: mediumseagreen;
-            margin: 6px;
-            padding: 6px;
-            border: 3px;
-            /* height: 60px; */
-        }
-        .item-4{
-            background-color: mediumseagreen;
-            margin: 6px;
-            padding: 6px;
-            border: 3px;
-            /* height: 120px; */
-        }
-
-
+        /* Modifica el CROSS AXIS */
+        /* Valor Stretch necesita no estar definido  altura para ejecutarse*/
+        /* Ver que sucede con Base line + Margin top  si modificas una sola regla CSS ejemplo item1 */
+        align-items: baseline;
+      }
+      .item-1 {
+        background-color: mediumseagreen;
+        margin: 6px;
+        padding: 6px;
+        border: 3px;
+        /* height: 30px; */
+      }
+      .item-2 {
+        background-color: mediumseagreen;
+        margin: 6px;
+        padding: 6px;
+        border: 3px;
+        /* height: 90px; */
+      }
+      .item-3 {
+        background-color: mediumseagreen;
+        margin: 6px;
+        padding: 6px;
+        border: 3px;
+        /* height: 60px; */
+      }
+      .item-4 {
+        background-color: mediumseagreen;
+        margin: 6px;
+        padding: 6px;
+        border: 3px;
+        /* height: 120px; */
+      }
     </style>
-</head>
+  </head>
 
-<!-- Div para flexbox 1 -->
-<body>
-
+  <!-- Div para flexbox 1 -->
+  <body>
     <div class="container">
-
-        <div class="item-1">Logo</div>
-        <div class="item-2">Menu Principal</div>
-        <div class="item-3">Busqueda</div>
-        <div class="item-4">Login</div>
-        <!-- <div class="item-4">Usar wrap para ajustar</div>
+      <div class="item-1">Logo</div>
+      <div class="item-2">Menu Principal</div>
+      <div class="item-3">Busqueda</div>
+      <div class="item-4">Login</div>
+      <!-- <div class="item-4">Usar wrap para ajustar</div>
         <div class="item-4">Usar wrap para ajustar</div>
         <div class="item-4">Usar wrap para ajustar</div>
         <div class="item-4">Usar wrap para ajustar</div>
         <div class="item-4">Usar wrap para ajustar</div>
          -->
-
-    </div>   
-    
-</body>
+    </div>
+  </body>
 </html>

@@ -1209,7 +1209,11 @@ y estos son los valores de propiedad: Start / end / center / btween / around / e
 CROSS AXIS ↨ acomodo en vertical | Propiedad : align-items (solicita una altura o lo hace en forma automatica)
 valores propiedad: starr / end / center / stretch / base line
 
-MINUTO 16:46 video youtube
+Guia para usar flexbox / recuerdas el main y el cross / Es importante poner flex dentro del padre./  Flex-flow es una gran opcion. 
+
+Regla de CSS flexbox
+
+.Selector { [flex-grow] [flex-shrink] [flex-basis]} 
 
 https://www.youtube.com/watch?v=EVBlLkfh2V0&t=209s
 
@@ -1255,9 +1259,12 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`
   5. Display
   6. Box Model
   7. Formulario
-  8. Semanticas
+  8. Semantica
 
 A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con pexels+
+
+ESTA ARCHIVO → `02_FlexBox_Hiromi`  hay informacion de como se utilizo flebox combinando la etq semanticas y divs 
+
 
 ---
 

@@ -1254,7 +1254,7 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`
 - Terminar Blog del viaje con
   1. Flexbox
   2. Mediaqueries
-  3. Position
+  3. Positionk
   4. FCO
   5. Display
   6. Box Model
@@ -1269,6 +1269,33 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`  hay informacion de como se utilizo flebox 
 ---
 
 ## — **2022-02-14** ———————————————————
+
+
+- Hasta este momento esta pendiente estos temas
+
+GRID CSS
+XHTML
+SEO basico
+Accesibilidad
+
+Code challenge de las  semana
+
+Crear un clone del sitio https://www.pexels.com/es-es/ sin haber iniciado sesion
+
+Reglas
+
+1. Crear un repositorio
+2. Crear un Github Page al finalizar el proyecto
+3. El proyecto debe ser responsivo para al menos 3 tamanos  de pantalla (Max Resol - Desktop, Tablet, Smarphone)
+4. En resolucion max las imagenes se muestran en 4 columnas,. desktop, y tablet en 3 columnas y en smartphone en 2 columnas 
+5. Cuidar y respetar las buenas practicas
+6. Al menos anadir 30 imagenes de tamanos distintos
+7. Apegarse lo mas posible  a los estilos  originales incluyendo  los cambios de estilo  cuando pasamos el mouse el mouse sobre algun elemento.
+8. Una vez terminado enviar el link del sitio a su senseis.
+
+PEXELS
+
+]
 
 ---
 

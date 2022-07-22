@@ -18,12 +18,11 @@
     /* font-family: Helvetica, sans-serif; */
 }
 
-
 /* L O G O T I P O - - - */
 #logo {
     width: 360px;
     margin: 0 0 0 12%;
-    padding: 1% 0 3% 0;
+    padding: .9% 0 .9% 0;
 }
 
 /* N A V - - - */
@@ -32,17 +31,25 @@ nav {
     display: flex;
     position: sticky;
     top: 0;
-    padding: 1em 0 1em 12%;
+    padding: .9% 0 .9% 0;
     /* justify-content: space-between; */
 }
 
-#nav-contenedor {
-    width: 360px;
-    display: flex;
-    justify-content: space-between;
+#NavBar {
+background-color: transparent;
+margin: 0 12%;
+width: 100%;
+display: flex;
 }
 
-nav a {
+#nav-link {
+    /* background-color: #EDA300;
+    width: 360px;
+    display: flex;
+    justify-content: space-between; */
+}
+
+#nav-link a {
     color: white;
     border: transparent solid .2em;
     font-size: 1em;
@@ -56,6 +63,16 @@ nav a:hover {
     border-radius: 3px;
     box-sizing: content-box;
 }
+
+nav button {
+    background-color: #41a4dd;
+    border: #41a4dd;
+    border-radius: 9px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
 
 /* M A I N - - - */
 

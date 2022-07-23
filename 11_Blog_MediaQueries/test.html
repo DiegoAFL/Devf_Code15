@@ -7,46 +7,64 @@
     <title>test</title>
 
 <!-- S T Y L E -->
-    <style>
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1.2em;
+    }
 
-nav, #nav-bar, .nav-menu, .nav-lat{ 
-    display: flex;
-}
+    nav, #nav-bar, .nav-menu, .nav-lat{ 
+        display: flex;
+    }
 
-#nav-bar{
-    background-color: #355764;
-    width: 100vw;
-    padding: 27px 13.5vw 27px 13.5vw
-}
+    #nav-bar{
+        background-color: #355764;
+        color: white;
+        width: 100vw;
+        padding: 27px 13.5vw 27px 13.5vw
+    }
 
-.nav-menu{    
-    background-color: #0078AA;
-    width: 73%;
+    .nav-menu{
+        width: 450px;
+        flex-direction: row;
 }
+    
+    .nav-menu, a{    
+        color: wheat;
+        justify-content: space-between;
+        text-decoration: none;       
+    } 
+
 
 .nav-lat{
-    background-color: #3AB4F2;
-    width: 27%;
-    padding-right: 9%;
-    flex-direction: row-reverse;
-}
+        /* background-color: #3AB4F2; */
+        width: 27%;
+        padding-left: 73%;
+        justify-content: center;
+    }
 
-    </style>
+    button {
+        background-color: #355764;
+        border: #355764;
+        color: wheat;
+        font-weight: bold;
+    }
+
+</style>
 </head>
 
 <!-- B O D Y -->
 <body>
     <nav id="nav-bar">
         <div class="nav-menu">
-            menu-ppal
+            <a href="#">uno</a>
+            <a href="#">dos</a>
+            <a href="#">tres</a>
         </div>
         <div class="nav-lat">
-            <button>...</button>
+            <button><a href="https://i.pinimg.com/564x/f1/e3/7c/f1e37ce5bbc739e08decc4e14aac3d4a.jpg">...</a></button>
         </div>
     </nav>
     

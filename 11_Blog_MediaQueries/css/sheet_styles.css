@@ -12,78 +12,76 @@
 /* #B8B8D1 */
 
 * {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
-}
-body {
-    width: 100%;
-    box-sizing: content-box;
+
 }
 
 /* L O G O T I P O - - - */
+
 #logo {
     width: 360px;
     margin: 0 0 0 13.5%;
-    padding: .9% 0 .9% 0;
+    padding: 9px 0 6px 0;
 }
 
 /* N A V - - - */
-nav, #nav-bar, #nav-link{
-    display: flex;
-    box-sizing: content-box;
-}
 
-nav {
-    background-color: #DB008D;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    padding: .9% 0 .9% 0;    
+nav,
+#nav-bar,
+#nav-menu,
+#nav-button {
+    display: flex;
 }
 
 #nav-bar {
-background-color: #EDA300;
-margin: 0 13.5vw 0 13.5vw;
-width: 100%;   
-/* justify-content: space-between; */
+    background-color: #DB008D;
+    width: 100vw;
+    padding: 9px 13.5vw 9px 13.5vw;
+    position: sticky;
+    top: 0;
 }
 
-#nav-link {
+#nav-menu {
     width: 360px;
     justify-content: space-between;
 }
 
-#nav-link a {
+#nav-menu a,
+#nav-button button {
+    /* background-color: blue; */
     color: white;
-    border: transparent solid .2em;
-    font-size: 1em;
-    font-weight: 540;
+    border: transparent solid .6em;
     text-decoration: none;
+    font-size: 90%;
+    font-weight: 540;
 }
 
-nav a:hover {
-    background-color: #4392f1;
-    border: #4392f1 solid .2em;
+#nav-menu a:hover {
+    background-color: #9d0066;
+    border: #9d0066 solid .6em;
     border-radius: 3px;
 }
 
-#cta {
+#nav-button {
+    /* background-color: blue; */
+    width: 67.5%;
+    justify-content: end;
 }
 
-nav button {
-    background-color: #41a4dd;
+#nav-button button {
+    background-color: #4392f1;
     border: 0px;
-    border-radius: 9px 0px 0px 0px;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
+    border-radius: 9px;
+    padding: 0 1.8%;
 }
-
 
 /* M A I N - - - */
 
 main {
-    padding-left: 12%;
+    padding: 18px 0 0 13.5%;
     width: 100%;
     display: flex;
     box-sizing: border-box;
@@ -92,7 +90,7 @@ main {
 /* A R T I C U L O S - - - */
 
 h2 {
-    margin: 1.3em 0 .5em 0;
+    margin: 18px 0 6px 0;
     color: #05B9E4;
     clear: left;
 }
@@ -116,14 +114,18 @@ article div {
     margin-top: 0;
 }
 
+.Area-Boton {
+    padding: .9% 0 2.7% 0;
+    clear: both;
+}
+
 main button {
     background-color: #41a4dd;
     border: #41a4dd;
-    margin-top: .75em;
+    color: white;
     padding: 3px 27px;
     border-radius: 0 0 0 9px;
-    color: white;
-    font-weight: bold;
+    font-weight: 540;
     font-size: 1em;
 }
 

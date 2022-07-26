@@ -36,9 +36,9 @@ nav,
     display: flex;
 }
 
-#nav-bar {
+nav {
     background-color: #DB008D;
-    width: 100vw;
+    width: 101vw;
     padding: 9px 13.5vw 9px 13.5vw;
     position: sticky;
     top: 0;

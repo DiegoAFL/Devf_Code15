@@ -23,8 +23,8 @@
 
 #logo {
     width: 360px;
-    margin: 0 0 0 13.5%;
-    padding: 9px 0 6px 0;
+    margin: 0 0 0 15vw;
+    padding: 3px 0 3px 0;
 }
 
 /* N A V - - - */
@@ -32,16 +32,23 @@
 nav,
 #nav-bar,
 #nav-menu,
-#nav-button {
+#nav-button,
+.nav-main {
     display: flex;
 }
 
 nav {
     background-color: #DB008D;
-    width: 101vw;
-    padding: 9px 13.5vw 9px 13.5vw;
+    width: 100vw;
+    height: 45px;
     position: sticky;
     top: 0;
+}
+
+#nav-bar {
+    justify-content: space-between;
+    padding: 0 15vw;
+
 }
 
 #nav-menu {
@@ -49,58 +56,57 @@ nav {
     justify-content: space-between;
 }
 
-#nav-menu a,
-#nav-button button {
-    /* background-color: blue; */
+.nav-main {
+    border: transparent solid .3em;
     color: white;
-    border: transparent solid .6em;
-    text-decoration: none;
-    font-size: 90%;
     font-weight: 540;
+    margin: 12px 0;
+    align-items: center;
 }
 
 #nav-menu a:hover {
     background-color: #9d0066;
-    border: #9d0066 solid .6em;
+    border: #9d0066 solid .3em;
     border-radius: 3px;
 }
 
 #nav-button {
-    /* background-color: blue; */
-    width: 67.5%;
-    justify-content: end;
+    margin: 6px 0;
+    width: 20vw;
 }
 
-#nav-button button {
-    background-color: #4392f1;
+.boton {
+    background-color: #05B9E4;
     border: 0px;
     border-radius: 9px;
-    padding: 0 1.8%;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 /* M A I N - - - */
 
 main {
-    padding: 18px 0 0 13.5%;
-    width: 100%;
+    padding: 30px 15vw 0 15vw;
+    width: 100vw;
     display: flex;
-    box-sizing: border-box;
 }
 
 /* A R T I C U L O S - - - */
 
 h2 {
-    margin: 18px 0 6px 0;
+    margin: 0px 0 6px 0;
     color: #05B9E4;
     clear: left;
 }
 
 main section {
-    width: 63%;
+    width: 45vw;
 }
 
 article img {
-    width: 333px;
+    width: 360px;
     float: left;
     margin: 0px 18px 0px 0px;
     border-radius: 0 27px 0 0px;
@@ -115,7 +121,7 @@ article div {
 }
 
 .Area-Boton {
-    padding: .9% 0 2.7% 0;
+    padding: 9px 0 60px 0;
     clear: both;
 }
 
@@ -136,14 +142,16 @@ main button:hover {
 /* A S I D E - - - */
 
 aside {
-    padding-left: 3em;
-    line-height: 1.8em;
+    border: #9d0066 solid 1px;
+    width: 20vw;
+    margin-left: 5vw;
+    line-height: 3em;
 }
 
-aside ul,
-a {
+aside,
+ul a {
+    background-color: aquamarine;
     color: #05B9E4;
-    padding-left: 0;
     text-decoration: none;
     list-style: none;
 }

@@ -1193,9 +1193,10 @@ Otra pagina de apoyo\*\*
 
 ---
 
-**MAS SOBRE FLEXBOX** 
+**MAS SOBRE FLEXBOX**
 
-Estos datos son de  youtube, 
+Estos datos son de youtube,
+
 <!-- https://www.youtube.com/watch?v=EVBlLkfh2V0&t=209s -->
 <!-- ver ejercicio en 04_Flexbox_Ejercicios.html -->
 
@@ -1209,23 +1210,22 @@ y estos son los valores de propiedad: Start / end / center / btween / around / e
 CROSS AXIS ↨ acomodo en vertical | Propiedad : align-items (solicita una altura o lo hace en forma automatica)
 valores propiedad: starr / end / center / stretch / base line
 
-Guia para usar flexbox / recuerdas el main y el cross / Es importante poner flex dentro del padre./  Flex-flow es una gran opcion. 
+Guia para usar flexbox / recuerdas el main y el cross / Es importante poner flex dentro del padre./ Flex-flow es una gran opcion.
 
 Regla de CSS flexbox
 
-.Selector { [flex-grow] [flex-shrink] [flex-basis]} 
+.Selector { [flex-grow] [flex-shrink] [flex-basis]}
 
 https://www.youtube.com/watch?v=EVBlLkfh2V0&t=209s
 
-
 ---
+
 **NOTAS REGLAS CSS**
 Todo esto es una regla CSS
 selector{ propiedad: valor de propiedad;}
 lo que esta entre llaves se llama declaracion
 
-#id  ► .clase  ►  :estado  ►  []atributo  ►  *todos
-
+#id ► .clase ► :estado ► []atributo ► \*todos
 
 ## — **2022-02-10** ———————————————————
 
@@ -1254,7 +1254,7 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`
 - Terminar Blog del viaje con
   1. Flexbox
   2. Mediaqueries
-  3. Positionk
+  3. Position
   4. FCO
   5. Display
   6. Box Model
@@ -1263,13 +1263,11 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`
 
 A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con pexels+
 
-ESTA ARCHIVO → `02_FlexBox_Hiromi`  hay informacion de como se utilizo flebox combinando la etq semanticas y divs 
-
+ESTA ARCHIVO → `02_FlexBox_Hiromi` hay informacion de como se utilizo flebox combinando la etq semanticas y divs
 
 ---
 
 ## — **2022-02-14** ———————————————————
-
 
 - Hasta este momento esta pendiente estos temas
 
@@ -1278,7 +1276,7 @@ XHTML
 SEO basico
 Accesibilidad
 
-Code challenge de las  semana
+Code challenge de las semana
 
 Crear un clone del sitio https://www.pexels.com/es-es/ sin haber iniciado sesion
 
@@ -1286,11 +1284,11 @@ Reglas
 
 1. Crear un repositorio
 2. Crear un Github Page al finalizar el proyecto
-3. El proyecto debe ser responsivo para al menos 3 tamanos  de pantalla (Max Resol - Desktop, Tablet, Smarphone)
-4. En resolucion max las imagenes se muestran en 4 columnas,. desktop, y tablet en 3 columnas y en smartphone en 2 columnas 
+3. El proyecto debe ser responsivo para al menos 3 tamanos de pantalla (Max Resol - Desktop, Tablet, Smarphone)
+4. En resolucion max las imagenes se muestran en 4 columnas,. desktop, y tablet en 3 columnas y en smartphone en 2 columnas
 5. Cuidar y respetar las buenas practicas
 6. Al menos anadir 30 imagenes de tamanos distintos
-7. Apegarse lo mas posible  a los estilos  originales incluyendo  los cambios de estilo  cuando pasamos el mouse el mouse sobre algun elemento.
+7. Apegarse lo mas posible a los estilos originales incluyendo los cambios de estilo cuando pasamos el mouse el mouse sobre algun elemento.
 8. Una vez terminado enviar el link del sitio a su senseis.
 
 PEXELS
@@ -1300,6 +1298,8 @@ PEXELS
 ---
 
 ## — **2022-02-15** ———————————————————
+
+Iniciaremos este curso antes se debemos terminar le blog de viaje
 
 ---
 

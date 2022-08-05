@@ -39,7 +39,7 @@ nav,
 
 nav {
     background-color: #DB008D;
-    width: 100vw;
+    width: 100%;
     height: 45px;
     position: sticky;
     top: 0;
@@ -62,6 +62,7 @@ nav {
     font-weight: 540;
     margin: 12px 0;
     align-items: center;
+    text-decoration: none;
 }
 
 #nav-menu a:hover {
@@ -88,8 +89,9 @@ nav {
 /* M A I N - - - */
 
 main {
+    background-color: yellow;
     padding: 30px 15vw 0 15vw;
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 
@@ -108,7 +110,7 @@ main section {
 article img {
     width: 360px;
     float: left;
-    margin: 0px 18px 0px 0px;
+    padding: 0px 18px 0px 0px;
     border-radius: 0 27px 0 0px;
     /* object-fit: cover; */
 }
@@ -142,24 +144,36 @@ main button:hover {
 /* A S I D E - - - */
 
 aside {
-    border: #9d0066 solid 1px;
+    /* border: #9d0066 solid 1px; */
     width: 20vw;
     margin-left: 5vw;
     line-height: 3em;
 }
 
-aside,
-ul a {
-    background-color: aquamarine;
+.aside-content {
+    clear: both;
+    float: right;
+    padding-right: 4vw;
+}
+
+ul {
     color: #05B9E4;
-    text-decoration: none;
     list-style: none;
+
+}
+
+.Aside-link {
+    color: #05B9E4;
+    font-weight: 600;
+    text-decoration: none;
+
 }
 
 aside a:hover {
     background-color: #DB008D;
     color: white;
-    outline: #DB008D solid 3px;
+    font-weight: 600;
+    outline: #DB008D solid 9px;
     border-radius: .25px;
 }
 
@@ -168,75 +182,79 @@ aside a:hover {
 footer {
     background-color: #DB008D;
     color: white;
-    margin-top: 3em;
-    width: 100%;
-    display: flex;
-    display: inline-block;
+    /* display: flex;
+    flex-direction: column; */
+
+    /* box-sizing: border-box; */
+    /* width: 100vw; */
+    /* height: max-content; */
 }
 
-#aboutUs {
-    /* background-color: cadetblue; */
-    padding: 3% 0 3% 12%;
-    display: flex;
-    align-items: baseline
+#Ft-aboutus {
+    background-color: #EDA300;
+    /* width: 45vw; */
+    margin-left: 15vw;
+    flex-direction: row;
 }
 
-#aboutUs h3 {
-    font-size: 1.5em;
-    margin-bottom: 1.5vh;
-}
-
-footer article {
-    width: 88vw;
-    width: 26.355vw;
+#Ft-article {
+    background-color: aqua;
+    /* width: 360px; */
     text-align: justify;
-    font-size: .8em;
-    line-height: 1.5em;
+    font-size: .9em;
+    line-height: 1.6em;
 }
 
-#navFooter {
-    /* background-color: black; */
+#Ft-nav {
+    background-color: chartreuse;
+    color: white;
+    /* width: 25vw; */
+    margin-right: 15vw;
+    /* align-self: flex-end; */
+}
+
+/* #navFooter {
     width: 30%;
     float: right;
     margin: 0 3vw 0 28.5vw;
     display: flex;
     display: inline;
-}
+} */
 
 
-#navFooter h3 {
+/* #navFooter h3 {
     text-align: right;
     font-size: 1.25em;
     margin-bottom: 1.5vh;
     border-right: #DB008D solid 6px;
-}
+} */
 
-.nav-a {
+/* .nav-a {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-#navFooter a {
+/* #navFooter a {
     color: white;
     font-weight: 500;
     text-decoration: none;
     border: #DB008D solid 6px;
-}
+} */
 
-#navFooter a:hover {
+/* #navFooter a:hover {
     background-color: #41a4dd;
     width: min-content;
     border: #41a4dd solid 6px;
     border-radius: 6px;
-}
+} */
 
 
 /*  P I E   D E   P A G I N A  */
 
-footer #Legal-Print {
+#Ft-legal {
     background-color: #B00573;
-    padding: 1.8% 0;
-    font-size: small;
+    color: white;
+    padding: 30px 0;
     font-weight: 600;
     text-align: center;
 }

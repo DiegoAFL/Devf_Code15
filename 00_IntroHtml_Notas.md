@@ -34,7 +34,7 @@ Slack comunicacion / Katas / _instalar VSC_
 
 VSC - Puedes arrastrar un archivo al icono de VSC para poder abrir.
 
-## Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.
+`Siguiente tema se entendera que es la terminal, que es git y que es github leer temas.`
 
 ## — **2022-01-27** ———————————————————
 
@@ -116,7 +116,7 @@ $ git remote set-url origin <newurl>
 
 ```
 
-### Como conectar repositorio remoto con local pasos
+### **Como conectar repositorio remoto con local pasos**
 
 **El objetivo** es vincular una carpeta
 
@@ -170,7 +170,7 @@ Agrega otra línea para continuar con el texto normal en párrafo.
 
 _git_ - Es un controlador de versiones recuerdalo.
 
-_github_ - Plataforma en nube que alamacena y gestiona nuestro repositorio local
+_github_ - Plataforma en nube que almacena y gestiona nuestro repositorio local
 
 pasos para subir mi repositorio local a repositorio remoto una vez modificado
 
@@ -188,7 +188,7 @@ pasos para subir mi repositorio local a repositorio remoto una vez modificado
 
 Hacemos un archivo **HTML** y lo agregamos en una carpeta
 
-— `$ mk dir <NameFolder>` hacer una carpeta nueva en nuestra ubicacion
+— `$ mkdir <NameFolder>` hacer una carpeta nueva en nuestra ubicacion
 
 — tag o etiquetas ▬ html es un lenguaje basado en etiquetas y si revisamos cada uno es un contenedor de acciones.
 
@@ -229,7 +229,7 @@ _2._ Add 2 imagenes
 
 _3._ Insertar ligas que lleven a redes
 
-- Que se abran en pesetanas diferentes
+- Que se abran en TABS diferentes
 
 _4._ Usar 5 etiquetas mas que no se hayan explicado.
 

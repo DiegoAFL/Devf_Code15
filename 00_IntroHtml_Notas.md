@@ -162,7 +162,7 @@ _working directory_ **→** `git add` → _staging area (index)_ **→** `git co
 
 ---
 
-# — **2022-01-28** ———————————————————
+## — **2022-01-28** ———————————————————
 
 ---
 
@@ -237,7 +237,7 @@ _5._ Utilizar etq <a> para ir a una pagina llamada contacto.html
 
 ---
 
-# — **2022-02-01** ———————————————————
+## — **2022-02-01** ———————————————————
 
 ---
 
@@ -375,13 +375,13 @@ _→_ `get` Cuando lo enviamos se envia directo de la URL es visible para un usu
 
 _→_ `post` Lo envia por debajo por un canal oculto no es visible para el usuario. Correo o contrasenas
 
-_→_ Todos los form debe tener un submit pues no puede enviar informacion.
+_→_ Todos los form debe tener una accion <submit> pues no puede enviar informacion.
 
 **git y github** Como se cerro la rama que andaba por ahi volando.
 
-_→_ Y con esto la rama que habia quedado se le hizo un merge (pullrrequest) a la rama main poco explicado pero ya estudiado.
+_→_ Y con esto la rama que habia quedado se le hizo un merge (pullrequest) a la rama main poco explicado pero ya estudiado.
 
-_→_ No todos los que hacen PR tienen autorizacion para para ejecutarlos hay formatos de trabajo que dictan como se realiza este proceso.
+_→_ No todos los que hacen PR (PullRequest) tienen autorizacion para ejecutarlos hay formatos de trabajo que dictan como se realiza este proceso.
 
 ---
 
@@ -401,15 +401,13 @@ _4._ Un `<form>` funciona con botón tipo `submit`
 
 ---
 
-**EJERCICIO** → [/00.Index_Form.01.html]
+**EJERCICIO** → [04_IntroHtml_Formularios/00.Index_Form.01.html]
 
 _-_ Empecemos con form → action hacemos una url nos enviará a contacto →
 
 _-_ Method get
 
-_-_ Botón tipo suBMit con nombre enviar
-
-_-_ `<input>` usemosla para hacer un cuadro de texto pero hay varios por aprender ponerle name es para identificarlo y además le pondremos un id este debe ser único no se repite name y id pueden ser iguales pero atraves de los demás apartados de código id no se debe repetir
+_-_ Botón tipo `submit` con nombre `enviar`
 
 _-_ Si nos fijamos en el web browser, se ven las acciones → _url_ ahora de accionar
 
@@ -477,11 +475,13 @@ _-_ `<Input>`hay varios tipos y llevan _etiqueta de cierre_:
 
 _-_ Y todas esta eiquetas estan en el archivo: 00.Index_Form.01.html
 
-# **CSS**
+---
 
-## HOJAS DE ESTILOS EN CASCADA
+0. **CSS**
 
-Parte de un concepto simple y muy potente: aplicar estilos (colores, fcormas, margenes, etc ...) a **uno o varios documentos**.
+**HOJAS DE ESTILOS EN CASCADA**
+
+Parte de un concepto simple y muy potente: aplicar estilos (colores, formas, margenes, etc ...) a **uno o varios documentos**.
 sin CSS una pagina web seria un simple documento de texto.
 
 _-_ Es el formato que se le puede dar al producto web.
@@ -520,7 +520,7 @@ Cuando hay conflictos de estilos el navegador aplica solo el de mayor especifici
 
 3. **CASCADA**
 
-Todo esstilo sobnre escribe a uno anterior. La C de CSS significa cascada
+Todo estilo sobre escribe a uno anterior. La C de CSS significa cascada
 
 ```css
 .parrafo {
@@ -528,7 +528,7 @@ Todo esstilo sobnre escribe a uno anterior. La C de CSS significa cascada
 }
 
 .parrafo {
-  color: blue;
+  color: red;
 }
 /* El parrafo es rojo por que sobreescribe a los anteriores estilos */
 ```
@@ -545,16 +545,15 @@ cerrar con punto y coma para cerra declaracion.
 
 las declaraciones se cierran en llaves.
 
-**CSS impor**
+**CSS import**
 
 Unidades de medidas que se ocupan en CSS las comunes son porcentajes y pixeles
 
-_-_ Los **selectores** se identifican a un elemento dentro de la pagina web, para leugo poder definir sus propiedades. Pueden ir desde el simple nombre de etiquetas hasta combinaciones complejas.
+_-_ Los **selectores** se identifican a un elemento dentro de la pagina web, para luego poder definir sus propiedades. Pueden ir desde el simple nombre de etiquetas hasta combinaciones complejas.
 
 _-_ Diferentes tipos de **Selectores** conocerlos nos ayudara a encontrar la herramienta adecuada para nuestro proyecto
 
-_-_ 3 tipos comunes de
-selectores y son:
+_-_ 3 tipos comunes de selectores y son:
 
 1. De tipo `<div></div>`
 
@@ -620,9 +619,9 @@ a [atributo] {
 
 2. Selector universal → `* {declaration}`
 
-3. Selector de clase →`.class {declaration}`
+3. Selector de clase →`. class {declaration}`
 
-4. Selector de ID → `#unico {declaration}`
+4. Selector de ID → `# unico {declaration}`
 
 5. Selector de atributo → `a[title] {declaration}`
 
@@ -630,7 +629,9 @@ a [atributo] {
 
 7. Pseudo elemento → `p::first-line {declaration}`
 
-8. Operador de combinacion descendentes → `article p`
+8. Operador de combinacion descendentes → `main p`
+
+   8.1. Operador combinacion selectores (coma)→ `main, p`
 
 9. Operador de combinacion de elementos hijos → `article > p`
 
@@ -650,9 +651,9 @@ _-_ Estilo puede ser inline external y reference
 
 _-_ CSS Color se usan diferentres formatos y si se busca transparencia y sombreados revisar y colocar en el archivo de practica.
 
-_-_ CSS Links hay distintas declaraciones que permiten formateear los links
+_-_ CSS Links hay distintas declaraciones que permiten formatear los links
 
-_-_ Vamos a el archivo → **01.index_css.00.html**
+_-_ Vamos al archivo → **01.index_css.00.html**
 
 Recuerda ejecutar la mejores **practicas de CSS**
 
@@ -773,7 +774,9 @@ _→_ EXTERNO
 <!-- Propiedad no pertenece a modelo de caja pero hace que elementos ganen foco, como los input, tengan ligera aura que rodea -->
 <!-- Propieades principales --> outline-style | outline-width | outline-color | outline-offset
 
-**DISPLAY** Block - Inline - Inline-block - None
+**DISPLAY**
+
+Block - Inline - Inline-block - None
 
 **-** Display (pantalla) Propiedad mas importante para controlar el diseño
 
@@ -788,9 +791,9 @@ ahora esta propiedad de display funciona en inline con las propiedades del box m
 
 ↓ Block direction ↑
 
-**Como funcionan** los margins y los paddins
+**Como funcionan** los margins y los paddings
 
-- En el display inline podemos modificar/controlar tanto el paddin (en todas sus facetas) como el margin pero solo de izquierda a derecha.
+- En el display inline podemos modificar/controlar tanto el `padding` (en todas sus facetas) como el `margin` pero solo de izquierda a derecha.
 
 - Por otro lado en el display block podemos modificar todas la facetas tanto el padding como el margin
 
@@ -819,9 +822,9 @@ _→_ `FLOAT`
 
 - Elemento que se aplica propiedad no tiene definida su anchura entonces no sera tratado como tal.
 
-- No todo los elementos son validos para usar float, los que definnen propiedades del texto (span, strong, i. b, etc)
+- No todo los elementos son validos para usar float, los que definen propiedades del texto (span, strong, i. b, etc)
 
-- Tampoco se usa en saltos de linea NO. Los que si soportan son divs,img, p, listas, etc.
+- Tampoco se usa en saltos de linea NO. Los que si soportan son divs, img, p, listas, etc.
 
 _→_ `CLEAR`
 
@@ -835,7 +838,7 @@ _→_ `CLEAR`
 
   3. Right: No se permiten elementos flotantes del lado derecho.
 
-  4. Both: No se permite elementois flotante a amabos lados
+  4. Both: No se permite elementois flotante a ambos lados
 
   5. Inherit: Valor Heredado del padre
 
@@ -855,9 +858,9 @@ _→_ `OVERFLOW`+
 
 _→_ `Ejercicio para blog de viaje`
 
-recuerda usar display e FCO para ajustar tus cuadros.
+Nota _usar display en FCO para ajustar tus cuadros._
 
-Notas todo contenido una buena opcion es usar unidades de porcentaje recuerda ancho y ancho maximo
+Notas _Para todo contenido una buena opcion es usar unidades de porcentaje recuerda ancho y ancho maximo_
 
 **POSITION - Elemento posicionado**
 
@@ -883,7 +886,7 @@ _→_ Relative
   -
   - `relative` (El elemento se coloca relativo al flujo normal)
 
-    - Elemento que se posisiona relativo a su posicion normal, es decir relativo a su flujo normal.
+    - Elemento que se acomoda relativo a su posicion normal, es decir relativo a su flujo normal.
     - Para delimitar como se desplazara la caja podemos utilizar las propiedades top, bottom, right, left.
     - Propiedades top y left tienen mas prioridad sobre las bottom y que right, idealmentes solo tienes que escoger una de las 2 opciones
     - Como lees un libro? Pues asi es la logica de propiedad.
@@ -900,7 +903,7 @@ _→_ Relative
   - fixed, que es un tipo de posicionamiento absoluto que bloquea un elemento relativo a la ventana del navegador. Similar al posicionamiento absoluto, se usa con las propiedades de desplazamiento CSS y también elimina el elemento del flujo normal del documento. Otros elementos ya no "se dan cuenta" de donde se coloca, lo que puede requerir algunos ajustes de diseño en otros lugares.
   - Una diferencia clave entre las posiciones `fixed` y `absolute` es que un elemento con una posición fija (fixed) no se moverá cuando el usuario se desplace.
 
-- # `sticky` (es un combinacion entre el relative y fixed)
+- `sticky` (es un combinacion entre el relative y fixed)
 
       - Es una propiedad que viene por defecto
       <!-- Comportamiento normal  -->

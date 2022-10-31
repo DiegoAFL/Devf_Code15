@@ -1241,14 +1241,14 @@ ESTA ARCHIVO → `02_FlexBox_Hiromi`
 - CAMBIOS
 
 - Terminar Blog del viaje con
-  1. Flexbox
-  2. Mediaqueries
-  3. Position
-  4. FCO
-  5. Display
-  6. Box Model
-  7. Formulario
-  8. Semantica
+  - Semantica
+  - Formulario
+  - Display
+  - Position
+  - FCO
+  - Box Model
+  - Flexbox
+  - Mediaqueries
 
 A terminar el blog y darle un plus para que lo revise sergio y hiromi junto con pexels+
 

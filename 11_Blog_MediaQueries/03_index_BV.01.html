@@ -17,6 +17,36 @@
     <header>
       <figure>
         <img id="logo" src="/00_Recursos/BV_logo.png" alt="Blog de Viaje" />
+
+        <!-- Formulario de busqueda -->
+
+        <div id="barra-busqueda">
+          <form action="contacto.html" method="get" target="_blank">
+            <label for="buscar">Buscar</label>
+            <input
+              type="search"
+              name="buscar"
+              id="buscar"
+              placeholder=" ciudad, hotel, sitio ..."
+            />
+
+            <!-- CSS inline -->
+            <input
+              type="Submit"
+              value="ir"
+              style="
+                background-color: grey;
+                color: white;
+                font-style: italic;
+                padding: 0.1em;
+                width: 3vw;
+                border: transparent;
+                border-radius: 4.5px;
+                font-weight: 600;
+              "
+            />
+          </form>
+        </div>
       </figure>
     </header>
 
@@ -30,7 +60,7 @@
         <a class="nav-main" href="#">Contacto</a>
       </div>
       <div id="nav-button">
-        <button class="boton">AVENTURATE AHORA</button>
+        <input class="boton" type="button" value="AVENTURATE YA" />
       </div>
     </nav>
 

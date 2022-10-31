@@ -26,6 +26,26 @@
   padding: 3px 0 3px 0;
 }
 
+#barra-busqueda {
+  font-weight: 600;
+  color: silver;
+  font-style: italic;
+  float: right;
+  margin-top: 6vh;
+  margin-right: 15vw;
+  margin-bottom: 1vh;
+  width: fit-content;
+}
+
+#buscar {
+  font-style: italic;
+  color: silver;
+  border-radius: 4.5px;
+  border-color: silver;
+  border-style: solid;
+  border-width: 1.5px;
+}
+
 /* N A V - - - */
 
 nav,
@@ -82,7 +102,20 @@ nav {
   color: white;
   font-weight: 600;
   font-size: 16px;
+  /* sombras en texto y boton */
+  text-shadow: 1px 1px 1px #19567a;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px #19567a;
 }
+
+/* Accion boton */
+
+.boton:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
 
 /* M A I N - - - */
 

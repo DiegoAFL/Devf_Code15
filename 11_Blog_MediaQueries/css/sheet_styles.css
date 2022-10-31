@@ -115,8 +115,6 @@ nav {
     inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-
-
 /* M A I N - - - */
 
 main {
@@ -277,4 +275,18 @@ footer {
   padding: 9px 0;
   font-weight: 600;
   text-align: center;
+}
+
+/* TABLET */
+
+@media and (max-width: 1000px) {
+
+  #logo {
+    width: 180px;
+  }
+
+  main img {
+    width: 180px;
+  }
+
 }

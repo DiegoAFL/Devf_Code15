@@ -14,7 +14,7 @@ Cliente - Client.
 
 Hacer un sitio web requiere mucha responsabilidad.
 
-Web Development - Esrtas son las tecnologias.
+Web Development - Estas son las tecnologias.
 
 - HTML Es la estructura - Constructor.
 

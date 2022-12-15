@@ -415,7 +415,7 @@ _-_ Los input aceptan cierto tipo de información hay algunos que aceptan texto 
 
 _-_ _Method post_ Revisamos en (antes de ejecutar para que lo detecte) → Inspeccionar → Nertwork → pestaña _Name_ verificamos hacia donde dirige el _action_ del `<form>` que buscamos → _Payload_ y encontramos debajo toda la informacion enviada (verificar mas informacion adelante)
 
-_-_ El Input email debe estaren este apartado con el atributo `method="post"`
+_-_ El Input email debe estar en este apartado con el atributo `method="post"`
 
 _-_ El formulario de `tipo Get` se mira como en la Url aprecia la concatenación
 
@@ -473,7 +473,7 @@ _-_ `<Input>`hay varios tipos y llevan _etiqueta de cierre_:
 
 ---
 
-_-_ Y todas esta eiquetas estan en el archivo: 00.Index_Form.01.html
+_-_ Y todas esta eiquetas estan en el archivo: 04_introHtml_Formularios / 00.Index_Form.01.html
 
 ---
 
@@ -954,7 +954,7 @@ _→_ Relative
 
 REVIEW CSS
 
-- Desarrollo WEb
+- Desarrollo Web
 
   - Usamos Html CSS Javascript
   - Forma correcta de importar archivo CSS `<link rel="stylesheet" href="./estilos.css">`
@@ -1271,7 +1271,7 @@ Crear un clone del sitio https://www.pexels.com/es-es/ sin haber iniciado sesion
 
 Reglas
 
-1. Crear un repositorio
+1. Crear un repositorio / Nuevo totalmente fuera de la carperta que tenemos.
 2. Crear un Github Page al finalizar el proyecto
 3. El proyecto debe ser responsivo para al menos 3 tamanos de pantalla (Max Resol - Desktop, Tablet, Smarphone)
 4. En resolucion max las imagenes se muestran en 4 columnas,. desktop, y tablet en 3 columnas y en smartphone en 2 columnas
